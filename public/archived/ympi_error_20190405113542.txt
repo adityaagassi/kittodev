@@ -1,0 +1,9 @@
+SXA1SXA1ZU77700                  60.000 05042019                Plant Value is inaccurate.
+8190CL51VAQ2780                  90.000 04042019                       90.000 is greater than available qty.
+8190CL91WZ00180                  40.000 04042019                       40.000 is greater than available qty.
+8190FLA2ZE22530                 180.000 04042019                No data for reduction.
+8190SX21WZ9116C                   5.000 04042019                        5.000 is greater than available qty.
+8190SX51W93631A                   8.000 04042019                        8.000 is greater than available qty.
+8190SX51ZQ91780                  15.000 04042019                       15.000 is greater than available qty.
+8190SX51ZQ91800                  15.000 04042019                       15.000 is greater than available qty.
+8190SX51ZQ99330                   8.000 04042019                        8.000 is greater than available qty.

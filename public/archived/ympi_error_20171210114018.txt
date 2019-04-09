@@ -1,0 +1,5 @@
+8190SX51ZQ92750                  15.000 09122017                       15.000 is greater than available qty.
+8190SX51ZR00090                   8.000 09122017                No data for reduction.
+8190SXA0ZP67990                 192.000 09122017                No data for reduction.
+8190SXA0ZP68000                 180.000 09122017                No data for reduction.
+8190SXA1ZK13370                   5.000 09122017                No data for reduction.

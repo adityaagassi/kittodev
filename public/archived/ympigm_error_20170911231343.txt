@@ -1,0 +1,17 @@
+8190           8190ZQ92770           SX218190SX51000000015.000                    20170911MB1B                9I3    Deficit of SL Unrestricted-use 14 PC : ZQ92770 8190 SX21
+8190           8190ZK13360           SX218190SX51000000001.000                    20170911MB1B                9I3    Deficit of SL Unrestricted-use 1 PC : ZK13360 8190 SX21
+8190           8190WZ9184C           SX218190SX51000000007.000                    20170911MB1B                9I3    Deficit of SL Unrestricted-use 2 PC : WZ9184C 8190 SX21
+8190           8190WZ70060           sx218190SX51000000050.000                    20170911MB1B                9I4    Stor. Location sx21 not supported (check your entry)
+8190           8190WZ70070           sx218190sx51000000030.000                    20170911MB1B                9I4    Stor. Location sx21 not supported (check your entry)
+8190           8190ZQ91680           CL518190CL91000000120.000                    20170911MB1B                9I3    Deficit of SL Unrestricted-use 40 PC : ZQ91680 8190 CL51
+8190           8190ZR44970           CL518190CL91000000040.000                    20170911MB1B                9I3    Deficit of SL Unrestricted-use 40 PC : ZR44970 8190 CL51
+8190           8190ZQ93240           CL518190CL91000000020.000                    20170911MB1B                9I3    Deficit of SL Unrestricted-use 20 PC : ZQ93240 8190 CL51
+8190           8190ZQ83670           SX518190SX91000000045.000                    20170911MB1B                9I3    Deficit of SL Unrestricted-use 15 PC : ZQ83670 8190 SX51
+8190           8190ZQ86320           SX518190SX91000000030.000                    20170911MB1B                9I3    Deficit of SL Unrestricted-use 17 PC : ZQ86320 8190 SX51
+8190           8190ZQ87200           SX518190SX91000000045.000                    20170911MB1B                9I3    Deficit of SL Unrestricted-use 13 PC : ZQ87200 8190 SX51
+8190           8190ZQ94440           SX518190SX91000000150.000                    20170911MB1B                9I3    Deficit of SL Unrestricted-use 14 PC : ZQ94440 8190 SX51
+8190           8190ZQ94470           SX518190SX91000000210.000                    20170911MB1B                9I3    Deficit of SL Unrestricted-use 40 PC : ZQ94470 8190 SX51
+8190           8190ZQ95240           SX518190SX91000000060.000                    20170911MB1B                9I3    Deficit of SL Unrestricted-use 7 PC : ZQ95240 8190 SX51
+8190           8190ZT24060           SX518190SX91000000045.000                    20170911MB1B                9I3    Deficit of SL Unrestricted-use 15 PC : ZT24060 8190 SX51
+8190           8190ZT24080           SX518190SX91000000060.000                    20170911MB1B                9I3    Deficit of SL Unrestricted-use 15 PC : ZT24080 8190 SX51
+8190           8190WF9302A           SX518190SX91000000270.000                    20170911MB1B                9I3    Deficit of SL Unrestricted-use 60 PC : WF9302A 8190 SX51

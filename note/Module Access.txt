@@ -1,0 +1,36 @@
+Administrator
+1. Pengaturan user
+2. Pengaturan Leadtime Barcode
+3. Manage Kanban Edar
+4. Manage Batch Output
+5. Completion Manual
+6. Transfer Manual
+7. Cancel Completion
+8. Cancel Transfer
+9. Download History Completion
+10. Download History Transfer
+11. Download Error Completion
+12. Download Error Transfer
+13. Completion Adjustment
+13. Transfer Adjustment
+
+Inputor
+1. Completion Manual
+2. Transfer Manual
+3. Cancel Completion
+4. Cancel Transfer
+5. Download History Completion
+6. Download History Transfer
+7. Completion Adjustment
+8. Transfer Adjustment
+
+Operator
+1. Completion
+2. Transfer
+
+Buat tabel adjusment
+inputor -> adjustment pakai barcode, berarti ambil data dari master completion kan untuk data plant, storage location, material number, quantity, reference number dan simpan di tabel inventory, tapi di history diberi keterangan adjustment
+jika administrator -> adjustment pakai barcode, ambil data dari master completion untuk data plant, storage location, material number, quantity, reference number simpan di tabel inventory, tapi di history diberi keterangan adjustment
+jika administrator -> adjustment tanpa barcode, semua diisi manual sesuai format file yang diupload disimpan di tabel adjustment, tapi di history diberi keterangan adjustment
+
+Hasil resume yang akan diupload tidak boleh 0 atau minus, jika 0 atau minus, ikut urutan setelahnya.

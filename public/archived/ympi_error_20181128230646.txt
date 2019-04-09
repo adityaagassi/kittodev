@@ -1,0 +1,21 @@
+8190CL21ZT97850                  20.000 28112018                No data for reduction.
+8190CLA0VAS1400                 300.000 28112018                      300.000 is greater than available qty.
+8190FLA0ZP62960                3000.000 28112018                     3000.000 is greater than available qty.
+8190FLA0ZP64910                 200.000 28112018                No data for reduction.
+8190FLA2ZE22520                 180.000 28112018                No data for reduction.
+8190SX21VAS1240                  60.000 28112018                       60.000 is greater than available qty.
+8190SX21VAS1300                  60.000 28112018                       60.000 is greater than available qty.
+8190SX21WQ4642E                  15.000 28112018                       15.000 is greater than available qty.
+8190SX21ZY85180                  20.000 28112018                       20.000 is greater than available qty.
+8190SX21ZY85430                  50.000 28112018                       50.000 is greater than available qty.
+8190SX21ZY85462                  20.000 28112018                No data for reduction.
+8190SX21ZZ32690                  20.000 28112018                       20.000 is greater than available qty.
+8190SX51W60550A                  28.000 28112018                       28.000 is greater than available qty.
+8190SX51ZQ99730                   5.000 28112018                No data for reduction.
+8190SX51ZT49570                   8.000 28112018                        8.000 is greater than available qty.
+8190SX51ZY85690                  65.000 28112018                       65.000 is greater than available qty.
+8190SX51ZY86800                   1.000 28112018                No data for reduction.
+8190SX51ZZ32170                  70.000 28112018                       70.000 is greater than available qty.
+8190SX51ZZ42430                   1.000 28112018                No data for reduction.
+8190SXA0VAS1340                 720.000 28112018                      720.000 is greater than available qty.
+8190SXA0VAS1390                 300.000 28112018                No data for reduction.

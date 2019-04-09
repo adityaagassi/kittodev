@@ -1,0 +1,10 @@
+8190           8190ZE20540           FLA18190FSTK000000011.000                    20180521MB1B                9P1    Storage location FSTK does not exist in plant 8190
+8190           8190ZP63150           SXA08190SX21000000030.000                    20180521MB1B                9I4    Deficit of SL Unrestricted-use 2 PC : ZP63150 8190 SX21
+8190           8190ZP67960           SXA08190SX21000000030.000                    20180521MB1B                9I4    Deficit of SL Unrestricted-use 24 PC : ZP67960 8190 SX21
+8190           8190ZS06090           SX218190SX51000000015.000                    20180521MB1B                9I3    Deficit of SL Unrestricted-use 15 PC : ZS06090 8190 SX21
+8190           8190ZS06090           SX218190SX51000000015.000                    20180521MB1B                9I3    Deficit of SL Unrestricted-use 15 PC : ZS06090 8190 SX21
+8190           8190ZT43090           SX518190SX91000000007.000                    20180522MB1B                9I4    Deficit of SL Unrestricted-use 7 PC : ZT43090 8190 SX91
+8190           8190ZU03250           FL218190FL51000000020.000                    20180522MB1B                9I3    Deficit of SL Unrestricted-use 20 PC : ZU03250 8190 FL21
+8190           8190ZQ87200           SX518190SX91000000015.000                    20180522MB1B                9I3    Deficit of SL Unrestricted-use 10 PC : ZQ87200 8190 SX51
+8190           8190ZQ84830           SX518190SX91000000015.000                    20180522MB1B                9I3    Deficit of SL Unrestricted-use 13 PC : ZQ84830 8190 SX51
+8190           8190ZQ87550           CL218190CL51000000020.000                    20180522MB1B                9I3    Deficit of SL Unrestricted-use 20 PC : ZQ87550 8190 CL21

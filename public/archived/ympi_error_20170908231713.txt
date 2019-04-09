@@ -1,0 +1,4 @@
+8190SX51WK0603C                  10.000 08092017                No data for reduction.
+8190SX51WK0619C                  15.000 08092017                       15.000 is greater than available qty.
+8190SX51WZ2236A                   8.000 08092017                No data for reduction.
+8190SX51ZY85400                  10.000 08092017                       10.000 is greater than available qty.

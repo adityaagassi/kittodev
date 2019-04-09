@@ -1,0 +1,5 @@
+8190CL21ZT95740                  20.000 29012018                       20.000 is greater than available qty.
+8190CLA0ZT96490                  40.000 29012018                No data for reduction.
+8190FL21ZU02710                  20.000 30012018                       20.000 is greater than available qty.
+8190FL21ZU02710                  20.000 29012018                       20.000 is greater than available qty.
+8190SXA0ZP67990                 192.000 29012018                No data for reduction.

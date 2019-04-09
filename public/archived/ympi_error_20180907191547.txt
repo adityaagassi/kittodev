@@ -1,0 +1,6 @@
+8190SX21ZH5035C                   3.000 07092018                No data for reduction.
+8190SX51W93631A                   8.000 07092018                        8.000 is greater than available qty.
+8190SX51ZQ99410                   8.000 07092018                        8.000 is greater than available qty.
+8190SXA0ZY84870                 300.000 07092018                      300.000 is greater than available qty.
+8190SXA1ZH50360                   3.000 07092018                        3.000 is greater than available qty.
+8190SXA1ZJ32730                   2.000 07092018                        2.000 is greater than available qty.

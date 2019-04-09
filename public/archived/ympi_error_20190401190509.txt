@@ -1,0 +1,14 @@
+8190CL51ZQ93420                  40.000 01042019                       40.000 is greater than available qty.
+8190CL91WZ00180                  10.000 01042019                No data for reduction.
+8190CLA2ZG2524B                 360.000 01042019                      360.000 is greater than available qty.
+8190FL21ZT91380                 112.000 01042019                      112.000 is greater than available qty.
+8190FL91ZS98360                 106.000 01042019                      106.000 is greater than available qty.
+8190FLA0ZP63750                 120.000 01042019                No data for reduction.
+8190FLA0ZP64930                 320.000 01042019                      320.000 is greater than available qty.
+8190PN91ZJ99880                1740.000 01042019                     1740.000 is greater than available qty.
+8190SX21ZA5245C                  15.000 01042019                       15.000 is greater than available qty.
+8190SX21ZJ19280                  22.000 01042019                       22.000 is greater than available qty.
+8190SX21ZQ93870                  45.000 01042019                No data for reduction.
+8190SX21ZY85180                  20.000 01042019                       20.000 is greater than available qty.
+8190SXA1W60653A                   5.000 01042019                No data for reduction.
+8190SXA1WY85000                  10.000 01042019                No data for reduction.

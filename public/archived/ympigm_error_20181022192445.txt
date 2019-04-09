@@ -1,0 +1,16 @@
+8190           8190ZH49530           SX518190SX91000000001.000                    20181022MB1B                9I4    Deficit of SL Unrestricted-use 1 PC : ZH49530 8190 SX91
+8190           8190ZZ32910           SX518190SX91000000001.000                    20181022MB1B                9I4    Deficit of SL Unrestricted-use 1 PC : ZZ32910 8190 SX91
+8190           8190VCG0150           SX518190SX91000000002.000                    20181022MB1B                9I3    Deficit of SL Unrestricted-use 2 PC : VCG0150 8190 SX51
+8190           8190VCG3261           SX518190SX91000000005.000                    20181022MB1B                9I3    Deficit of SL Unrestricted-use 5 PC : VCG3261 8190 SX51
+8190           8190ZW28560           SX518190SX91000000050.000                    20181022MB1B                9I3    Deficit of SL Unrestricted-use 50 PC : ZW28560 8190 SX51
+8190           8190VCG3265           SX218190SX91000000005.000                    20181022MB1B                9I3    Material VCG3265 8190 SX21 does not exist
+8190           8190VCG0110           SX218190SX91000000002.000                    20181022MB1B                9I3    Material VCG0110 8190 SX21 does not exist
+8190           8190ZW28520           SX218190SX91000000050.000                    20181022MB1B                9I3    Deficit of SL Unrestricted-use 50 PC : ZW28520 8190 SX21
+8190           8190VCG3264           SX918190SX21000000005.000                    20181022MB1B                9I3    Material VCG3264 8190 SX91 does not exist
+8190           8190ZW28530           SX918190SX21000000050.000                    20181022MB1B                9I3    Deficit of SL Unrestricted-use 50 PC : ZW28530 8190 SX91
+8190           8190VCG0120           SX918190SX21000000002.000                    20181022MB1B                9I3    Material VCG0120 8190 SX91 does not exist
+8190           8190VCG3263           SX218190SX51000000005.000                    20181022MB1B                9I3    Material VCG3263 8190 SX21 does not exist
+8190           8190VCG0130           SX218190SX51000000002.000                    20181022MB1B                9I3    Material VCG0130 8190 SX21 does not exist
+8190           8190ZW28540           SX218190SX51000000050.000                    20181022MB1B                9I3    Deficit of SL Unrestricted-use 50 PC : ZW28540 8190 SX21
+8190           8190VAR9960           SX518190SX91000000010.000                    20181022MB1B                9I3    Deficit of SL Unrestricted-use 10 PC : VAR9960 8190 SX51
+8190           8190VAS1300           SX218190SX51000000030.000                    20181019MB1B                9I3    Deficit of SL Unrestricted-use 30 PC : VAS1300 8190 SX21

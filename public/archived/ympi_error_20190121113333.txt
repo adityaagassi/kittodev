@@ -1,0 +1,20 @@
+8190SX21VAS1300                  60.000 21012019                       60.000 is greater than available qty.
+8190SX21ZA1478C                  12.000 20012019                       12.000 is greater than available qty.
+8190SX21ZA1479C                   7.000 20012019                        7.000 is greater than available qty.
+8190SX21ZR01840                  24.000 21012019                       24.000 is greater than available qty.
+8190SX51VAZ0140                  10.000 20012019                       10.000 is greater than available qty.
+8190SX51ZQ91220                  30.000 20012019                       30.000 is greater than available qty.
+8190SX51ZQ99580                   6.000 20012019                        6.000 is greater than available qty.
+8190SX51ZR01720                  24.000 20012019                       24.000 is greater than available qty.
+8190SX51ZR01760                  14.000 20012019                       14.000 is greater than available qty.
+8190SX51ZR01810                   7.000 20012019                No data for reduction.
+8190SX51ZS06150                  80.000 20012019                       80.000 is greater than available qty.
+8190SX51ZT48930                   8.000 20012019                        8.000 is greater than available qty.
+8190SX51ZY86770                   6.000 20012019                        6.000 is greater than available qty.
+8190SX51ZY89190                   5.000 20012019                        5.000 is greater than available qty.
+8190SX51ZZ42330                   6.000 20012019                        6.000 is greater than available qty.
+8190SX51ZZ42380                   8.000 20012019                        8.000 is greater than available qty.
+8190SX51ZZ42450                  10.000 20012019                       10.000 is greater than available qty.
+8190SX51ZZ42710                  10.000 21012019                No data for reduction.
+8190SX51ZZ42820                   9.000 20012019                        9.000 is greater than available qty.
+8190SXA1W60653A                  70.000 20012019                       70.000 is greater than available qty.

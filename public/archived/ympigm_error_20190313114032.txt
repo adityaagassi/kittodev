@@ -1,0 +1,12 @@
+8190           8190AAD7562           PN918191FSTK000000010.000                    20190311MB1B                9P1    Deficit of SL Unrestricted-use 10 PC : AAD7562 8190 PN91
+8190           8190AAD7562           PN918191FSTK000000010.000                    20190311MB1B                9P1    Deficit of SL Unrestricted-use 10 PC : AAD7562 8190 PN91
+8190           8190AAD7562           PN918191FSTK000000060.000                    20190311MB1B                9P1    Deficit of SL Unrestricted-use 60 PC : AAD7562 8190 PN91
+8190           8190ZJ99880           PN918191FSTK000000400.000                    20190311MB1B                9P1    Deficit of SL Unrestricted-use 330 PC : ZJ99880 8190 PN91
+8190           8190ZJ99880           PN918191FSTK000000400.000                    20190309MB1B                9P1    Deficit of SL Unrestricted-use 330 PC : ZJ99880 8190 PN91
+8190           8190ZJ99880           PN918191FSTK000000400.000                    20190308MB1B                9P1    Deficit of SL Unrestricted-use 330 PC : ZJ99880 8190 PN91
+8190           8190ZJ99880           PN918191FSTK000000400.000                    20190309MB1B                9P1    Deficit of SL Unrestricted-use 330 PC : ZJ99880 8190 PN91
+8190           8190ZR01530           SX218190SX51000000008.000                    20190313MB1B                9I3    Deficit of SL Unrestricted-use 8 PC : ZR01530 8190 SX21
+8190           8190ZR01530           SX218190SX51000000008.000                    20190313MB1B                9I3    Deficit of SL Unrestricted-use 8 PC : ZR01530 8190 SX21
+8190           8190ZU02910           FL218190FL51000000020.000                    20190313MB1B                9I3    Deficit of SL Unrestricted-use 1 PC : ZU02910 8190 FL21
+8190           8190ZT45590           FL218190FL51000000020.000                    20190313MB1B                9I3    Deficit of SL Unrestricted-use 2 PC : ZT45590 8190 FL21
+8190           8190ZJ99880           PN918191FSTK000000220.000                    20190313MB1B                9P1    Deficit of SL Unrestricted-use 150 PC : ZJ99880 8190 PN91

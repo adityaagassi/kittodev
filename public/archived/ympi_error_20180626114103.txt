@@ -1,0 +1,19 @@
+8190CL21ZT97850                  20.000 25062018                No data for reduction.
+8190SX21ZA1493C                   1.000 26062018                No data for reduction.
+8190SX21ZR01840                  32.000 25062018                       32.000 is greater than available qty.
+8190SX51W61675A                  15.000 25062018                       15.000 is greater than available qty.
+8190SX51WZ2236A                   8.000 25062018                        8.000 is greater than available qty.
+8190SX51ZG1270A                  75.000 25062018                       75.000 is greater than available qty.
+8190SX51ZQ91180                  75.000 25062018                       75.000 is greater than available qty.
+8190SX51ZQ91280                  45.000 26062018                       45.000 is greater than available qty.
+8190SX51ZQ91460                  45.000 25062018                       45.000 is greater than available qty.
+8190SX51ZQ91640                  30.000 25062018                       30.000 is greater than available qty.
+8190SX51ZQ93580                  75.000 25062018                       75.000 is greater than available qty.
+8190SX51ZQ93670                  75.000 25062018                       75.000 is greater than available qty.
+8190SX51ZQ99690                   8.000 25062018                        8.000 is greater than available qty.
+8190SX51ZQ99910                   8.000 26062018                        8.000 is greater than available qty.
+8190SX51ZQ99910                  11.000 25062018                       11.000 is greater than available qty.
+8190SX51ZR01740                  24.000 25062018                       24.000 is greater than available qty.
+8190SX51ZS06150                  30.000 26062018                       30.000 is greater than available qty.
+8190SXA0ZP66190                 600.000 25062018                      600.000 is greater than available qty.
+8190SXA0ZP67560                  48.000 25062018                       48.000 is greater than available qty.

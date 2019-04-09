@@ -1,0 +1,5 @@
+8190CL51VAQ2780                  90.000 04042019                       90.000 is greater than available qty.
+8190CL91WZ00180                  40.000 04042019                       40.000 is greater than available qty.
+8190PN91ZJ99880                1480.000 04042019                     1480.000 is greater than available qty.
+8190SX51ZQ91800                  15.000 04042019                       15.000 is greater than available qty.
+8190SX91WZ00190                  17.000 04042019                       17.000 is greater than available qty.

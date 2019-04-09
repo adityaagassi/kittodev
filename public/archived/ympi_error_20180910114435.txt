@@ -1,0 +1,2 @@
+8190CLA0VAS1350                 720.000 10092018                      720.000 is greater than available qty.
+8190SXA0VAS1340                 720.000 10092018                      720.000 is greater than available qty.

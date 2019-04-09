@@ -1,0 +1,18 @@
+8190           8190ZT97850           CL218190CL51000000006.000                    20171206MB1B                9I4    Deficit of SL Unrestricted-use 3 PC : ZT97850 8190 CL51
+8190           8190ZY85890           SX518190SX91000000005.000                    20171204MB1B                9I4    Deficit of SL Unrestricted-use 2 PC : ZY85890 8190 SX91
+8190           8190ZY85890           SX518190SX91000000007.000                    20171207MB1B                9I4    Deficit of SL Unrestricted-use 4 PC : ZY85890 8190 SX91
+8190           8190ZY85460           SX518190SX91000000004.000                    20171208MB1B                9I4    Deficit of SL Unrestricted-use 3 PC : ZY85460 8190 SX91
+8190           8190W938310           SX518190SX91000000018.000                    20171208MB1B                9I4    Deficit of SL Unrestricted-use 12 PC : W938310 8190 SX91
+8190           8190WF9812E           SX518190SX91000000015.000                    20171201MB1B                9I4    Deficit of SL Unrestricted-use 6 PC : WF9812E 8190 SX91
+8190           8190ZQ89110           SX218190SX51000000015.000                    20171209MB1B                9I3    Deficit of SL Unrestricted-use 15 PC : ZQ89110 8190 SX21
+8190           8190ZY85890           SX518190SX91000000010.000                    20171206MB1B                9I3    Deficit of SL Unrestricted-use 2 PC : ZY85890 8190 SX51
+8190           8190WF9812E           SX518190SX91000000015.000                    20171201MB1B                9I3    Deficit of SL Unrestricted-use 15 PC : WF9812E 8190 SX51
+8190           8190WF9814E           SX518196SX91000000015.000                    20171211MB1B                9I9    Movement Type 9I9 not supported (check your entry)
+8190           8190WF9814E           SX518195SX91000000015.000                    20171211MB1B                9I8    Movement Type 9I8 not supported (check your entry)
+8190           8190WF9814E           SX518194SX91000000015.000                    20171211MB1B                9I7    Movement Type 9I7 not supported (check your entry)
+8190           8190WF9814E           SX518193SX91000000015.000                    20171211MB1B                9I6    Plant 8193 not supported (check your entry)
+8190           8190WF9814E           SX518191SX91000000015.000                    20171211MB1B                9I4    Receiving SLoc. SX91 not supported (check your entry)
+8190           8190WF9814E           SX518202SX91000000015.000                    20171211MB1B                9I15   Reason for Mvmt 0005 not supported (check your entry)
+8190           8190WF9814E           SX518200SX91000000015.000                    20171211MB1B                9I13   Reason for Mvmt 0003 not supported (check your entry)
+8190           8190WF9814E           SX518199SX91000000015.000                    20171211MB1B                9I12   Reason for Mvmt 0002 not supported (check your entry)
+8190           8190WF9814E           SX518197SX91000000015.000                    20171211MB1B                9I10   Plant 8197 does not exist

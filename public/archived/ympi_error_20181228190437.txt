@@ -1,0 +1,29 @@
+8190CL21ZT97170                  20.000 28122018                       20.000 is greater than available qty.
+8190CL91WZ44910                  29.000 28122018                       29.000 is greater than available qty.
+8190CL91WZ44910                  40.000 28122018                       40.000 is greater than available qty.
+8190FL91ZS98380                   5.000 28122018                        5.000 is greater than available qty.
+8190FL91ZS98380                  16.000 28122018                       16.000 is greater than available qty.
+8190FLA0ZP63750                 120.000 28122018                No data for reduction.
+8190SX21WZ9110C                   5.000 28122018                        5.000 is greater than available qty.
+8190SX21WZ9184C                  16.000 28122018                       16.000 is greater than available qty.
+8190SX21WZ9853C                   7.000 28122018                        7.000 is greater than available qty.
+8190SX21ZR01840                  32.000 28122018                       32.000 is greater than available qty.
+8190SX21ZT43210                  96.000 28122018                No data for reduction.
+8190SX51ZQ94700                   8.000 28122018                No data for reduction.
+8190SX51ZQ95890                  43.000 28122018                       43.000 is greater than available qty.
+8190SX51ZQ95990                  40.000 28122018                       40.000 is greater than available qty.
+8190SX51ZQ96320                   8.000 28122018                        8.000 is greater than available qty.
+8190SX91WZ00210                  12.000 28122018                       12.000 is greater than available qty.
+8190SXA0ZP64480                 675.000 28122018                No data for reduction.
+8190SXA0ZP64540                 540.000 28122018                      540.000 is greater than available qty.
+8190SXA0ZP64640                  64.000 28122018                       64.000 is greater than available qty.
+8190SXA0ZP66570                 288.000 28122018                      288.000 is greater than available qty.
+8190SXA0ZP66630                 384.000 28122018                      384.000 is greater than available qty.
+8190SXA0ZP67040                 180.000 28122018                      180.000 is greater than available qty.
+8190SXA0ZP67060                 360.000 28122018                      360.000 is greater than available qty.
+8190SXA0ZP67130                 180.000 28122018                No data for reduction.
+8190SXA0ZP67990                 192.000 28122018                No data for reduction.
+8190SXA0ZP68010                 540.000 28122018                      540.000 is greater than available qty.
+8190SXA0ZP68020                 192.000 28122018                No data for reduction.
+8190SXA0ZP68050                 576.000 28122018                      576.000 is greater than available qty.
+8190SXA1ZK50340                  30.000 28122018                       30.000 is greater than available qty.

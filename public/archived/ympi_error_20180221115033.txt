@@ -1,0 +1,12 @@
+8190FL51ZU22730                   4.000 20022018                        4.000 is greater than available qty.
+8190FL51ZY76510                  40.000 20022018                       40.000 is greater than available qty.
+8190SX21ZY85800                  10.000 20022018                       10.000 is greater than available qty.
+8190SX21ZZ32310                  10.000 20022018                       10.000 is greater than available qty.
+8190SX21ZZ32830                  10.000 20022018                       10.000 is greater than available qty.
+8190SX51W93546B                  10.000 20022018                       10.000 is greater than available qty.
+8190SX51W938310                  15.000 20022018                No data for reduction.
+8190SX51ZQ99690                   8.000 20022018                        8.000 is greater than available qty.
+8190SX51ZQ99730                   8.000 20022018                No data for reduction.
+8190SX51ZQ99770                   8.000 21022018                No data for reduction.
+8190SX51ZS64490                  15.000 20022018                No data for reduction.
+8190SX51ZZ32290                  10.000 21022018                       10.000 is greater than available qty.

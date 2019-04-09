@@ -1,0 +1,2 @@
+8190FLA2ZE22530                 180.000 29112018                No data for reduction.
+8190SXA1W60653A                  25.000 29112018                       25.000 is greater than available qty.

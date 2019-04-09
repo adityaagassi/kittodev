@@ -1,0 +1,6 @@
+8190SX21ZK13360                   2.000 05092017                        2.000 is greater than available qty.
+8190SX51ZQ91840                  15.000 05092017                       15.000 is greater than available qty.
+8190SX51ZR16850                  20.000 05092017                       20.000 is greater than available qty.
+8190SX51ZY85310                  10.000 05092017                       10.000 is greater than available qty.
+8190SX51ZZ32250                  20.000 05092017                       20.000 is greater than available qty.
+8190SXA1ZH50360                   7.000 05092017                        7.000 is greater than available qty.

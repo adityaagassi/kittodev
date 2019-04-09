@@ -1,0 +1,8 @@
+8190CL21VAS1270                  10.000 15092018                No data for reduction.
+8190CLB9W52871P                  70.000 15092018                No data for reduction.
+8190FL21ZU02710                 178.000 15092018                      178.000 is greater than available qty.
+8190FLT9W48333P                 200.000 15092018                      200.000 is greater than available qty.
+8190SX21ZS06170                  75.000 15092018                       75.000 is greater than available qty.
+8190SX51W93546B                  21.000 15092018                       21.000 is greater than available qty.
+8190SX51ZR01630                   8.000 15092018                        8.000 is greater than available qty.
+8190SXA0ZY84660                 300.000 15092018                No data for reduction.

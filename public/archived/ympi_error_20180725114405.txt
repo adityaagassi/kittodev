@@ -1,0 +1,6 @@
+8190FLA2ZE22520                 180.000 24072018                No data for reduction.
+8190SX51W61675A                  15.000 24072018                       15.000 is greater than available qty.
+8190SX51W93632A                  32.000 24072018                       32.000 is greater than available qty.
+8190SX51WZ91100                  17.000 24072018                       17.000 is greater than available qty.
+8190SX51ZA14940                   1.000 24072018                No data for reduction.
+8190SX51ZQ99560                   8.000 24072018                        8.000 is greater than available qty.

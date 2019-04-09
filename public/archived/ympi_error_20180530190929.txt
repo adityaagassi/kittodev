@@ -1,0 +1,32 @@
+8190CL21WF9195C                 446.000 30052018                      446.000 is greater than available qty.
+8190CL21ZG2964C                 360.000 30052018                      360.000 is greater than available qty.
+8190CL21ZT97170                  40.000 30052018                       40.000 is greater than available qty.
+8190CL51ZG24210                 540.000 30052018                      540.000 is greater than available qty.
+8190CL51ZG24230                 360.000 30052018                      360.000 is greater than available qty.
+8190CL51ZG24240                 360.000 30052018                      360.000 is greater than available qty.
+8190CL51ZG24250                 360.000 30052018                      360.000 is greater than available qty.
+8190CL51ZG24260                 360.000 30052018                      360.000 is greater than available qty.
+8190CL51ZG24270                 720.000 30052018                      720.000 is greater than available qty.
+8190CL51ZG24280                 360.000 30052018                      360.000 is greater than available qty.
+8190CL51ZG24290                 540.000 30052018                      540.000 is greater than available qty.
+8190CL51ZG24310                 360.000 30052018                      360.000 is greater than available qty.
+8190CL51ZG24410                 540.000 30052018                      540.000 is greater than available qty.
+8190CL51ZG24460                 360.000 30052018                      360.000 is greater than available qty.
+8190CL51ZG25210                 180.000 30052018                      180.000 is greater than available qty.
+8190CL51ZG25220                 900.000 30052018                      900.000 is greater than available qty.
+8190CL51ZG25240                 180.000 30052018                      180.000 is greater than available qty.
+8190CL51ZG25250                 360.000 30052018                      360.000 is greater than available qty.
+8190CL51ZG2961A                 180.000 30052018                      180.000 is greater than available qty.
+8190CL51ZG2964A                 360.000 30052018                      360.000 is greater than available qty.
+8190CL51ZG2966A                 360.000 30052018                      360.000 is greater than available qty.
+8190CL51ZS01650                  98.000 30052018                       98.000 is greater than available qty.
+8190CLA0W93573E                  40.000 30052018                No data for reduction.
+8190CLA2ZG2525B                 360.000 30052018                      360.000 is greater than available qty.
+8190CLA2ZG29630                1800.000 30052018                     1800.000 is greater than available qty.
+8190FL21ZT45380                 120.000 30052018                      120.000 is greater than available qty.
+8190FLA0ZP63010                1000.000 30052018                     1000.000 is greater than available qty.
+8190SX21ZQ98800                  30.000 30052018                       30.000 is greater than available qty.
+8190SX51WZ98530                   8.000 30052018                No data for reduction.
+8190SX51ZA14790                   2.000 30052018                No data for reduction.
+8190SX51ZQ91800                  15.000 30052018                       15.000 is greater than available qty.
+8190SXA0ZP64540                 540.000 30052018                      540.000 is greater than available qty.

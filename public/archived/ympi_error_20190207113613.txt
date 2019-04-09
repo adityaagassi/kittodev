@@ -1,0 +1,5 @@
+8190RC91AAC7992                 850.000 06022019                      850.000 is greater than available qty.
+8190RC91AAC7994                 700.000 06022019                      700.000 is greater than available qty.
+8190SX21VAS1240                 210.000 06022019                      210.000 is greater than available qty.
+8190SX21ZR01840                  24.000 07022019                       24.000 is greater than available qty.
+8190SXA0ZP68040                 384.000 06022019                      384.000 is greater than available qty.

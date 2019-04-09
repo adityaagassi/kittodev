@@ -1,0 +1,2 @@
+8190SX21ZQ89160                  10.000 21012018ZP2G            No data for reduction.
+8190SX51WF9812E                  30.000 22012018                       30.000 is greater than available qty.

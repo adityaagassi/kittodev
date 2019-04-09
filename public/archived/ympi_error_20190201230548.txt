@@ -1,0 +1,6 @@
+8190CL51ZG2970A                 180.000 01022019                      180.000 is greater than available qty.
+8190FL91ZS97960                   1.000 01022019                No data for reduction.
+8190FL91ZS98360                  12.000 01022019                       12.000 is greater than available qty.
+8190FLA0ZP63750                  40.000 01022019                No data for reduction.
+8190SX21VAS1240                 120.000 01022019                      120.000 is greater than available qty.
+8190SX51ZQ93820                  15.000 01022019                No data for reduction.

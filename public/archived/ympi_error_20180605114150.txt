@@ -1,0 +1,6 @@
+8190SX21ZA1478C                  18.000 05062018                       18.000 is greater than available qty.
+8190SX21ZA1479C                  17.000 05062018                       17.000 is greater than available qty.
+8190SX51ZA14780                  14.000 05062018                       14.000 is greater than available qty.
+8190SX51ZA14790                  25.000 05062018                       25.000 is greater than available qty.
+8190SX51ZQ91000                  30.000 05062018                       30.000 is greater than available qty.
+8190SX51ZQ91200                  14.000 04062018                       14.000 is greater than available qty.

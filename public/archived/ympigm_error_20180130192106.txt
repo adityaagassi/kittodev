@@ -1,0 +1,4 @@
+8190           8190ZT96490           CLA08190CL21000000040.000                    20180130MB1B                9I3    Deficit of SL Unrestricted-use 40 PC : ZT96490 8190 CLA0
+8190           8190ZT97610           CLA08190CL21000000040.000                    20180130MB1B                9I3    Deficit of SL Unrestricted-use 40 PC : ZT97610 8190 CLA0
+8190           8190ZW92240           CLA08190CL21000000040.000                    20180130MB1B                9I3    Deficit of SL Unrestricted-use 40 PC : ZW92240 8190 CLA0
+8190           8190ZT96490           CLA08190CL21000000040.000                    20180129MB1B                9I3    Deficit of SL Unrestricted-use 40 PC : ZT96490 8190 CLA0

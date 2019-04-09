@@ -1,0 +1,18 @@
+8190CL51VAS0000                  10.000 18012019                No data for reduction.
+8190FLA0ZP63750                 160.000 18012019                      160.000 is greater than available qty.
+8190SX21ZA1478C                  12.000 18012019                       12.000 is greater than available qty.
+8190SX21ZA1479C                   4.000 18012019                No data for reduction.
+8190SX21ZA1499C                   3.000 18012019                No data for reduction.
+8190SX21ZH5035C                   5.000 18012019                        5.000 is greater than available qty.
+8190SX21ZK3811C                  15.000 18012019                       15.000 is greater than available qty.
+8190SX21ZQ99010                  16.000 18012019                       16.000 is greater than available qty.
+8190SX21ZT43210                  16.000 18012019                       16.000 is greater than available qty.
+8190SX51ZR01720                  24.000 18012019                       24.000 is greater than available qty.
+8190SX51ZR01760                  14.000 18012019                       14.000 is greater than available qty.
+8190SX51ZR01810                   7.000 18012019                No data for reduction.
+8190SX51ZS06150                  80.000 18012019                       80.000 is greater than available qty.
+8190SX51ZT48930                   8.000 18012019                        8.000 is greater than available qty.
+8190SX51ZY86770                   6.000 18012019                        6.000 is greater than available qty.
+8190SX51ZZ42330                   6.000 18012019                        6.000 is greater than available qty.
+8190SX51ZZ42380                   8.000 18012019                        8.000 is greater than available qty.
+8190SXA1W60653A                  70.000 18012019                       70.000 is greater than available qty.

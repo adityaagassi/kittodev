@@ -1,0 +1,7 @@
+1. Install XAMPP
+2. Copy folder `kitto` ke folder `xampp/htdocs/`
+3. Buka browser dan masukkan url `http://localhost/phpmyadmin`
+4. Buat database dengan nama `kitto`
+5. Pilih Import dan pilih db.sql di folder `kitto`
+6. Masuk ke folder `xampp/htdocs/kitto/app/config/database.php` sesuaikan setting database mysql (jika diperlukan).
+7. Masukkan url `http://localhost:8888/kitto/public/`

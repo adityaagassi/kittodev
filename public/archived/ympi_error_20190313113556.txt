@@ -1,0 +1,10 @@
+8190PN91AAD7562                  80.000 12032019                No data for reduction.
+8190SX21ZR01530                  32.000 12032019                       32.000 is greater than available qty.
+8190SX51VAS0020                  10.000 12032019                No data for reduction.
+8190SX51WZ91160                   1.000 12032019                No data for reduction.
+8190SX51ZQ91060                  15.000 12032019                       15.000 is greater than available qty.
+8190SX51ZQ91580                  15.000 12032019                       15.000 is greater than available qty.
+8190SX51ZQ99600                   7.000 12032019                        7.000 is greater than available qty.
+8190SX51ZR00110                  16.000 12032019                       16.000 is greater than available qty.
+8190SXA0ZP67560                  16.000 13032019                No data for reduction.
+8190SXA0ZY84870                 150.000 13032019                      150.000 is greater than available qty.

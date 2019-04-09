@@ -1,0 +1,6 @@
+8190CL51WF9195A                  21.000 30112018                No data for reduction.
+8190CL51ZQ87490                   9.000 30112018                No data for reduction.
+8190CL51ZQ90440                   2.000 30112018                No data for reduction.
+8190CL51ZQ90540                  16.000 30112018                No data for reduction.
+8190SX21VAS1240                  30.000 30112018                       30.000 is greater than available qty.
+8190SX21ZQ96010                  16.000 30112018                       16.000 is greater than available qty.

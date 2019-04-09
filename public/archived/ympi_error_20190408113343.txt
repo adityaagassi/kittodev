@@ -1,0 +1,7 @@
+8190CL21ZT97850                  40.000 07042019                No data for reduction.
+8190CL91WZ00180                  60.000 07042019                       60.000 is greater than available qty.
+8190PN91ZJ99880                1340.000 07042019                     1340.000 is greater than available qty.
+8190SX21WZ9116C                  10.000 07042019                       10.000 is greater than available qty.
+8190SX21ZA1494C                   2.000 07042019                        2.000 is greater than available qty.
+8190SX51ZQ91780                  15.000 07042019                       15.000 is greater than available qty.
+8190SX51ZR00070                   8.000 08042019                        8.000 is greater than available qty.

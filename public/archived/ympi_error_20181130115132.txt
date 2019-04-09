@@ -1,0 +1,2 @@
+8190SX21VAS1240                  30.000 30112018                       30.000 is greater than available qty.
+8190SX21ZQ96010                   8.000 30112018                        8.000 is greater than available qty.

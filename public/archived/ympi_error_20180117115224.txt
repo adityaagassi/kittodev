@@ -1,0 +1,5 @@
+8190CL21ZQ87550                  20.000 16012018                       20.000 is greater than available qty.
+8190CL21ZQ87550                  20.000 17012018                       20.000 is greater than available qty.
+8190SX21ZC7636H                   8.000 16012018                No data for reduction.
+8190SX51ZS64470                  30.000 16012018                       30.000 is greater than available qty.
+8190SX51ZS64490                  15.000 17012018                       15.000 is greater than available qty.

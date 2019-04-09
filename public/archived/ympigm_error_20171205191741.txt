@@ -1,0 +1,9 @@
+8190           8190ZY51560           FLA08190FLA1000000050.000                    20171205MB1B                9I4    Deficit of SL Unrestricted-use 7 PC : ZY51560 8190 FLA1
+8190           8190WF9195A           SX518190SX91000000025.000                    20171205MB1B                9I3    Material WF9195A 8190 SX51 does not exist
+8190           8190WF9195A           SX518190SX91000000025.000                    20171205MB1B                9I3    Material WF9195A 8190 SX51 does not exist
+8190           8190ZQ89110           SX218190SX51000000015.000                    20171205MB1B                9I3    Deficit of SL Unrestricted-use 15 PC : ZQ89110 8190 SX21
+8190           8190ZY51560           FLA08190FLA1000000010.000                    20171205MB1B                9I3    Deficit of SL Unrestricted-use 10 PC : ZY51560 8190 FLA0
+8190           8190ZY51560           FLA08190FLA1000000010.000                    20171205MB1B                9I3    Deficit of SL Unrestricted-use 10 PC : ZY51560 8190 FLA0
+8190           8190ZY51560           FLA08190FLA1000000010.000                    20171205MB1B                9I3    Deficit of SL Unrestricted-use 10 PC : ZY51560 8190 FLA0
+8190           8190ZY51560           FLA08190FLA1000000010.000                    20171205MB1B                9I3    Deficit of SL Unrestricted-use 10 PC : ZY51560 8190 FLA0
+8190           8190ZY51560           FLA08190FLA1000000010.000                    20171205MB1B                9I3    Deficit of SL Unrestricted-use 10 PC : ZY51560 8190 FLA0

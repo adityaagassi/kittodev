@@ -1,0 +1,9 @@
+8190CL51ZG24280                 360.000 12062018                      360.000 is greater than available qty.
+8190CL51ZG25210                 180.000 12062018                      180.000 is greater than available qty.
+8190CL51ZG25250                 360.000 12062018                      360.000 is greater than available qty.
+8190SX51W938310                  15.000 13062018                No data for reduction.
+8190SX51ZD11700                   5.000 12062018                        5.000 is greater than available qty.
+8190SX51ZQ92820                  13.000 12062018                       13.000 is greater than available qty.
+8190SX51ZQ99580                  16.000 12062018                       16.000 is greater than available qty.
+8190SX51ZQ99930                   8.000 13062018                        8.000 is greater than available qty.
+8190SX51ZQ99970                  16.000 12062018                       16.000 is greater than available qty.

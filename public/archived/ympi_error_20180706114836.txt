@@ -1,0 +1,4 @@
+8190CL21ZT97850                  40.000 05072018                No data for reduction.
+8190SX21ZA1479C                   2.000 05072018                        2.000 is greater than available qty.
+8190SX51VAR9950                 240.000 05072018                No data for reduction.
+8190SX51WK0619C                  15.000 05072018                       15.000 is greater than available qty.

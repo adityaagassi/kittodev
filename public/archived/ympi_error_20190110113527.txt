@@ -1,0 +1,8 @@
+8190CLA0ZW92240                  40.000 09012019                No data for reduction.
+8190RC91AAC7993                1850.000 09012019                     1850.000 is greater than available qty.
+8190RC91AAC7994                 250.000 09012019                No data for reduction.
+8190RC91WZ17320                 500.000 09012019                      500.000 is greater than available qty.
+8190SX21ZQ99010                  32.000 09012019                       32.000 is greater than available qty.
+8190SX51ZQ99380                   8.000 09012019                        8.000 is greater than available qty.
+8190SX51ZR00090                  13.000 09012019                       13.000 is greater than available qty.
+8190SX51ZR02160                  24.000 10012019                       24.000 is greater than available qty.

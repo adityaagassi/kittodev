@@ -1,0 +1,24 @@
+8190CL51VAZ4600                  20.000 07012019                No data for reduction.
+8190CL91WZ44910                   9.000 07012019                No data for reduction.
+8190FL91ZS98370                  47.000 07012019                       47.000 is greater than available qty.
+8190SX21WZ70070                  15.000 07012019                       15.000 is greater than available qty.
+8190SX21ZQ96010                  24.000 07012019                       24.000 is greater than available qty.
+8190SX21ZQ99010                  78.000 07012019                       78.000 is greater than available qty.
+8190SX51W60549A                   8.000 07012019                        8.000 is greater than available qty.
+8190SX51W93627B                  10.000 07012019                       10.000 is greater than available qty.
+8190SX51ZC5871B                  50.000 07012019                No data for reduction.
+8190SX51ZC5872A                  50.000 07012019                No data for reduction.
+8190SX51ZQ91060                  15.000 07012019                       15.000 is greater than available qty.
+8190SX51ZQ91520                  60.000 07012019                       60.000 is greater than available qty.
+8190SX51ZQ99330                   8.000 07012019                        8.000 is greater than available qty.
+8190SX51ZQ99360                   8.000 07012019                        8.000 is greater than available qty.
+8190SX51ZQ99410                  22.000 07012019                       22.000 is greater than available qty.
+8190SX51ZQ99520                  16.000 07012019                       16.000 is greater than available qty.
+8190SX51ZQ99560                  16.000 07012019                       16.000 is greater than available qty.
+8190SX51ZQ99600                  32.000 07012019                       32.000 is greater than available qty.
+8190SX51ZR00110                   7.000 07012019                No data for reduction.
+8190SX51ZR00130                   8.000 07012019                No data for reduction.
+8190SX51ZY86850                  14.000 07012019                       14.000 is greater than available qty.
+8190SX51ZZ42370                   5.000 07012019                        5.000 is greater than available qty.
+8190SX91WZ00210                   5.000 07012019                        5.000 is greater than available qty.
+8190SXA1W60653A                  15.000 07012019                       15.000 is greater than available qty.

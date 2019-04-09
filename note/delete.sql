@@ -1,0 +1,1 @@
+DROP TABLE `completions`, `completions_adjustment`, `histories`, `inventories`, `levels`, `materials`, `migrations`, `password_resets`, `sessions`, `transfers`, `users`

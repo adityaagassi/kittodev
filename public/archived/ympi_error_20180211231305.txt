@@ -1,0 +1,6 @@
+8190FLA0ZY51560                 200.000 11022018                No data for reduction.
+8190SX51ZQ91160                  15.000 11022018                No data for reduction.
+8190SX51ZQ91580                  15.000 11022018                       15.000 is greater than available qty.
+8190SX51ZQ91780                  15.000 11022018                       15.000 is greater than available qty.
+8190SX51ZQ91800                  13.000 11022018                       13.000 is greater than available qty.
+8190SX51ZT49570                   8.000 11022018                No data for reduction.

@@ -1,0 +1,3 @@
+8190           8190WZ9184C           SX218190SX51000000005.000                    20170907MB1B                9I3    Deficit of SL Unrestricted-use 2 PC : WZ9184C 8190 SX21
+8190           8190WF9302A           SX518190SX91000000240.000                    20170908MB1B                9I3    Deficit of SL Unrestricted-use 60 PC : WF9302A 8190 SX51
+8190           8190WK0459A           SX518190SX91000000008.000                    20170907MB1B                9I3    Deficit of SL Unrestricted-use 1 PC : WK0459A 8190 SX51

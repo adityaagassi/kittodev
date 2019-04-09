@@ -1,0 +1,5 @@
+8190CLA0ZW92240                  80.000 20122017                       80.000 is greater than available qty.
+8190SX21ZY85340                  10.000 20122017                       10.000 is greater than available qty.
+8190SX21ZZ32270                  20.000 20122017                       20.000 is greater than available qty.
+8190SX51ZQ91800                  13.000 20122017                No data for reduction.
+8190SXA1ZK13370                   5.000 20122017                No data for reduction.

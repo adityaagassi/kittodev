@@ -1,0 +1,5 @@
+8190CLA0ZP61670                 200.000 19052018                No data for reduction.
+8190SX21ZQ93870                  45.000 19052018                       45.000 is greater than available qty.
+8190SX21ZS06090                  30.000 21052018                       30.000 is greater than available qty.
+8190SX51ZQ99600                   8.000 19052018                        8.000 is greater than available qty.
+8190SXA0ZP68050                 192.000 19052018                No data for reduction.

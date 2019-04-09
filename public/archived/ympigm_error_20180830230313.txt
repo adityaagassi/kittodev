@@ -1,0 +1,16 @@
+8190           8190ZQ96960           FL518190FA0R000000001.000                    20180828MB1B                9I4    Material ZQ96960 8190 FA0R does not exist
+8190           8190ZQ96450           FL518190FA0R000000002.000                    20180828MB1B                9I4    Material ZQ96450 8190 FA0R does not exist
+8190           8190WZ9184C           SX218190SA1R000000004.000                    20180820MB1B                9I4    Deficit of SL Unrestricted-use 4 PC : WZ9184C 8190 SA1R
+8190           8190ZG1270A           SX518190SX91000000014.000                    20180823MB1B                9I4    Deficit of SL Unrestricted-use 4 PC : ZG1270A 8190 SX91
+8190           8190ZR16890           SX518190SX91000000006.000                    20180830MB1B                9I4    Deficit of SL Unrestricted-use 6 PC : ZR16890 8190 SX91
+8190           8190ZQ98200           FL518190FA0R000000001.000                    20180828MB1B                9I4    Material ZQ98200 8190 FA0R does not exist
+8190           8190ZR01250           SX518190SA0R000000002.000                    20180827MB1B                9I4    Deficit of SL Unrestricted-use 1 PC : ZR01250 8190 SA0R
+8190           8190VAR9920           SX518190SX91000000018.000                    20180829MB1B                9I4    Deficit of SL Unrestricted-use 3 PC : VAR9920 8190 SX91
+8190           8190WZ9184C           SX218190SA1R000000004.000                    20180830MB1B                9I3    Deficit of SL Unrestricted-use 4 PC : WZ9184C 8190 SX21
+8190           8190W93546B           SX518190SX91000000005.000                    20180830MB1B                9I3    Deficit of SL Unrestricted-use 5 PC : W93546B 8190 SX51
+8190           8190VCA2491           SX518190SX91000000005.000                    20180830MB1B                9I3    Deficit of SL Unrestricted-use 5 PC : VCA2491 8190 SX51
+8190           8190ZR16890           SX518190SX91000000010.000                    20180830MB1B                9I3    Deficit of SL Unrestricted-use 6 PC : ZR16890 8190 SX51
+8190           8190W60653A           SXA18190SX21000000005.000                    20180830MB1B                9I3    Deficit of SL Unrestricted-use 5 PC : W60653A 8190 SXA1
+8190           8190W60653A           SXA18190SX21000000005.000                    20180830MB1B                9I3    Deficit of SL Unrestricted-use 5 PC : W60653A 8190 SXA1
+8190           8190W60653A           SXA18190SX21000000005.000                    20180830MB1B                9I3    Deficit of SL Unrestricted-use 5 PC : W60653A 8190 SXA1
+8190           8190W60653A           SXA18190SX21000000005.000                    20180830MB1B                9I3    Deficit of SL Unrestricted-use 5 PC : W60653A 8190 SXA1

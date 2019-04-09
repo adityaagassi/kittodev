@@ -1,0 +1,4 @@
+8190FLA1ZP67750                  20.000 13122017                       20.000 is greater than available qty.
+8190SX51ZR00130                   8.000 13122017                No data for reduction.
+8190SX51ZS06150                  14.000 13122017                       14.000 is greater than available qty.
+8190SXA1ZK13370                   1.000 13122017                No data for reduction.

@@ -1,0 +1,6 @@
+8190CL51ZS01630                  20.000 31072018                       20.000 is greater than available qty.
+8190CLA0VAS1400                 300.000 31072018                      300.000 is greater than available qty.
+8190FLA0ZP64940                 160.000 31072018                      160.000 is greater than available qty.
+8190SX51W93548C                  15.000 31072018                       15.000 is greater than available qty.
+8190SX51WZ91100                   5.000 31072018                        5.000 is greater than available qty.
+8190SXA0VAS1330                 720.000 01082018                      720.000 is greater than available qty.

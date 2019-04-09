@@ -1,0 +1,4 @@
+8190SX51W93547C                  15.000 09012018                       15.000 is greater than available qty.
+8190SXA0ZP64540                 540.000 09012018                      540.000 is greater than available qty.
+8190SXA0ZP68020                 384.000 09012018                      384.000 is greater than available qty.
+8190SXA0ZP68050                 384.000 09012018                No data for reduction.

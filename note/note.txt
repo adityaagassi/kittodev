@@ -1,0 +1,181 @@
+// tambahkan document number di transfer sewaktu scan
+
+
+format completion
+document number (15)
+reference
+jadi adanya hanya
+Compeltion - Operator (tanpa login)
+Cancel Completion by Barcode - Admin/Inputor (-QTY berdasarkan qty kanban)
+Tampungan Completion - Admin (Edit, Delete) -> tampungan ini adalah qty minus karena cancel completion, cancel completion & transfer tidak ada, di gantikan Module "Return"
+"Return" -> Module return melakukan cancel gms & transfer bersamaan tidak berdasarkan kanban namun qty bisa diisi manual.
+Ex: melakukan "return" data masuk ke adjustment transfer & adjustment completion.
+Untuk melakukan Return harus memasukkan data berikut: page 1
+plant (4) -> default "8190" tapi bisa diubah, tidak boleh blank
+issue location (4) tidak boleh blank
+receive plant (4) -> default "8190" tapi bisa diubah, tidak boleh blank
+receive location (4) tidak boleh blank
+Act Delivery Date(8) -> tanggal, iki kurang riz ndek desain database keliwatan, tidak boleh kosong.
+transaction code (20) -> default "MB1B" tapi bisa diubah
+movement type (3) tidak boleh blank
+reason code (4) tidak boleh blank
+cost center (10) -> blank boleh kosong
+gl account (10) -> blank boleh kosong
+reason code (4) -> blank boleh kosong
+reference number (16) blank boleh kosong
+contoh tampilan page 1 dari SAP: page1.jpg
+page 2 material numbernya multivalue
+material number (18) tidak boleh blank
+quantity (13) tidak boleh blank
+contoh tampilan page 2 dari SAP: page2rev.jpg
+Kemudian ada 2 ZP67000 & ZP67010 data yang diinput akan masuk ke adjustment transfer, ex: plant (4) - > "8190"
+material number (18) -> "ZP67000"
+issue location (4) -> "FLA0"
+receive plant (4) -> "8190"
+receive location (4) -> "FL21"
+quantity (13) -> 10
+cost center (10) -> blank
+gl account (10) -> blank
+Act Delivery Date(8) -> "13-Mar-2017"
+transaction code (20) -> "MB1B"
+movement type (3) -> "9i4"
+reason code (4) -> blank
+Kemudian data yang diinput akan masuk ke adjustment completion, ex: plant (4) -> "8190"
+storage location (4) -> issue location (4) "FLA0"
+material number (18) -> "ZP67000"
+quantity (14) -> (-10)
+posting date (8) -> Act Delivery Date(8) "13-Mar-2017"
+reference number (16) blank
+note: untuk tulisan "Posting date adalah tanggal dimana dilakukan upload" di desain DB di ralat, Posting date adalah tanggal dimana dilakukan Completion atau tanggal yang diinput(untuk return)
+
+
+resume group by selain lot
+import: hanya master
+export: inventory, history
+history ditambahkan reference file name
+batch output ditambahkan identifier (dinamis)
+batch output dan download error report menggunakan cron dan masuk ke history
+upload completion dan transfer berbeda
+setelah download error report perlu di tampilkan filenya, mana yang perlu diupload ulang atau ga usah di upload
+
+
+
+
+
+
+SELECT
+    histories.completion_barcode_number, 
+    histories.completion_description, 
+    histories.completion_location, 
+    histories.completion_issue_plant, 
+    histories.completion_material_id, 
+    materials.material_number,
+    SUM(histories.lot) as lot, 
+    histories.synced, 
+    histories.user_id, 
+    histories.deleted_at, 
+    histories.created_at, 
+    histories.updated_at
+FROM 
+	histories
+JOIN
+        materials
+    ON
+        histories.completion_material_id = materials.id
+WHERE 
+        histories.category IN ("completion", "completion_adjustment", "cancel_completion")
+    AND 
+        histories.synced = 0
+GROUP BY
+    histories.completion_material_id,
+    histories.completion_location,
+    histories.completion_issue_plant
+HAVING 
+    SUM(histories.lot) > 0
+
+
+
+
+UPDATE
+    histories
+SET
+    histories.synced = 1
+WHERE
+    histories.id IN (
+        SELECT
+            histories.id
+        FROM 
+            histories
+        WHERE 
+                histories.category IN ("completion", "completion_adjustment", "cancel_completion")
+            AND 
+                histories.completion_barcode_number IN ("")
+            AND 
+                histories.synced = 0
+    )
+
+
+
+
+
+
+
+SELECT
+    histories.transfer_barcode_number, 
+    histories.transfer_document_number, 
+    histories.transfer_issue_location, 
+    histories.transfer_issue_plant, 
+    histories.transfer_receive_location, 
+    histories.transfer_receive_plant, 
+    histories.transfer_material_id,
+    histories.transfer_cost_center, 
+    histories.transfer_gl_account,
+    histories.transfer_transaction_code,
+    histories.transfer_movement_type,
+    histories.transfer_reason_code,
+    materials.material_number,
+    SUM(histories.lot) as lot, 
+    histories.synced, 
+    histories.user_id, 
+    histories.deleted_at, 
+    histories.created_at, 
+    histories.updated_at
+FROM 
+    histories
+JOIN
+        materials
+    ON
+        histories.transfer_material_id = materials.id
+WHERE 
+        histories.category IN ("transfer", "transfer_adjustment", "cancel_transfer")
+    AND 
+        histories.synced = 0
+GROUP BY
+    histories.transfer_material_id,
+    histories.transfer_issue_location,
+    histories.transfer_issue_plant,
+    histories.transfer_receive_location,
+    histories.transfer_receive_plant
+HAVING 
+    SUM(histories.lot) > 0
+
+
+
+
+UPDATE
+    histories
+SET
+    histories.synced = 1
+WHERE
+    histories.id IN (
+        SELECT
+            histories.id
+        FROM 
+            histories
+        WHERE 
+                histories.category IN ("transfer", "transfer_adjustment", "cancel_transfer")
+            AND 
+                histories.transfer_barcode_number IN ("")
+            AND 
+                histories.synced = 0
+    )

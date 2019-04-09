@@ -1,0 +1,21 @@
+8190CL21ZT95930                  77.000 24052018                       77.000 is greater than available qty.
+8190CL51ZG24200                 360.000 24052018                      360.000 is greater than available qty.
+8190CL51ZG24210                 360.000 24052018                      360.000 is greater than available qty.
+8190CL51ZG24240                 360.000 24052018                      360.000 is greater than available qty.
+8190CL51ZG24250                 720.000 24052018                      720.000 is greater than available qty.
+8190CL51ZG24310                 720.000 24052018                      720.000 is greater than available qty.
+8190CL51ZG25250                 360.000 24052018                      360.000 is greater than available qty.
+8190CL51ZG2964A                 360.000 24052018                      360.000 is greater than available qty.
+8190CL51ZG2966A                 343.000 24052018                      343.000 is greater than available qty.
+8190CL51ZJ2997B                  20.000 24052018                       20.000 is greater than available qty.
+8190CL51ZU70070                 120.000 24052018                      120.000 is greater than available qty.
+8190CLA0ZP61670                 200.000 24052018                No data for reduction.
+8190CLA0ZT97610                  40.000 24052018                No data for reduction.
+8190CLA0ZW92240                  40.000 24052018                No data for reduction.
+8190CLA2ZG2420B                 720.000 24052018                      720.000 is greater than available qty.
+8190CLA2ZG2522B                 360.000 24052018                      360.000 is greater than available qty.
+8190CLA2ZG29710                 180.000 24052018                      180.000 is greater than available qty.
+8190FL21ZT45380                 140.000 24052018                      140.000 is greater than available qty.
+8190FL21ZU02430                   1.000 24052018                No data for reduction.
+8190FL21ZU24320                  11.000 24052018                No data for reduction.
+8190SXA0ZP68050                 192.000 24052018                No data for reduction.

@@ -1,0 +1,4 @@
+8190           8190W949461           FLT98191FSTK000000100.000                    20180110MB1B                9P1    Deficit of SL Unrestricted-use 100 SET : W949461 8190 FLT9
+8190           8190ZZ04900           SXT98191FSTK000000400.000                    20180110MB1B                9P1    Material ZZ04900 not maintained in plant 8191
+8190           8190ZZ04950           SXT98191FSTK000000100.000                    20180110MB1B                9P1    Material ZZ04950 not maintained in plant 8191
+8190           8190ZU28440           CL518190CL91000000004.000                    20180110MB1B                9I4    Deficit of SL Unrestricted-use 2 PC : ZU28440 8190 CL91

@@ -1,0 +1,12 @@
+8190           8190ZA14780           SX518190SX91000000003.000                    20180903MB1B                9I4    Deficit of SL Unrestricted-use 2 PC : ZA14780 8190 SX91
+8190           8190ZT96950           CL518190LA0R000000001.000                    20180910MB1B                9I4    Deficit of SL Unrestricted-use 1 PC : ZT96950 8190 LA0R
+8190           8190ZU24080           FLA18190FL51000000041.000                    20180907MB1B                9I4    Deficit of SL Unrestricted-use 1 PC : ZU24080 8190 FL51
+8190           8190ZU24080           FLA18190FL51000000005.000                    20180912MB1B                9I3    Deficit of SL Unrestricted-use 5 PC : ZU24080 8190 FLA1
+8190           8190ZU24080           FLA18190FL51000000005.000                    20180912MB1B                9I3    Deficit of SL Unrestricted-use 5 PC : ZU24080 8190 FLA1
+8190           8190ZU24080           FLA18190FL51000000005.000                    20180912MB1B                9I3    Deficit of SL Unrestricted-use 5 PC : ZU24080 8190 FLA1
+8190           8190ZU24080           FLA18190FL51000000005.000                    20180912MB1B                9I3    Deficit of SL Unrestricted-use 5 PC : ZU24080 8190 FLA1
+8190           8190ZA14780           SX518190SX91000000001.000                    20180905MB1B                9I3    Deficit of SL Unrestricted-use 1 PC : ZA14780 8190 SX51
+8190           8190ZA14780           SX518190SX91000000001.000                    20180911MB1B                9I3    Deficit of SL Unrestricted-use 1 PC : ZA14780 8190 SX51
+8190           8190ZT45450           FL218190FL51000000020.000                    20180912MB1B                9I3    Deficit of SL Unrestricted-use 3 PC : ZT45450 8190 FL21
+8190           8190ZT45980           FL218190FL51000000020.000                    20180912MB1B                9I3    Deficit of SL Unrestricted-use 2 PC : ZT45980 8190 FL21
+8190           8190ZT45980           FL218190FL51000000020.000                    20180912MB1B                9I3    Deficit of SL Unrestricted-use 2 PC : ZT45980 8190 FL21

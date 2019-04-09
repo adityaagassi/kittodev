@@ -1,0 +1,55 @@
+8190CL21ZT95740                  40.000 03032018                No data for reduction.
+8190CLA0ZW92240                  40.000 03032018                No data for reduction.
+8190FL51ZU22730                   9.000 03032018                        9.000 is greater than available qty.
+8190SX21ZQ93870                  90.000 03032018                No data for reduction.
+8190SX21ZZ32770                  19.000 03032018                No data for reduction.
+8190SX51W93547E                  10.000 03032018                No data for reduction.
+8190SX51W93548E                  10.000 03032018                No data for reduction.
+8190SX51WK0460C                  10.000 03032018                No data for reduction.
+8190SX51WK0619C                  15.000 03032018                No data for reduction.
+8190SX51ZM32110                  10.000 03032018                No data for reduction.
+8190SX51ZQ99830                  16.000 03032018                       16.000 is greater than available qty.
+8190SX51ZS06340                  10.000 03032018                No data for reduction.
+8190SX51ZS06350                  10.000 03032018                No data for reduction.
+8190SX51ZS06360                  10.000 03032018                No data for reduction.
+8190SX51ZS06370                  10.000 03032018                No data for reduction.
+8190SX51ZS06380                  10.000 03032018                No data for reduction.
+8190SX51ZS06390                  10.000 03032018                No data for reduction.
+8190SX51ZS06400                  10.000 03032018                No data for reduction.
+8190SX51ZS06410                  10.000 03032018                No data for reduction.
+8190SX51ZS06420                  10.000 03032018                No data for reduction.
+8190SX51ZS06430                  10.000 03032018                No data for reduction.
+8190SX51ZS06440                  10.000 03032018                No data for reduction.
+8190SX51ZS06450                  10.000 03032018                No data for reduction.
+8190SX51ZS06460                  10.000 03032018                No data for reduction.
+8190SX51ZS06470                  10.000 03032018                No data for reduction.
+8190SX51ZS06480                  10.000 03032018                No data for reduction.
+8190SX51ZS06490                  10.000 03032018                No data for reduction.
+8190SX51ZS06500                  10.000 03032018                No data for reduction.
+8190SX51ZS06510                  10.000 03032018                No data for reduction.
+8190SX51ZS06520                  10.000 03032018                No data for reduction.
+8190SX51ZS06530                  10.000 03032018                No data for reduction.
+8190SX51ZS06540                  10.000 03032018                No data for reduction.
+8190SX51ZS06550                  10.000 03032018                No data for reduction.
+8190SX51ZS06560                  10.000 03032018                No data for reduction.
+8190SX51ZS06570                  10.000 03032018                No data for reduction.
+8190SX51ZS06580                  10.000 03032018                No data for reduction.
+8190SX51ZS06590                  10.000 03032018                No data for reduction.
+8190SX51ZS06600                  10.000 03032018                No data for reduction.
+8190SX51ZS06610                  10.000 03032018                No data for reduction.
+8190SX51ZS06620                  10.000 03032018                No data for reduction.
+8190SX51ZS06630                  10.000 03032018                No data for reduction.
+8190SX51ZS06640                  10.000 03032018                No data for reduction.
+8190SX51ZS06650                  10.000 03032018                No data for reduction.
+8190SX51ZS06660                  10.000 03032018                No data for reduction.
+8190SX51ZS06670                  10.000 03032018                No data for reduction.
+8190SX51ZT49630                  16.000 03032018                       16.000 is greater than available qty.
+8190SX51ZY84700                  10.000 03032018                       10.000 is greater than available qty.
+8190SX51ZY84830                  10.000 03032018                       10.000 is greater than available qty.
+8190SX51ZY84930                  20.000 03032018                No data for reduction.
+8190SX51ZY85310                  10.000 03032018                       10.000 is greater than available qty.
+8190SX51ZY85400                  20.000 03032018                       20.000 is greater than available qty.
+8190SX51ZY85450                  10.000 03032018                       10.000 is greater than available qty.
+8190SX51ZY86490                   8.000 03032018                No data for reduction.
+8190SX51ZZ32290                  20.000 03032018                       20.000 is greater than available qty.
+8190SX51ZZ32760                  10.000 03032018                No data for reduction.

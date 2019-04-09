@@ -1,0 +1,11 @@
+8190           8190WZ00180           CL918191FSTK000000020.000                    20190404MB1B                9P1    Deficit of SL Unrestricted-use 15 SET : WZ00180 8190 CL91
+8190           8190ZP66540           SXA08190SX21000000016.000                    20190404MB1B                9I3    Deficit of SL Unrestricted-use 16 PC : ZP66540 8190 SXA0
+8190           8190VAQ2780           CL518190CLB9000000030.000                    20190404MB1B                9I3    Deficit of SL Unrestricted-use 30 PC : VAQ2780 8190 CL51
+8190           8190VAQ2780           CL518190CLB9000000030.000                    20190404MB1B                9I3    Deficit of SL Unrestricted-use 30 PC : VAQ2780 8190 CL51
+8190           8190WZ9116C           SX218190SX51000000001.000                    20190404MB1B                9I3    Deficit of SL Unrestricted-use 1 PC : WZ9116C 8190 SX21
+8190           8190WZ9116C           SX218190SX51000000001.000                    20190404MB1B                9I3    Deficit of SL Unrestricted-use 1 PC : WZ9116C 8190 SX21
+8190           8190WZ9116C           SX218190SX51000000001.000                    20190405MB1B                9I3    Deficit of SL Unrestricted-use 1 PC : WZ9116C 8190 SX21
+8190           8190WZ9116C           SX218190SX51000000001.000                    20190405MB1B                9I3    Deficit of SL Unrestricted-use 1 PC : WZ9116C 8190 SX21
+8190           8190WZ9116C           SX218190SX51000000001.000                    20190405MB1B                9I3    Deficit of SL Unrestricted-use 1 PC : WZ9116C 8190 SX21
+8190           8190VAQ2780           CL518190CLB9000000030.000                    20190405MB1B                9I3    Deficit of SL Unrestricted-use 30 PC : VAQ2780 8190 CL51
+8190           8190ZQ96960           SX218190SX51000000008.000                    20190405MB1B                9I3    Deficit of SL Unrestricted-use 2 PC : ZQ96960 8190 SX21

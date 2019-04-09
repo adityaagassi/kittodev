@@ -1,0 +1,8 @@
+8190           8190ZA14780           SX518190SX91000000003.000                    20180903MB1B                9I4    Deficit of SL Unrestricted-use 1 PC : ZA14780 8190 SX91
+8190           8190ZH50360           SXA18190SX21000000001.000                    20180905MB1B                9I3    Deficit of SL Unrestricted-use 1 PC : ZH50360 8190 SXA1
+8190           8190ZH50360           SXA18190SX21000000001.000                    20180905MB1B                9I3    Deficit of SL Unrestricted-use 1 PC : ZH50360 8190 SXA1
+8190           8190W60653A           SXA18190SX21000000005.000                    20180905MB1B                9I3    Deficit of SL Unrestricted-use 5 PC : W60653A 8190 SXA1
+8190           8190W60653A           SXA18190SX21000000005.000                    20180905MB1B                9I3    Deficit of SL Unrestricted-use 5 PC : W60653A 8190 SXA1
+8190           8190ZA14780           SX518190SX91000000001.000                    20180905MB1B                9I3    Deficit of SL Unrestricted-use 1 PC : ZA14780 8190 SX51
+8190           8190W938300           SX518190SX91000000015.000                    20180904MB1B                9I3    Deficit of SL Unrestricted-use 15 PC : W938300 8190 SX51
+8190           8190VCG5841           SX518190SX91000000003.000                    20180905MB1B                9I3    Material VCG5841 8190 SX51 does not exist

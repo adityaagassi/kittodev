@@ -1,0 +1,55 @@
+8190           8190ZS98360           FL918191FSTK000000060.000                    20190402MB1B                9P1    Deficit of SL Unrestricted-use 18 SET : ZS98360 8190 FL91
+8190           8190ZS06260           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ93710           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ93710           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ93230           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ93610           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ91320           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ83740           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ88650           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ88650           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ84860           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ84860           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ93360           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ86340           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ87220           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ88400           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ86770           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ91320           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ89110           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZS06170           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZS06170           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190W60653A           SXA18190SX21000000005.000                    20190401MB1B                9I3    Deficit of SL Unrestricted-use 5 PC : W60653A 8190 SXA1
+8190           8190ZQ88650           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ88650           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ88890           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ88320           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ89230           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ88400           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ84350           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ84350           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ84490           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ84860           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ87220           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ87220           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ84490           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ88400           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ88400           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ84860           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190W60653A           SXA18190SX21000000005.000                    20190402MB1B                9I3    Deficit of SL Unrestricted-use 5 PC : W60653A 8190 SXA1
+8190           8190W60653A           SXA18190SX21000000005.000                    20190402MB1B                9I3    Deficit of SL Unrestricted-use 5 PC : W60653A 8190 SXA1
+8190           8190ZP55240           SXA18190SX21000000001.000                    20190402MB1B                9I3    Deficit of SL Unrestricted-use 1 PC : ZP55240 8190 SXA1
+8190           8190ZQ93360           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ93360           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ84860           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ87220           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZA1493C           SX218190SX51000000001.000                    20190402MB1B                9I3    Deficit of SL Unrestricted-use 1 PC : ZA1493C 8190 SX21
+8190           8190ZA1493C           SX218190SX51000000001.000                    20190402MB1B                9I3    Deficit of SL Unrestricted-use 1 PC : ZA1493C 8190 SX21
+8190           8190ZQ89230           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ87220           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ87220           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ87220           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ88320           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ83740           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZQ87220           SX218190SX51000000015.000                    20190330MB1B                9I3    In plant 8190, post to current period 2019/01
+8190           8190ZP55240           SXA18190SX21000000001.000                    20190402MB1B                9I3    Deficit of SL Unrestricted-use 1 PC : ZP55240 8190 SXA1

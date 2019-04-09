@@ -1,0 +1,19 @@
+8190CL21ZQ87550                  40.000 25092018                       40.000 is greater than available qty.
+8190CL21ZT95930                  40.000 25092018                       40.000 is greater than available qty.
+8190CL21ZT97850                  20.000 25092018                No data for reduction.
+8190CLA0VAS1350                 720.000 25092018                      720.000 is greater than available qty.
+8190CLA0W93573E                  40.000 25092018                No data for reduction.
+8190CLA0ZR23680                  40.000 25092018                       40.000 is greater than available qty.
+8190CLA0ZT97610                  40.000 25092018                       40.000 is greater than available qty.
+8190CLA0ZW92240                  40.000 25092018                No data for reduction.
+8190FL21ZU02710                  40.000 25092018                       40.000 is greater than available qty.
+8190SX21ZF2087C                 255.000 25092018                      255.000 is greater than available qty.
+8190SX21ZS06040                 165.000 25092018                      165.000 is greater than available qty.
+8190SX21ZS06090                  45.000 25092018                       45.000 is greater than available qty.
+8190SX21ZS06170                  90.000 25092018                       90.000 is greater than available qty.
+8190SX21ZS06260                 135.000 25092018                      135.000 is greater than available qty.
+8190SX51W93546B                  11.000 25092018                       11.000 is greater than available qty.
+8190SX51ZR01630                  32.000 25092018                       32.000 is greater than available qty.
+8190SXA0ZY84870                 150.000 25092018                      150.000 is greater than available qty.
+8190SXA0ZY85610                 340.000 25092018                      340.000 is greater than available qty.
+8190SXA0ZY85730                  20.000 25092018                       20.000 is greater than available qty.

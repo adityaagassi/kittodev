@@ -1,0 +1,2 @@
+8190FL21ZU03090                  40.000 31082018                       40.000 is greater than available qty.
+8190FLA0ZP64710                 400.000 31082018                      400.000 is greater than available qty.

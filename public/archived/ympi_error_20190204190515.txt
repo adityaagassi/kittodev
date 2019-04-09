@@ -1,0 +1,12 @@
+8190CLA0VAZ4700                 120.000 04022019                No data for reduction.
+8190FL91ZS97960                   1.000 04022019                No data for reduction.
+8190FL91ZS98360                  44.000 04022019                       44.000 is greater than available qty.
+8190FL91ZS98360                  44.000 04022019                       44.000 is greater than available qty.
+8190FLA0ZP63750                  40.000 04022019                No data for reduction.
+8190RC91AAC7992                 850.000 04022019                      850.000 is greater than available qty.
+8190RC91AAC7993                 600.000 04022019                No data for reduction.
+8190RC91AAC7994                 250.000 04022019                No data for reduction.
+8190RC91AAC7994                 450.000 04022019                No data for reduction.
+8190SX21VAS1240                 120.000 04022019                      120.000 is greater than available qty.
+8190SX51ZQ93820                  15.000 04022019                No data for reduction.
+8190SX51ZS06150                  15.000 04022019                No data for reduction.

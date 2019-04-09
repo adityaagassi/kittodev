@@ -1,0 +1,5 @@
+8190FLA0ZP90600                 160.000 09032018                No data for reduction.
+8190FLT9W48332P                 800.000 09032018                      800.000 is greater than available qty.
+8190SX51ZQ91800                   7.000 09032018                No data for reduction.
+8190SX51ZQ93820                  11.000 09032018                No data for reduction.
+8190SX51ZS64470                  15.000 09032018                No data for reduction.

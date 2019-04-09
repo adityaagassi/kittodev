@@ -1,0 +1,20 @@
+8190CL91WZ44910                  69.000 31122018                       69.000 is greater than available qty.
+8190FL91ZS98380                  21.000 31122018                       21.000 is greater than available qty.
+8190FLA0ZP63750                 120.000 31122018                No data for reduction.
+8190FLA1ZU24050                  45.000 31122018                       45.000 is greater than available qty.
+8190SX21WZ9110C                   5.000 31122018                        5.000 is greater than available qty.
+8190SX21WZ9184C                  16.000 31122018                       16.000 is greater than available qty.
+8190SX21WZ9853C                   7.000 31122018                        7.000 is greater than available qty.
+8190SX21ZR01840                  32.000 31122018                       32.000 is greater than available qty.
+8190SX21ZT43210                  96.000 31122018                No data for reduction.
+8190SX51ZQ94700                   8.000 31122018                No data for reduction.
+8190SX51ZQ95890                  43.000 31122018                       43.000 is greater than available qty.
+8190SX51ZQ95990                  48.000 31122018                       48.000 is greater than available qty.
+8190SX51ZQ96320                  16.000 31122018                       16.000 is greater than available qty.
+8190SX51ZQ98650                   8.000 31122018                        8.000 is greater than available qty.
+8190SXA0ZP67040                 180.000 31122018                      180.000 is greater than available qty.
+8190SXA0ZP67060                 360.000 31122018                      360.000 is greater than available qty.
+8190SXA0ZP67990                 192.000 31122018                No data for reduction.
+8190SXA0ZP68010                 540.000 31122018                      540.000 is greater than available qty.
+8190SXA0ZP68050                 576.000 31122018                      576.000 is greater than available qty.
+8190SXA1ZK50340                  55.000 31122018                       55.000 is greater than available qty.

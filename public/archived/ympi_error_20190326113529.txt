@@ -1,0 +1,9 @@
+8190CL21ZT95740                  19.000 25032019                       19.000 is greater than available qty.
+8190CLA2ZG2525B                 180.000 25032019                      180.000 is greater than available qty.
+8190FL21ZT45720                 211.000 25032019                      211.000 is greater than available qty.
+8190FL21ZU02710                 147.000 25032019                      147.000 is greater than available qty.
+8190FLA0ZP64960                 480.000 26032019                      480.000 is greater than available qty.
+8190FLA0ZY51560                 200.000 25032019                      200.000 is greater than available qty.
+8190SX51ZQ91780                  14.000 25032019                       14.000 is greater than available qty.
+8190SX51ZQ92820                  30.000 25032019                       30.000 is greater than available qty.
+8190SXA1WY85000                  10.000 26032019                       10.000 is greater than available qty.

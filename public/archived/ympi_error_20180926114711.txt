@@ -1,0 +1,7 @@
+8190CL21ZT97850                  20.000 25092018                No data for reduction.
+8190FL51ZU22730                  15.000 25092018                       15.000 is greater than available qty.
+8190FLA2ZE22520                 180.000 25092018                No data for reduction.
+8190FLA2ZE22530                 180.000 25092018                No data for reduction.
+8190SX21ZF2087C                 300.000 25092018                      300.000 is greater than available qty.
+8190SX51ZQ99600                   8.000 26092018                        8.000 is greater than available qty.
+8190SX51ZT26120                  60.000 26092018                       60.000 is greater than available qty.

@@ -1,0 +1,3 @@
+8190CLA0VAZ4660                 120.000 04122018                      120.000 is greater than available qty.
+8190CLA0VAZ4700                  60.000 04122018                No data for reduction.
+8190SX21ZQ99010                  32.000 04122018                       32.000 is greater than available qty.

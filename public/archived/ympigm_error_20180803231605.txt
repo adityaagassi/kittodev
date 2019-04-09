@@ -1,0 +1,45 @@
+8190           8190WY9341C           SX218190SA1R000000008.000                    20180803MB1B                9I4    Deficit of SL Unrestricted-use 1 PC : WY9341C 8190 SA1R
+8190           8190ZA5245C           SX218190SA1R000000001.000                    20180803MB1B                9I4    Deficit of SL Unrestricted-use 1 PC : ZA5245C 8190 SA1R
+8190           8190WF9525C           SX218190SA1R000000001.000                    20180803MB1B                9I4    Deficit of SL Unrestricted-use 1 PC : WF9525C 8190 SA1R
+8190           8190VAS1330           SXA08190SX21000000060.000                    20180803MB1B                9I3    Deficit of SL Unrestricted-use 60 PC : VAS1330 8190 SXA0
+8190           8190VAS1350           CLA08190CL21000000060.000                    20180803MB1B                9I3    Deficit of SL Unrestricted-use 60 PC : VAS1350 8190 CLA0
+8190           8190WF9525C           SX218190SX51000000001.000                    20180803MB1B                9I3    Deficit of SL Unrestricted-use 1 PC : WF9525C 8190 SX21
+8190           8190ZQ90480           CL218190CL51000000020.000                    20180801MB1B                9I3    Deficit of SL Unrestricted-use 18 PC : ZQ90480 8190 CL21
+8190           8190VAS1250           CL218190CL51000000030.000                    20180802MB1B                9I3    Deficit of SL Unrestricted-use 30 PC : VAS1250 8190 CL21
+8190           8190VAS1250           CL218190CL51000000030.000                    20180802MB1B                9I3    Deficit of SL Unrestricted-use 30 PC : VAS1250 8190 CL21
+8190           8190VAS1250           CL218190CL51000000030.000                    20180802MB1B                9I3    Deficit of SL Unrestricted-use 30 PC : VAS1250 8190 CL21
+8190           8190VAS1400           CLA08190CL21000000030.000                    20180730MB1B                9I3    In plant 8190, post to current period 2018/05
+8190           8190ZP65140           FLA08190FL91000000120.000                    20180731MB1B                9I3    In plant 8190, post to current period 2018/05
+8190           8190ZQ90480           CL218190CL51000000020.000                    20180801MB1B                9I3    Deficit of SL Unrestricted-use 18 PC : ZQ90480 8190 CL21
+8190           8190ZR23690           CLA08190CL21000000040.000                    20180803MB1B                9I3    Deficit of SL Unrestricted-use 40 PC : ZR23690 8190 CLA0
+8190           8190ZQ99330           SX518190SX91000000008.000                    20180803MB1B                9I3    Deficit of SL Unrestricted-use 8 PC : ZQ99330 8190 SX51
+8190           8190ZA8987C           SX218190SX51000000001.000                    20180803MB1B                9I3    Deficit of SL Unrestricted-use 1 PC : ZA8987C 8190 SX21
+8190           8190VAS1250           CL218190CL51000000030.000                    20180803MB1B                9I3    Deficit of SL Unrestricted-use 30 PC : VAS1250 8190 CL21
+8190           8190VAS1250           CL218190CL51000000030.000                    20180803MB1B                9I3    Deficit of SL Unrestricted-use 30 PC : VAS1250 8190 CL21
+8190           8190VAS1250           CL218190CL51000000030.000                    20180803MB1B                9I3    Deficit of SL Unrestricted-use 30 PC : VAS1250 8190 CL21
+8190           8190VAS1250           CL218190CL51000000030.000                    20180803MB1B                9I3    Deficit of SL Unrestricted-use 30 PC : VAS1250 8190 CL21
+8190           8190VAS1250           CL218190CL51000000030.000                    20180803MB1B                9I3    Deficit of SL Unrestricted-use 30 PC : VAS1250 8190 CL21
+8190           8190VAS1400           CLA08190CL21000000030.000                    20180801MB1B                9I3    Deficit of SL Unrestricted-use 30 PC : VAS1400 8190 CLA0
+8190           8190ZZ32330           SX518190SX91000000010.000                    20180730MB1B                9I3    In plant 8190, post to current period 2018/05
+8190           8190VAS1250           CL218190CL51000000030.000                    20180801MB1B                9I3    Deficit of SL Unrestricted-use 30 PC : VAS1250 8190 CL21
+8190           8190VAS1250           CL218190CL51000000030.000                    20180802MB1B                9I3    Deficit of SL Unrestricted-use 30 PC : VAS1250 8190 CL21
+8190           8190VAS1250           CL218190CL51000000030.000                    20180802MB1B                9I3    Deficit of SL Unrestricted-use 30 PC : VAS1250 8190 CL21
+8190           8190VAS1330           SXA08190SX21000000060.000                    20180802MB1B                9I3    Deficit of SL Unrestricted-use 60 PC : VAS1330 8190 SXA0
+8190           8190VAS1250           CL218190CL51000000030.000                    20180802MB1B                9I3    Deficit of SL Unrestricted-use 30 PC : VAS1250 8190 CL21
+8190           8190VAS1250           CL218190CL51000000030.000                    20180802MB1B                9I3    Deficit of SL Unrestricted-use 30 PC : VAS1250 8190 CL21
+8190           8190VAS1250           CL218190CL51000000030.000                    20180801MB1B                9I3    Deficit of SL Unrestricted-use 30 PC : VAS1250 8190 CL21
+8190           8190VAS1250           CL218190CL51000000030.000                    20180802MB1B                9I3    Deficit of SL Unrestricted-use 30 PC : VAS1250 8190 CL21
+8190           8190ZS06150           SX518190SX91000000015.000                    20180803MB1B                9I3    Deficit of SL Unrestricted-use 15 PC : ZS06150 8190 SX51
+8190           8190ZP65140           FLA08190FL91000000120.000                    20180730MB1B                9I3    In plant 8190, post to current period 2018/05
+8190           8190VAS1330           SXA08190SX21000000060.000                    20180801MB1B                9I3    Deficit of SL Unrestricted-use 60 PC : VAS1330 8190 SXA0
+8190           8190VAS1330           SXA08190SX21000000060.000                    20180801MB1B                9I3    Deficit of SL Unrestricted-use 60 PC : VAS1330 8190 SXA0
+8190           8190ZP65140           FLA08190FL91000000120.000                    20180731MB1B                9I3    In plant 8190, post to current period 2018/05
+8190           8190ZP65140           FLA08190FL91000000120.000                    20180731MB1B                9I3    In plant 8190, post to current period 2018/05
+8190           8190VAS1250           CL218190CL51000000030.000                    20180803MB1B                9I3    Deficit of SL Unrestricted-use 30 PC : VAS1250 8190 CL21
+8190           8190VAS1250           CL218190CL51000000030.000                    20180803MB1B                9I3    Deficit of SL Unrestricted-use 30 PC : VAS1250 8190 CL21
+8190           8190ZQ89650           CL218190CL51000000020.000                    20180803MB1B                9I3    Deficit of SL Unrestricted-use 1 PC : ZQ89650 8190 CL21
+8190           8190ZQ87600           CL218190CL51000000020.000                    20180803MB1B                9I3    Deficit of SL Unrestricted-use 2 PC : ZQ87600 8190 CL21
+8190           8190WY9341C           SX218190SX51000000001.000                    20180803MB1B                9I3    Deficit of SL Unrestricted-use 1 PC : WY9341C 8190 SX21
+8190           8190WY9341C           SX218190SX51000000001.000                    20180803MB1B                9I3    Deficit of SL Unrestricted-use 1 PC : WY9341C 8190 SX21
+8190           8190WY9341C           SX218190SX51000000001.000                    20180803MB1B                9I3    Deficit of SL Unrestricted-use 1 PC : WY9341C 8190 SX21
+8190           8190WY9341C           SX218190SX51000000001.000                    20180803MB1B                9I3    Deficit of SL Unrestricted-use 1 PC : WY9341C 8190 SX21

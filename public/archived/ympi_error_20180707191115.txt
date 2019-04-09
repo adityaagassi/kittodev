@@ -1,0 +1,13 @@
+8190CL21VAS1250                 480.000 07072018                      480.000 is greater than available qty.
+8190CL21ZT97850                  40.000 07072018                No data for reduction.
+8190CL51VAR9970                 150.000 07072018                No data for reduction.
+8190CLA0W93573E                  40.000 07072018                No data for reduction.
+8190FLA1ZP67750                  20.000 07072018                       20.000 is greater than available qty.
+8190SX21VAS1220                 480.000 07072018                      480.000 is greater than available qty.
+8190SX21ZA1479C                   4.000 07072018                        4.000 is greater than available qty.
+8190SX51W59678A                  15.000 07072018                       15.000 is greater than available qty.
+8190SX51WK0619C                  15.000 07072018                       15.000 is greater than available qty.
+8190SX51ZQ91060                  15.000 07072018                       15.000 is greater than available qty.
+8190SX51ZQ91160                  14.000 07072018                       14.000 is greater than available qty.
+8190SX51ZQ91520                  15.000 07072018                       15.000 is greater than available qty.
+8190SX51ZQ91780                  14.000 07072018                       14.000 is greater than available qty.

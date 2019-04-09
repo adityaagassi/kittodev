@@ -1,0 +1,5 @@
+8190SX21ZQ96010                  32.000 03012019                       32.000 is greater than available qty.
+8190SX21ZQ96340                  31.000 03012019                       31.000 is greater than available qty.
+8190SX51ZQ94700                  16.000 03012019                       16.000 is greater than available qty.
+8190SX51ZQ95990                  24.000 03012019                       24.000 is greater than available qty.
+8190SX51ZQ98180                   8.000 03012019                No data for reduction.

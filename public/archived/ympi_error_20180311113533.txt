@@ -1,0 +1,10 @@
+8190CL51VAQ2780                  90.000 10032018                No data for reduction.
+8190FL21ZU24320                  10.000 10032018                       10.000 is greater than available qty.
+8190FLA0ZP90600                 160.000 10032018                No data for reduction.
+8190FLA2ZE22520                 180.000 10032018                No data for reduction.
+8190FLT9W48332P                 800.000 10032018                      800.000 is greater than available qty.
+8190SX21ZQ93870                  45.000 10032018                No data for reduction.
+8190SX51W93631A                   8.000 10032018                No data for reduction.
+8190SX51ZQ91800                   7.000 10032018                No data for reduction.
+8190SX51ZQ93820                  11.000 10032018                No data for reduction.
+8190SX51ZS64470                  15.000 10032018                No data for reduction.

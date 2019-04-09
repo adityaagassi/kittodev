@@ -1,0 +1,2 @@
+8190CL21WF9195C                 150.000 04062018                      150.000 is greater than available qty.
+8190FL21ZT45710                  20.000 04062018                       20.000 is greater than available qty.

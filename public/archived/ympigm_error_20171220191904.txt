@@ -1,0 +1,7 @@
+8190           8190ZA52480           SXA18190SX21000000014.000                    20171219MB1B                9I4    Deficit of SL Unrestricted-use 14 PC : ZA52480 8190 SX21
+8190           8190ZR02440           SX518190SX91000000005.000                    20171220MB1B                9I4    Deficit of SL Unrestricted-use 5 PC : ZR02440 8190 SX91
+8190           8190ZT45720           FL218190FL51000000020.000                    20171220MB1B                9I3    Deficit of SL Unrestricted-use 1 PC : ZT45720 8190 FL21
+8190           8190ZR02440           SX518190SX91000000008.000                    20171220MB1B                9I3    Deficit of SL Unrestricted-use 5 PC : ZR02440 8190 SX51
+8190           8190ZW92240           CLA08190CL21000000040.000                    20171220MB1B                9I3    Deficit of SL Unrestricted-use 40 PC : ZW92240 8190 CLA0
+8190           8190ZW92240           CLA08190CL21000000040.000                    20171220MB1B                9I3    Deficit of SL Unrestricted-use 40 PC : ZW92240 8190 CLA0
+8190           8190ZQ89110           SX218190SX51000000015.000                    20171220MB1B                9I3    Deficit of SL Unrestricted-use 15 PC : ZQ89110 8190 SX21

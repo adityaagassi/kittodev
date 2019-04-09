@@ -1,0 +1,2 @@
+8190FLA0ZY51560                 200.000 09022018                No data for reduction.
+8190FLA2ZE22520                 360.000 09022018                      360.000 is greater than available qty.

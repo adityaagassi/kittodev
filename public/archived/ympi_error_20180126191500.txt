@@ -1,0 +1,2 @@
+8190SX51W93543B                  36.000 26012018                       36.000 is greater than available qty.
+8190SXA0ZP64480                 675.000 26012018                      675.000 is greater than available qty.

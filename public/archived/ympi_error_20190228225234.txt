@@ -1,0 +1,40 @@
+8190CL21ZG2970C                 360.000 28022019                No data for reduction.
+8190CL21ZQ90480                  40.000 28022019                No data for reduction.
+8190CL21ZQ90570                  40.000 28022019                       40.000 is greater than available qty.
+8190CL51ZQ93420                  39.000 28022019                       39.000 is greater than available qty.
+8190CLA2ZG29710                 540.000 28022019                      540.000 is greater than available qty.
+8190FL91ZS97790                  76.000 28022019                       76.000 is greater than available qty.
+8190FL91ZS98360                 199.000 28022019                      199.000 is greater than available qty.
+8190FLA0ZP62960                1500.000 28022019                No data for reduction.
+8190FLA0ZP64710                 200.000 28022019                No data for reduction.
+8190FLA0ZY51560                 100.000 28022019                      100.000 is greater than available qty.
+8190PN91ZJ99880                2000.000 28022019                     2000.000 is greater than available qty.
+8190SX21WZ9183C                  10.000 28022019                       10.000 is greater than available qty.
+8190SX21WZ9184C                   6.000 28022019                        6.000 is greater than available qty.
+8190SX21ZA8987C                   7.000 28022019                        7.000 is greater than available qty.
+8190SX21ZJ19280                  27.000 28022019                       27.000 is greater than available qty.
+8190SX21ZR01530                  55.000 28022019                       55.000 is greater than available qty.
+8190SX21ZR01840                  16.000 28022019                       16.000 is greater than available qty.
+8190SX21ZT43120                   8.000 28022019                No data for reduction.
+8190SX21ZY85380                  20.000 28022019                       20.000 is greater than available qty.
+8190SX51W93546B                  15.000 28022019                       15.000 is greater than available qty.
+8190SX51WK0456A                  10.000 28022019                       10.000 is greater than available qty.
+8190SX51WZ91160                  21.000 28022019                       21.000 is greater than available qty.
+8190SX51WZ91830                  18.000 28022019                       18.000 is greater than available qty.
+8190SX51ZA14780                   9.000 28022019                No data for reduction.
+8190SX51ZA14930                   1.000 28022019                No data for reduction.
+8190SX51ZA14990                   7.000 28022019                No data for reduction.
+8190SX51ZA89860                   7.000 28022019                        7.000 is greater than available qty.
+8190SX51ZA89870                   1.000 28022019                No data for reduction.
+8190SX51ZQ91780                  15.000 28022019                       15.000 is greater than available qty.
+8190SX91WZ45010                   3.000 28022019                        3.000 is greater than available qty.
+8190SXA0ZP66350                 288.000 28022019                      288.000 is greater than available qty.
+8190SXA0ZP67250                 144.000 28022019                      144.000 is greater than available qty.
+8190SXA0ZP67520                  30.000 28022019                No data for reduction.
+8190SXA0ZP67990                 576.000 28022019                No data for reduction.
+8190SXA0ZY84770                 360.000 28022019                      360.000 is greater than available qty.
+8190SXA0ZY84870                 600.000 28022019                      600.000 is greater than available qty.
+8190SXA0ZY85730                  30.000 28022019                       30.000 is greater than available qty.
+8190SXA1WY85000                  10.000 28022019                No data for reduction.
+8190SXA1ZE08440                   8.000 28022019                        8.000 is greater than available qty.
+8190SXA1ZK50360                  20.000 28022019                No data for reduction.

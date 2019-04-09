@@ -1,0 +1,1321 @@
+8190CL21ZQ90570                  20.000 11122018                No data for reduction.
+8190CL21ZR23750                  40.000 11122018                No data for reduction.
+8190CL21VAS1250                1080.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21VAS1310                  90.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21WY75740                1360.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21WY75770                1620.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZG2961C                 720.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZG2964C                1260.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZG2966C                 900.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZG2970C                 540.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZQ87600                 937.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZQ87660                 833.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZQ87760                 930.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZQ87840                 925.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZQ87890                 937.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZQ88000                 883.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZQ88090                1129.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZQ88300                 573.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZQ89380                 846.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZQ89530                1067.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZQ89650                 792.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZQ89740                 949.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZQ89830                 893.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZQ89940                 844.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZQ90040                 901.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZQ90160                 856.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZQ90320                1077.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZQ90390                1035.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZQ91900                 995.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZQ91970                 827.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZQ92030                1030.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZR45000                 136.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZR45070                 156.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZT95340                 136.000 11122018                      136.000 is greater than available qty.
+8190CL21ZT95740                  79.000 11122018                       79.000 is greater than available qty.
+8190CL21ZT95930                  58.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZT96440                  39.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZT96950                  57.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZT97170                 114.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL21ZT97850                  37.000 11122018                No data for reduction.
+8190CL51VAR9970                 810.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51VAR9980                 193.000 11122018                      193.000 is greater than available qty.
+8190CL51VAR9990                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51VAS0030                  60.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51W53460B                 908.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51W53461B                 741.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51W53462B                 742.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51W53463B                 535.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZG24200                 720.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZG24210                1620.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZG24230                 900.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZG24240                1980.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZG24250                1800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZG24260                 540.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZG24270                2340.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZG24280                 540.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZG24290                1440.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZG24310                1440.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZG24330                 900.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZG24410                1620.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZG24460                1080.000 11122018                     1080.000 is greater than available qty.
+8190CL51ZG25210                 720.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZG25220                2520.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZG25230                1440.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZG25240                1620.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZG25250                 360.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZG2961A                 720.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZG2964A                 900.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZG2966A                1080.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZG2970A                 720.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZJ29960                 880.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZJ2996B                 140.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZJ29970                 876.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZJ2997B                 180.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZJ29980                 880.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZJ2998B                 140.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZJ29990                 874.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZJ2999B                 180.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ87570                 808.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ87630                 780.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ87730                 773.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ87810                 776.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ87860                 834.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ87970                 913.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ88060                 892.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ88130                 740.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ89350                 781.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ89480                 902.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ89610                 815.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ89700                 751.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ89800                 823.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ89910                 773.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ90000                 826.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ90110                 704.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ90280                 805.000 11122018                      805.000 is greater than available qty.
+8190CL51ZQ90360                 687.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ91680                 894.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ91920                 630.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ91990                 687.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ92370                 142.000 11122018                      142.000 is greater than available qty.
+8190CL51ZQ92390                 117.000 11122018                      117.000 is greater than available qty.
+8190CL51ZQ92900                 198.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ92930                 162.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ93030                 181.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ93070                 175.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ93090                 202.000 11122018                      202.000 is greater than available qty.
+8190CL51ZQ93110                 192.000 11122018                      192.000 is greater than available qty.
+8190CL51ZQ93130                 290.000 11122018                      290.000 is greater than available qty.
+8190CL51ZQ93150                 193.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ93240                 140.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ93290                 102.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ93330                 246.000 11122018                      246.000 is greater than available qty.
+8190CL51ZQ93350                 171.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ93380                 209.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ93400                 138.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ93480                 131.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ93510                 152.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZQ93560                  93.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZR44970                 187.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZR45040                 165.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZS01650                  16.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZT96850                  85.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZT97020                 129.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZU15810                  14.000 11122018                       14.000 is greater than available qty.
+8190CL51ZU28440                  79.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZU28450                  49.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZU28470                  72.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZU28570                  58.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL51ZU70070                 510.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL91WZ00120                 131.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL91WZ00160                 160.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CL91WZ44910                   1.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0VAS1350                1440.000 11122018                     1440.000 is greater than available qty.
+8190CLA0VAS1400                 300.000 11122018                      300.000 is greater than available qty.
+8190CLA0VAZ4660                 120.000 11122018                No data for reduction.
+8190CLA0VAZ4700                  60.000 11122018                No data for reduction.
+8190CLA0W53414A                 760.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0W53415A                1000.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0W53542A                 880.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61380                 520.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61390                 760.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61400                 720.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61410                 720.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61420                1040.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61430                 840.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61440                 960.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61450                 400.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61460                 960.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61470                 600.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61480                 960.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61490                 760.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61500                 800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61510                 720.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61520                1080.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61530                 760.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61550                 680.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61560                 840.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZR23680                  60.000 11122018                No data for reduction.
+8190CLA0ZW90410                 800.000 11122018                      800.000 is greater than available qty.
+8190CLA0ZW90420                 800.000 11122018                      800.000 is greater than available qty.
+8190CLA0ZW90470                 760.000 11122018                      760.000 is greater than available qty.
+8190CLA0ZW90480                 800.000 11122018                      800.000 is greater than available qty.
+8190CLA0ZW92240                 120.000 11122018                No data for reduction.
+8190CLA2ZG2429B                1980.000 11122018                     1980.000 is greater than available qty.
+8190CLA2ZG29630                3420.000 11122018                     3420.000 is greater than available qty.
+8190CLA0ZP61570                 920.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61580                 840.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61590                1440.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61600                 800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61610                1480.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61620                 720.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61630                1160.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61650                 760.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61740                 960.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61760                 640.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61770                 880.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61790                 760.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61800                 880.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61810                 840.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61820                1120.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61830                 680.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61840                 520.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61850                 960.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61860                1680.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61870                 680.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61890                 840.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61900                4000.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61910                4500.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61970                 760.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61980                2280.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP61990                 760.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP62010                 760.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP62020                1440.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP62070                 760.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP62080                4160.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP62090                1520.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP62100                1520.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP62110                1520.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP62190                 520.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP62200                 760.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP62210                1440.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP62230                 720.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP62240                 840.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP62470                 840.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP62520                 160.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP62530                  20.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP62560                1520.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZP67930                1520.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZT95940                  80.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZT96490                  80.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZT97610                  80.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZV15070                1480.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZW90390                 800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZW90400                 800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZW90430                 800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZW90460                 800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZW90490                 800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZW92220                 960.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZW92230                 120.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA0ZW92250                 160.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA2ZG2420B                 720.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA2ZG2421B                2160.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA2ZG2423B                 900.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA2ZG2424B                1620.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA2ZG2425B                1440.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA2ZG2426B                1080.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA2ZG2427B                2340.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA2ZG2428B                 900.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA2ZG2431B                1620.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA2ZG2433B                 720.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA2ZG2441B                1800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA2ZG2446B                 900.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA2ZG2521B                 720.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA2ZG2522B                2160.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA2ZG2523B                1080.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA2ZG2524B                2160.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA2ZG2525B                 360.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA2ZG29620                 540.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA2ZG29650                1080.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA2ZG29670                 900.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA2ZG29690                 900.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLA2ZG29710                 540.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLB9W52871A                 680.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLB9WY75670                 100.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLB9WY75680                 710.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLB9WY75970                 440.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLB9WZ93340                 260.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLB9ZR12000                 440.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLB9ZR12440                 220.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190CLB9ZS02260                 100.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZT43800                1356.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZT43850                1574.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZT43910                1773.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZT44180                1545.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZT44270                1649.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZT44660                1591.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZT44730                1534.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZT44810                1855.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZT44880                1633.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZT45070                1406.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZT45170                1557.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZT45260                 875.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZT45380                 778.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZT45450                1212.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZT45520                1134.000 11122018                     1134.000 is greater than available qty.
+8190FL21ZT45590                1919.000 11122018                     1919.000 is greater than available qty.
+8190FL21ZT45640                1303.000 11122018                     1303.000 is greater than available qty.
+8190FL21ZT45710                 524.000 11122018                      524.000 is greater than available qty.
+8190FL21ZT45720                 575.000 11122018                      575.000 is greater than available qty.
+8190FL21ZT45800                1065.000 11122018                     1065.000 is greater than available qty.
+8190FL21ZT45860                1376.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZT45920                1154.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZT45980                1432.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZT91380                 333.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZT91470                 859.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZU02370                  45.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZU02430                 187.000 11122018                      187.000 is greater than available qty.
+8190FL21ZU02550                 636.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZU02600                 256.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZU02650                 463.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZU02710                 180.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZU02770                 611.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZU02860                 185.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZU02910                 238.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZU03090                 129.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZU03150                  76.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZU03210                 198.000 11122018                      198.000 is greater than available qty.
+8190FL21ZU03250                 120.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZU06220                 139.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZU06270                 124.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZU06380                  94.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZU06480                 110.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZU06560                 155.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZU10820                  30.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZU11680                  60.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZU22760                  20.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL21ZU24320                 126.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL51W49092B                 200.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL51WN4523B                1800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL51ZQ13360                1681.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL51ZQ52610                 184.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL51ZT43760                1276.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL51ZT43820                1389.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL51ZT43980                1439.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL51ZU02230                 260.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL51ZU02340                  54.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL51ZU02940                 105.000 11122018                      105.000 is greater than available qty.
+8190FL51ZU05690                  63.000 11122018                No data for reduction.
+8190FL51ZU02400                 140.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL51ZU06190                 139.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL51ZU10790                  14.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL51ZU11650                  75.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL51ZU22730                  14.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL51ZU24030                  37.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL51ZU24060                  21.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL51ZU24290                 150.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL51ZU24380                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL51ZU44090                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL91ZS97790                 113.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL91ZS97800                  50.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL91ZS97830                  45.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL91ZS97840                  68.000 11122018                       68.000 is greater than available qty.
+8190FL91ZS97900                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL91ZS97960                  14.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL91ZS97970                   4.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL91ZS97990                  19.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL91ZS98070                   3.000 11122018                        3.000 is greater than available qty.
+8190FL91ZS98080                   2.000 11122018                No data for reduction.
+8190FL91ZS98100                   6.000 11122018                No data for reduction.
+8190FL91ZS98110                   1.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL91ZS98130                   1.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL91ZS98190                   5.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL91ZS98200                  16.000 11122018                       16.000 is greater than available qty.
+8190FL91ZS98230                 100.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FL91ZS98300                  14.000 11122018                       14.000 is greater than available qty.
+8190FL91ZS98360                 369.000 11122018                      369.000 is greater than available qty.
+8190FL91ZS98380                  38.000 11122018                       38.000 is greater than available qty.
+8190FL91ZS99100                  18.000 11122018                       18.000 is greater than available qty.
+8190FL91ZS99130                   5.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP62570                4320.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP62580                1520.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP62610                2640.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP62640                9600.000 11122018                No data for reduction.
+8190FLA0ZP62650                8100.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP62670                6000.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP62690                2560.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP62700                2240.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP62770                2240.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP62790                1280.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP62810                2560.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP62820                1280.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP62840                1280.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP62860                2560.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP62880                1280.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP62900                2400.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP62910                7240.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP62940                 800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP62990                8000.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63010                1000.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63020                1720.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63030                1280.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63040                 960.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63050                2160.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63060                1120.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63080                 920.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63100                 800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63120                1520.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63160                4320.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63180                 800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63190                1200.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63200                1200.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63210                1080.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63380                1280.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63410                 800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63420                1280.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63430                1280.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63450                 800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63470                 720.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63490                1280.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63500                1280.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63520                4320.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63540                1360.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63560                2120.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63580                1680.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63600                3120.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63620                2520.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63630                1840.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63640                3200.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63650                1720.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63670                1720.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63710                1680.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63750                 320.000 11122018                      320.000 is greater than available qty.
+8190FLA0ZP63780                1640.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63800                1840.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63820                1880.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP63890                1960.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP64140                3680.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP64220                 240.000 11122018                      240.000 is greater than available qty.
+8190FLA0ZP64270                 240.000 11122018                      240.000 is greater than available qty.
+8190FLA0ZP64710                 200.000 11122018                No data for reduction.
+8190FLA0ZP64960                 480.000 11122018                No data for reduction.
+8190FLA0ZP65980                2640.000 11122018                     2640.000 is greater than available qty.
+8190FLA0ZP64170                 200.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP64250                 160.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP64290                 240.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP64350                  40.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP64490                  80.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP64510                 160.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP64740                  40.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP64770                 120.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP64820                 800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP64840                1500.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP64860                2560.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP64880                 880.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP64930                 320.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP65090                1320.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP65150                1320.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP67610                1200.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP67630                1600.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP67650                1200.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP67660                1200.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP67680                1520.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP67700                 400.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP67840                  80.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP67850                  40.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP67890                  80.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP67900                1120.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZP90570                2560.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZQ31620                 120.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZT45990                2400.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZU49270               10200.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZU49290                1680.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZU49300                 720.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZU49310                8100.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZU49330                1280.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZW90610                1000.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZW90630                1000.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA0ZY51560                 200.000 11122018                No data for reduction.
+8190FLA1ZE20540                1384.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA1ZE20620                 180.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA1ZE20660                  30.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA1ZE20670                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA1ZE20750                1570.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA1ZE20810                 140.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA1ZE20840                  20.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA1ZP67780                  20.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA1ZP67820                  20.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA1ZT44020                1175.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA1ZU02270                 330.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA1ZU02980                  27.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA1ZU24050                  27.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA1ZU24080                  40.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA2ZE22470               14400.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA2ZE22480                2160.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA2ZE22490                3240.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA2ZE22500                2160.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA2ZE22510                1980.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA2ZE22520                 180.000 11122018                No data for reduction.
+8190FLA2ZE22530                 360.000 11122018                No data for reduction.
+8190FLA2ZE22540                3240.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA2ZE22550                1620.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA2ZE22560                1620.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA2ZE22570                1800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA2ZE22580                 180.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA2ZE22590                 360.000 11122018                      360.000 is greater than available qty.
+8190FLA2ZE22600                1800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA2ZE22610                1800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA2ZE22620                 180.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA2ZE22630                1620.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLA2ZE22640                3780.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLT9W48330Q                4700.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLT9W48331P                2800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLT9W48331Q               13900.000 11122018                    13900.000 is greater than available qty.
+8190FLT9W48332P                1700.000 11122018                     1700.000 is greater than available qty.
+8190FLT9W48333P                1500.000 11122018                     1500.000 is greater than available qty.
+8190FLT9W48332Q                2900.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLT9W48333Q                2700.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190FLT9W74419P                1000.000 11122018                     1000.000 is greater than available qty.
+8190FLT9W74419Q                5300.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190PN91AAD7534                 660.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190PN91VAG5550                 180.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190PN91VAG5560                 360.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190PN91ZJ99880                5400.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190RC91AAC1793                 800.000 11122018                No data for reduction.
+8190RC91AAC1838               10400.000 11122018                    10400.000 is greater than available qty.
+8190RC91AAC1841                1400.000 11122018                No data for reduction.
+8190RC91AAC1844               26650.000 11122018                    26650.000 is greater than available qty.
+8190RC91AAC7993                 300.000 11122018                No data for reduction.
+8190RC91AAC7994                 300.000 11122018                No data for reduction.
+8190SX21VAS1220                1770.000 11122018                     1770.000 is greater than available qty.
+8190SX21VAS1240                 480.000 11122018                      480.000 is greater than available qty.
+8190SX21VAW0810                  80.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21VAW0840                  40.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21W967990                  56.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21WF9525C                  47.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21WQ4642E                  20.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21WQ4674E                 865.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21WY9341C                 283.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21WZ70060                 100.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21WZ70070                  55.000 11122018                       55.000 is greater than available qty.
+8190SX21WZ9110C                  47.000 11122018                       47.000 is greater than available qty.
+8190SX21WZ9116C                  35.000 11122018                       35.000 is greater than available qty.
+8190SX21WZ9134C                 288.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21WZ9137C                  66.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21WZ9183C                  21.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21WZ9184C                  61.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21WZ9216C                  33.000 11122018                       33.000 is greater than available qty.
+8190SX21WZ9853C                   9.000 11122018                        9.000 is greater than available qty.
+8190SX21ZA1478C                  20.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZA1479C                  17.000 11122018                       17.000 is greater than available qty.
+8190SX21ZA1493C                   5.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZA1494C                   9.000 11122018                No data for reduction.
+8190SX21ZA1499C                  10.000 11122018                       10.000 is greater than available qty.
+8190SX21ZA1500C                   5.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZA5245C                 522.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZC7633D                  30.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZC7783E                 101.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZF2087C                 252.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZH4953C                  28.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZH5035C                   7.000 11122018                        7.000 is greater than available qty.
+8190SX21ZJ19280                 508.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZJ3272C                   1.000 11122018                No data for reduction.
+8190SX21ZK13360                   8.000 11122018                        8.000 is greater than available qty.
+8190SX21ZK3811C                  30.000 11122018                       30.000 is greater than available qty.
+8190SX21ZQ83610                 744.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ83740                1436.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ83810                1441.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ83930                1506.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ84100                1438.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ84350                1327.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ84490                1414.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ84650                1599.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ84860                1602.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ85100                1535.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ86000                1042.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ86110                1228.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ86250                 997.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ86340                1169.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ86460                1409.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ86540                1654.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ86640                1069.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ86690                1278.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ86770                1625.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ87130                1527.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ87220                1444.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ87420                1425.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ88220                1342.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ88320                1356.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ88400                1321.000 11122018                     1321.000 is greater than available qty.
+8190SX21ZQ88520                1287.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ88650                1321.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ88890                1190.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ88990                1393.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ89050                1470.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ89110                1312.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ89230                1162.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ91320                1011.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ91380                 891.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ92710                 450.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ92770                 600.000 11122018                      600.000 is greater than available qty.
+8190SX21ZQ93230                 336.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ93360                 539.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ93540                 385.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ93610                 385.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ93710                 432.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ93870                 120.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ94750                 304.000 11122018                      304.000 is greater than available qty.
+8190SX21ZQ95040                 214.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ95270                 304.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ95400                 237.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ95480                 285.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ95600                 278.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ95770                 240.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ95910                 207.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ96010                 112.000 11122018                      112.000 is greater than available qty.
+8190SX21ZQ96090                  81.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ96240                 119.000 11122018                      119.000 is greater than available qty.
+8190SX21ZQ96340                 109.000 11122018                      109.000 is greater than available qty.
+8190SX21ZQ96450                 252.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ96620                 270.000 11122018                      270.000 is greater than available qty.
+8190SX21ZQ96960                 226.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ97030                 164.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ98040                 253.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ98110                 176.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ98200                 217.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ98270                 209.000 11122018                      209.000 is greater than available qty.
+8190SX21ZQ98350                 247.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ98440                 206.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ98550                 195.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ98670                 237.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ98720                 175.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ98800                 151.000 11122018                      151.000 is greater than available qty.
+8190SX21ZQ98870                 279.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ98930                 301.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ99010                 135.000 11122018                      135.000 is greater than available qty.
+8190SX21ZQ99100                 128.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ99190                 212.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ99290                 167.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ99790                 208.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZQ99850                 128.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZR01040                  88.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZR01170                 119.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZR01250                 120.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZR01340                  85.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZR01530                 112.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZR01650                 120.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZR01840                  88.000 11122018                       88.000 is greater than available qty.
+8190SX21ZS06040                 408.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZS06090                 433.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZS06170                 451.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZS06260                 298.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZT42880                  62.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZT42950                  88.000 11122018                       88.000 is greater than available qty.
+8190SX21ZT43120                  70.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZT43210                  64.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZW90290                 400.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZW90300                 400.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZW90350                 400.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZW90360                 400.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZY84910                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZY84960                  60.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZY85180                  60.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZY85230                  60.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZY85290                  60.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZY85340                  60.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZY85380                  50.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZY85430                  60.000 11122018                       60.000 is greater than available qty.
+8190SX21ZY85462                  40.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZY85800                  70.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZY85860                  30.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZY85920                  50.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZY86470                  60.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZZ32200                  20.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZZ32230                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZZ32410                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZZ32660                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX21ZZ32740                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51VAR9920                  30.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51VAR9930                1342.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51VAR9940                  90.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51VAR9950                 103.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51VAR9960                  10.000 11122018                       10.000 is greater than available qty.
+8190SX51VAS0010                  90.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51VAW0530                  20.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51VAZ2970                  80.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51VAZ3000                  40.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51VAZ4570                  10.000 11122018                No data for reduction.
+8190SX51VCN0650                1000.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51W16669B                 853.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51W16669E                  30.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51W59455C                1062.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51W59455E                  60.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51W59678A                  29.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51W60549A                  47.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51W60550A                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51W61197A                  78.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51W61637A                  10.000 11122018                No data for reduction.
+8190SX51W61669A                   5.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51W61675A                  29.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51W61948A                  25.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51W61993A                  64.000 11122018                       64.000 is greater than available qty.
+8190SX51W61994A                 131.000 11122018                      131.000 is greater than available qty.
+8190SX51W93546B                  19.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51W93547A                 331.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51W93547C                  30.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51W93548A                 253.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51W93548C                  29.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51W93627B                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51W967810                  74.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WF9216B                1058.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WF9464P                 678.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WF9812B                 639.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WF9812E                  28.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WF9813B                 568.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WF9813F                 752.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WF9814B                 584.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WF9814E                 604.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WK0455A                  54.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WK0456A                   8.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WK0458A                 497.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WK0459A                  22.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WK0460A                 408.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WK0603B                  20.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WK0619B                  59.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WN7902A                  40.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WQ4642B                  26.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WQ4674B                 800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WZ91100                  24.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WZ9110E                   1.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WZ91160                  17.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WZ91340                 300.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WZ91370                  29.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WZ91390                  76.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WZ91830                  18.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WZ91840                  31.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WZ92160                  20.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51WZ98530                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZA14780                   5.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZA14790                   9.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZA14930                   1.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZA14940                   3.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZA14990                   9.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZA15000                   5.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZA52440                 505.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZA52450                 482.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZC7290A                 290.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZC7633A                  24.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZD10850                  42.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZD10860                  38.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZD11700                  12.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZD11720                  12.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZD1173B                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZD12340                   6.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZD12390                   1.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZD12400                   1.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZF2087A                 204.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZF65890                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZH49530                  16.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZH50320                   7.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZH50350                   2.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZJ32720                   1.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZJ32740                   1.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZK38110                  14.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ11670                 550.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ11680                  75.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ11690                 850.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ83560                 337.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ83670                 514.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ83790                 517.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ83910                 545.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ84070                 582.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ84310                 617.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ84470                 494.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ84600                 563.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ84830                 609.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ85050                 559.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ85910                 496.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ86080                 540.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ86220                 579.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ86320                 637.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ86440                 533.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ86520                 578.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ86610                 437.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ86670                 607.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ86740                 562.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ86960                 500.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ87200                 499.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ87380                 587.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ88190                 579.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ88290                 544.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ88380                 572.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ88480                 535.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ88620                 508.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ88850                 469.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ88970                 431.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ89030                 506.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ89090                 491.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ89210                 505.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ90970                   2.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91000                  33.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91020                  59.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91040                 101.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91060                  36.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91080                  92.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91160                  41.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91180                  71.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91200                  34.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91220                  47.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91240                  86.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91260                  81.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91280                  59.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91300                 139.000 11122018                      139.000 is greater than available qty.
+8190SX51ZQ91360                  43.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91440                  47.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91460                  34.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91480                  82.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91500                  23.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91520                  12.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91540                  74.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91560                  34.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91580                  28.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91600                  34.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91620                 105.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91640                  55.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91670                  64.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91710                  19.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91740                  57.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91760                  42.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91780                  38.000 11122018                       38.000 is greater than available qty.
+8190SX51ZQ91800                  61.000 11122018                       61.000 is greater than available qty.
+8190SX51ZQ91820                  13.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ91840                  72.000 11122018                       72.000 is greater than available qty.
+8190SX51ZQ92310                  25.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ92750                  44.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ92820                  29.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ93300                  26.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ93490                  34.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ93670                  26.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ94310                 481.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ94370                 514.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ94400                 868.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ94420                 815.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ94440                 719.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ94470                 813.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ94520                 452.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ94550                 661.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ94570                 923.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ94700                  59.000 11122018                       59.000 is greater than available qty.
+8190SX51ZQ94630                 805.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ94650                 845.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ94710                 660.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ94730                 632.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ94770                 524.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ94800                 447.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ94830                 393.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ94850                 304.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ94890                 609.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ94910                 826.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ94930                 723.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ94950                 940.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ94970                 809.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ95000                  43.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ95010                 694.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ95050                 689.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ95080                 365.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ95100                 615.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ95120                 252.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ95140                 329.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ95180                 782.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ95210                 587.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ95220                  60.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ95240                 725.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ95280                 771.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ95320                 716.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ95350                 689.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ95360                  81.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ95390                 688.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ95460                  30.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ95560                  42.000 11122018                       42.000 is greater than available qty.
+8190SX51ZQ95660                 326.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ95720                  68.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ95730                  40.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ95890                  74.000 11122018                       74.000 is greater than available qty.
+8190SX51ZQ95990                  60.000 11122018                       60.000 is greater than available qty.
+8190SX51ZQ96060                  43.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ96210                  48.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ96320                  55.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ96600                  80.000 11122018                       80.000 is greater than available qty.
+8190SX51ZQ96430                  51.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ96940                  75.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ97010                  57.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ98020                  63.000 11122018                       63.000 is greater than available qty.
+8190SX51ZQ98090                  77.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ98180                  69.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ98250                  49.000 11122018                       49.000 is greater than available qty.
+8190SX51ZQ98320                  70.000 11122018                       70.000 is greater than available qty.
+8190SX51ZQ98420                  42.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ98530                  43.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ98650                  71.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ98700                  62.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ98770                  95.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ98850                  74.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ98910                  42.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ98980                  61.000 11122018                       61.000 is greater than available qty.
+8190SX51ZQ99080                  42.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ99170                  39.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ99270                  21.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ99440                  13.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ99460                  12.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ99480                   4.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ99540                   8.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ99620                  13.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ99710                   8.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ99750                  12.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ99970                  14.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZQ99990                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR00050                   8.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR00310                  50.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR00350                 137.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR00380                 183.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR00420                 142.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR00450                 158.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR00480                 163.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR00510                 136.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR00540                 121.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR00570                 146.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR00600                 124.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR00630                 156.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR00660                 115.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR00700                 101.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR00730                 102.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR00760                  72.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR00800                 153.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR00830                  79.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR00860                 129.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR00890                  92.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR00920                 145.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR00950                 182.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR00980                 158.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR01010                  83.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR01080                  93.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR01110                 106.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR01140                  88.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR01220                 107.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR01310                 131.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR01360                 176.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR01390                 167.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR01420                  62.000 11122018                       62.000 is greater than available qty.
+8190SX51ZR01470                 174.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR01500                  58.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR01590                  78.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR01700                   9.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR01720                   8.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR02080                  85.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR02120                  48.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR02160                  56.000 11122018                       56.000 is greater than available qty.
+8190SX51ZR02190                  42.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR02220                  48.000 11122018                       48.000 is greater than available qty.
+8190SX51ZR02250                  35.000 11122018                       35.000 is greater than available qty.
+8190SX51ZR02440                  72.000 11122018                       72.000 is greater than available qty.
+8190SX51ZR10660                 381.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR10680                 362.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR10700                 350.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR10720                 299.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR10740                 386.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZR16850                  30.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZS06020                  37.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZS06070                  61.000 11122018                       61.000 is greater than available qty.
+8190SX51ZS06150                 116.000 11122018                      116.000 is greater than available qty.
+8190SX51ZS06230                  27.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZT24060                 357.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZT24080                 281.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZT26120                 283.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZT42850                  39.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY85950                  59.000 11122018                       59.000 is greater than available qty.
+8190SX51ZY86720                  10.000 11122018                No data for reduction.
+8190SX51ZY86740                  10.000 11122018                No data for reduction.
+8190SX51ZT42920                  54.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZT43090                  46.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZT43180                  42.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZT75800                 400.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZV28510                 766.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZV28530                 560.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZV28540                 106.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZV28550                  75.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZV28560                  16.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY84700                  37.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY84830                   1.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY84930                  46.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY84980                  19.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY85200                  18.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY85250                  26.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY85310                  45.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY85360                  35.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY85400                  27.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY85450                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY85460                  14.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY85690                   8.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY85820                  52.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY85890                  22.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY86490                  18.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY86730                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY86750                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY86760                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY86770                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY86780                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY86790                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY86800                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY86810                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY86820                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY86830                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY86840                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY86850                  10.000 11122018                       10.000 is greater than available qty.
+8190SX51ZY86860                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZY86870                  10.000 11122018                       10.000 is greater than available qty.
+8190SX51ZZ32170                  34.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZZ32220                  40.000 11122018                No data for reduction.
+8190SX51ZZ32250                  41.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZZ32290                  45.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZZ32330                  14.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZZ32380                  38.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZZ32430                  32.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZZ32600                  16.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZZ32650                  39.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZZ32680                  35.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZZ32710                  46.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZZ32760                  30.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZZ32790                  36.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZZ32820                  13.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZZ32850                  39.000 11122018                       39.000 is greater than available qty.
+8190SX51ZZ32880                  21.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZZ32910                  30.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZZ42310                  10.000 11122018                No data for reduction.
+8190SX51ZZ42320                  10.000 11122018                No data for reduction.
+8190SX51ZZ42330                  10.000 11122018                       10.000 is greater than available qty.
+8190SX51ZZ42340                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZZ42350                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX51ZZ42360                  10.000 11122018                       10.000 is greater than available qty.
+8190SX51ZZ42370                  10.000 11122018                       10.000 is greater than available qty.
+8190SX51ZZ42380                  10.000 11122018                No data for reduction.
+8190SX51ZZ42390                  10.000 11122018                No data for reduction.
+8190SX51ZZ42400                  10.000 11122018                No data for reduction.
+8190SX51ZZ42410                  10.000 11122018                No data for reduction.
+8190SX51ZZ42420                  10.000 11122018                No data for reduction.
+8190SX51ZZ42430                  10.000 11122018                       10.000 is greater than available qty.
+8190SX51ZZ42440                  10.000 11122018                       10.000 is greater than available qty.
+8190SX51ZZ42450                  10.000 11122018                No data for reduction.
+8190SX51ZZ42460                  10.000 11122018                No data for reduction.
+8190SX51ZZ42470                  10.000 11122018                No data for reduction.
+8190SX91WZ00190                 289.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX91WZ00210                  29.000 11122018                       29.000 is greater than available qty.
+8190SX91WZ00290                  16.000 11122018                       16.000 is greater than available qty.
+8190SX91WZ00310                   5.000 11122018                        5.000 is greater than available qty.
+8190SX91WZ00370                   1.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX91WZ00560                   1.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX91WZ44940                 476.000 11122018                      476.000 is greater than available qty.
+8190SX91WZ44960                  58.000 11122018                       58.000 is greater than available qty.
+8190SX91WZ44990                   8.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX91WZ45000                  69.000 11122018                       69.000 is greater than available qty.
+8190SX91WZ45010                  19.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX91WZ62850                  29.000 11122018                       29.000 is greater than available qty.
+8190SX91WZ62900                  10.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SX91ZH37510                   1.000 11122018                No data for reduction.
+8190SX91ZJ02610                  11.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0VAS1330                1440.000 11122018                     1440.000 is greater than available qty.
+8190SXA0W59455F                 900.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP62830                 930.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP62850                2040.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP62870                1620.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP62890                1800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP62920                1710.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP62950                1440.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP62970                1620.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63000                1440.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63070                1710.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63090                2400.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63110                2160.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63130                1680.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63150                1890.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63170                1080.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63230                1530.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63240                1380.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63250                1620.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63260                1890.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63270                1890.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63360                1530.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63370                1050.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63390                2850.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63400                1710.000 11122018                     1710.000 is greater than available qty.
+8190SXA0ZP63440                 900.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63460                1710.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63480                1440.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63510                1080.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63530                 780.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63550                 810.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63570                1620.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63610                1080.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63680                1110.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63690                1200.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63720                1170.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63730                1350.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63740                1140.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63760                1440.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63770                1650.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63790                 390.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63810                1860.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63830                1860.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63840                1140.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63850                 900.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63870                 900.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63880                1440.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63900                 900.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63920                6210.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63930                1140.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63940                1080.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63950                1140.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63960                1620.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63970                1800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP63980                1350.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64000                1260.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64010                1260.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64020                1560.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64030                1350.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64040                1530.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64050                1020.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64060                1530.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64070                4530.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64080                 990.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64090                 780.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64100                 240.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64110                 750.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64120                 360.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64300                 480.000 11122018                      480.000 is greater than available qty.
+8190SXA0ZP64340                 320.000 11122018                      320.000 is greater than available qty.
+8190SXA0ZP64630                 432.000 11122018                      432.000 is greater than available qty.
+8190SXA0ZP64640                  64.000 11122018                       64.000 is greater than available qty.
+8190SXA0ZP64150                 360.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64160                 360.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64180                 960.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64190                 810.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64200                1440.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64210                 300.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64240                 570.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64260                 510.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64280                 510.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64310                 320.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64400                 320.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64410                 160.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64420                 320.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64450                 160.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64610                 352.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64650                 160.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64660                 208.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64690                 176.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64750                 208.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64790                 224.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64810                 288.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64830                 144.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64850                 320.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64870                  96.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64890                 352.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64920                 176.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64970                 192.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP64990                 384.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP65000                 320.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP65010                 576.000 11122018                No data for reduction.
+8190SXA0ZP65020                 320.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP65040                 320.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP65050                  16.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP65160                 160.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP65180                 480.000 11122018                      480.000 is greater than available qty.
+8190SXA0ZP65200                 480.000 11122018                      480.000 is greater than available qty.
+8190SXA0ZP65220                 320.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP65230                 480.000 11122018                No data for reduction.
+8190SXA0ZP65240                 256.000 11122018                      256.000 is greater than available qty.
+8190SXA0ZP66010                1740.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66020                 240.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66030                1800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66090                1980.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66100                3600.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66110                 900.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66120                1800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66130                 900.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66190                 300.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66200               29000.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66220                1800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66240                 930.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66250                1848.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66270                1848.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66280                4536.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66320                 128.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66350                 288.000 11122018                      288.000 is greater than available qty.
+8190SXA0ZP66390                 512.000 11122018                      512.000 is greater than available qty.
+8190SXA0ZP66400                 256.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66410                 160.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66420                 176.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66440                 288.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66450                 352.000 11122018                      352.000 is greater than available qty.
+8190SXA0ZP66460                 240.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66470                2772.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66480                 192.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66500                 384.000 11122018                No data for reduction.
+8190SXA0ZP66520                 112.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66530                1800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66540                 128.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66560                1950.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66570                 144.000 11122018                No data for reduction.
+8190SXA0ZP66580                  80.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66590                7560.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66600                 320.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66610                9000.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66620                 208.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66630                 384.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66640                 256.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66660                 160.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66670                 352.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66680                 176.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66700                 384.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66720                1800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66730                 192.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66740                4320.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66770                 320.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66800                 160.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66810                1710.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66820                 160.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66830                1620.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66840                 192.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66850                1260.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66860                 320.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66870                  80.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66880                 210.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66900                  64.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66910                2040.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66930                1620.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66940                1140.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66950                2700.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66970                1710.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP66980                 270.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67010                 810.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67020                 720.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67040                 540.000 11122018                      540.000 is greater than available qty.
+8190SXA0ZP67030                1080.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67050                1530.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67070                1080.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67090                5600.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67110                 360.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67120                1800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67140                1800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67160                1170.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67180                 768.000 11122018                No data for reduction.
+8190SXA0ZP67190                1140.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67200                 256.000 11122018                      256.000 is greater than available qty.
+8190SXA0ZP67210                1080.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67220                 256.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67230                1050.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67240                 176.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67260                6500.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67270                 160.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67280                1710.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67290                 320.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67300                 900.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67320                  64.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67350                 990.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67380                 660.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67390                1620.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67400                1800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67410                1080.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67420                1530.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67430                 930.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67440                 900.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67450                 930.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67470                 930.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67500                2790.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67520                  90.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67540                 160.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67550                2790.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67560                  80.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67590                 930.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67640                1860.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67670                1860.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67690                 930.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67710                1860.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67740                1080.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67760                 930.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67940                5400.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67980                 630.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP67990                 384.000 11122018                No data for reduction.
+8190SXA0ZP68020                 576.000 11122018                      576.000 is greater than available qty.
+8190SXA0ZP68030                 176.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP68040                 192.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP90580                1800.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZP90590                 160.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZQ11650                2100.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZR23210                2790.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZR48720                6390.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZW90640                1170.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZW90650                2070.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZW90670                 990.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZW90690                1530.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZW90770                 810.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZW90790                 360.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZW90810                 450.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZW90820                 450.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZW90830                 450.000 11122018                      450.000 is greater than available qty.
+8190SXA0ZW90860                 510.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZY84660                 300.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZY84770                 360.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZY84870                 150.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZY85610                 170.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA0ZY85730                  40.000 11122018                       40.000 is greater than available qty.
+8190SXA1VCM6210                 200.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA1VCM6230                 200.000 11122018                      200.000 is greater than available qty.
+8190SXA1W60653A                  35.000 11122018                       35.000 is greater than available qty.
+8190SXA1WY75110                 880.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA1WY75260                 688.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA1WY84940                 160.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA1WY84980                  40.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA1WY85000                  50.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA1WY85940                 115.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA1WY91390                 249.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA1WZ91400                 128.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA1ZA15040                   5.000 11122018                        5.000 is greater than available qty.
+8190SXA1ZA52480                 457.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA1ZC34590                 605.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA1ZC58580                 140.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA1ZC58750                  95.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA1ZH50360                   3.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA1ZK13370                  30.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA1ZK50340                  20.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA1ZK50360                  20.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA2ZF36800                 120.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA2ZF36880                 600.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA2ZF36890                 120.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA2ZF37070                 120.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA2ZF37110                 120.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA2ZF37120                 720.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA2ZF37200                 120.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA2ZF37260                 120.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA2ZF37320                 240.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA2ZF37330                 240.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA2ZF37340                 240.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA2ZF37350                 480.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA2ZF37380                  60.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA2ZF37420                 120.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA2ZF37430                  60.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA2ZF37500                 240.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA2ZF37540                 240.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA2ZF37620                 120.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA2ZF37630                 120.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA2ZF37680                 240.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA2ZF37700                 120.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA2ZF37710                 240.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA2ZF37750                 240.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA2ZF37760                 120.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXA2ZF37770                 120.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXT9W934630                 400.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXT9W934680                 500.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190SXT9W935000                 100.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190VN21ZY13580                 150.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190VN51ZY13600                 150.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.
+8190VNA0ZY13520                1320.000 11122018                Registration of Production completion Slip results data(YMAK3070) went wrong.

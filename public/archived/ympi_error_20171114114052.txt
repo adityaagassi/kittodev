@@ -1,0 +1,2 @@
+8190CL21ZR23750                  20.000 14112017                No data for reduction.
+8190SX51ZS64490                  15.000 13112017                       15.000 is greater than available qty.

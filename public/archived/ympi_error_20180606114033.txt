@@ -1,0 +1,10 @@
+8190CL21WF9195C                  75.000 05062018                       75.000 is greater than available qty.
+8190CL21WF9195C                 100.000 06062018                      100.000 is greater than available qty.
+8190FL51ZU94760                   5.000 06062018                        5.000 is greater than available qty.
+8190SX21WZ9116C                  16.000 05062018                       16.000 is greater than available qty.
+8190SX21ZK13360                   4.000 05062018                        4.000 is greater than available qty.
+8190SX51ZA14780                  10.000 05062018                       10.000 is greater than available qty.
+8190SX51ZA14790                  25.000 05062018                       25.000 is greater than available qty.
+8190SX51ZQ91000                  43.000 05062018                       43.000 is greater than available qty.
+8190SX51ZQ99560                   8.000 05062018                        8.000 is greater than available qty.
+8190SX51ZR00110                   8.000 05062018                        8.000 is greater than available qty.

@@ -1,0 +1,4 @@
+8190SX21ZY84910                  10.000 23022018                       10.000 is greater than available qty.
+8190SX21ZZ32630                  10.000 23022018                       10.000 is greater than available qty.
+8190SX21ZZ32800                  20.000 23022018                       20.000 is greater than available qty.
+8190SX51ZT49570                   2.000 23022018                No data for reduction.

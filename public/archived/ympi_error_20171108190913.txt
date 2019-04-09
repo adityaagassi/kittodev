@@ -1,0 +1,2 @@
+8190SX21ZK13360                   1.000 08112017                No data for reduction.
+8190SX21ZZ32200                  10.000 08112017                       10.000 is greater than available qty.

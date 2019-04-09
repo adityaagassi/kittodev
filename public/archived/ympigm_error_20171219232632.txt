@@ -1,0 +1,7 @@
+8190           8190ZA52480           SXA18190SX21000000014.000                    20171219MB1B                9I4    Deficit of SL Unrestricted-use 2 PC : ZA52480 8190 SX21
+8190           8190ZT97850           CL218190CL51000000011.000                    20171219MB1B                9i3    Movement Type 9i3 not supported (check your entry)
+8190           8190ZQ89110           SX218190SX51000000015.000                    20171219MB1B                9I3    Deficit of SL Unrestricted-use 15 PC : ZQ89110 8190 SX21
+8190           8190ZA1499C           SX218190SX51000000001.000                    20171219MB1B                9I3    Deficit of SL Unrestricted-use 1 PC : ZA1499C 8190 SX21
+8190           8190ZA1499C           SX218190SX51000000001.000                    20171219MB1B                9I3    Deficit of SL Unrestricted-use 1 PC : ZA1499C 8190 SX21
+8190           8190ZW92240           CLA08190CL21000000040.000                    20171219MB1B                9I3    Deficit of SL Unrestricted-use 40 PC : ZW92240 8190 CLA0
+8190           8190ZW92240           CLA08190CL21000000040.000                    20171219MB1B                9I3    Deficit of SL Unrestricted-use 40 PC : ZW92240 8190 CLA0

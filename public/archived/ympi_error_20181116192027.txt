@@ -1,0 +1,4 @@
+8190SX21WQ4642E                  15.000 16112018                       15.000 is greater than available qty.
+8190SX21ZQ99010                  31.000 16112018                       31.000 is greater than available qty.
+8190SX51W60891A                   8.000 16112018                No data for reduction.
+8190SXA0ZP66520                 336.000 16112018                      336.000 is greater than available qty.

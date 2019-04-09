@@ -1,0 +1,6 @@
+8190CL21VAS1270                  20.000 10102018                No data for reduction.
+8190CL21ZQ87550                  20.000 10102018                No data for reduction.
+8190CLA0W93573E                  40.000 10102018                No data for reduction.
+8190CLA0ZW92240                  40.000 11102018                No data for reduction.
+8190FLA0ZP64940                 320.000 10102018                      320.000 is greater than available qty.
+8190SX51ZJ32720                   1.000 11102018                No data for reduction.
