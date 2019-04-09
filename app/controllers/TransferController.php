@@ -24,8 +24,8 @@ class TransferController extends BaseController {
 
 	function getFilterTransfers($data) {
 		$transfersTable = DB::table('transfers')
-						->leftJoin('materials', 'transfers.material_id', '=', 'materials.id')
-						->leftJoin('completions', 'transfers.completion_id', '=', 'completions.id');
+		->leftJoin('materials', 'transfers.material_id', '=', 'materials.id')
+		->leftJoin('completions', 'transfers.completion_id', '=', 'completions.id');
 		if (isset($data['barcode_transfer']) && strlen($data['barcode_transfer']) > 0) {
 			if (isset($data['barcode_transfer_state'])) {
 				if ($data['barcode_transfer_state'] == "contain") {
@@ -81,24 +81,24 @@ class TransferController extends BaseController {
 		}
 
 		$transfers = $transfersTable
-						->select(
-							'transfers.id',
-							'transfers.barcode_number_transfer',
-							'materials.material_number',
-							'materials.location',
-							'materials.description',
-							'transfers.lot_transfer',
-							'completions.barcode_number',
-							'transfers.issue_location',
-							'transfers.receive_location',
-							'transfers.issue_plant',
-							'transfers.receive_plant',
-							'transfers.transaction_code',
-							'transfers.movement_type',
-							'transfers.reason_code'
-						)
-						->orderBy('transfers.id', 'asc')->get();
-						
+		->select(
+			'transfers.id',
+			'transfers.barcode_number_transfer',
+			'materials.material_number',
+			'materials.location',
+			'materials.description',
+			'transfers.lot_transfer',
+			'completions.barcode_number',
+			'transfers.issue_location',
+			'transfers.receive_location',
+			'transfers.issue_plant',
+			'transfers.receive_plant',
+			'transfers.transaction_code',
+			'transfers.movement_type',
+			'transfers.reason_code'
+		)
+		->orderBy('transfers.id', 'asc')->get();
+
 		return $transfers;
 	}
 
@@ -114,15 +114,15 @@ class TransferController extends BaseController {
 			// $material = Material::findOrFail($transfer->material_id);
 			// if (isset($material)) {
 				// $inventory = self::getInventoryLot($material->material_number);
-				$inventory = self::getInventoryLot($transfer->barcode_number_transfer);
-				if (isset($inventory)) {
-					if ($inventory->lot == 0) {
-						DB::table('transfers')->where('id', '=', $transfer->id)->delete();
-					}
-				}
-				else {
+			$inventory = self::getInventoryLot($transfer->barcode_number_transfer);
+			if (isset($inventory)) {
+				if ($inventory->lot == 0) {
 					DB::table('transfers')->where('id', '=', $transfer->id)->delete();
 				}
+			}
+			else {
+				DB::table('transfers')->where('id', '=', $transfer->id)->delete();
+			}
 			// }
 		}
 		return Redirect::to($url);
@@ -154,11 +154,11 @@ class TransferController extends BaseController {
 	public function openAddPage() {
 		$completions = Completion::select('id', 'barcode_number')->orderBy('barcode_number', 'ASC')->get();
 		$issue_locations = DB::table('materials')
-					->select('location')
-					->orderBy('location', 'asc')
-					->groupBy('location')
-					->having('location', '<>', '')
-					->get();
+		->select('location')
+		->orderBy('location', 'asc')
+		->groupBy('location')
+		->having('location', '<>', '')
+		->get();
 		$receive_locations = array('SX91', 'CL91', 'FL91', 'SX51', 'CL51', 'FL51', 'CLB9', 'SX21', 'CL21', 'FL21', 'VNA0', 'VN51', 'FLT9', 'CLA0', 'SXA0', 'SXA1', 'SXT9', 'FLA1', 'FLA2', 'SXA2', 'CLA2', 'FLA0', 'VN91', 'VN11', 'VN21', 'FSTK');
 		return View::make('transfers.add', array(
 			'page' => 'transfers',
@@ -231,11 +231,11 @@ class TransferController extends BaseController {
 			$transfer = Transfer::findOrFail($id);
 			$completions = Completion::select('id', 'barcode_number')->orderBy('barcode_number', 'ASC')->get();
 			$issue_locations = DB::table('materials')
-						->select('location')
-						->orderBy('location', 'asc')
-						->groupBy('location')
-						->having('location', '<>', '')
-						->get();
+			->select('location')
+			->orderBy('location', 'asc')
+			->groupBy('location')
+			->having('location', '<>', '')
+			->get();
 			$receive_locations = array('SX91', 'CL91', 'FL91', 'SX51', 'CL51', 'FL51', 'CLB9', 'SX21', 'CL21', 'FL21', 'VNA0', 'VN51', 'FLT9', 'CLA0', 'SXA0', 'SXA1', 'SXT9', 'FLA1', 'FLA2', 'SXA2', 'CLA2', 'FLA0', 'VN91', 'VN11', 'VN21', 'FSTK');
 			return View::make('transfers.edit', array(
 				'page' => 'transfers',
@@ -397,12 +397,13 @@ class TransferController extends BaseController {
 		$data["barcode_number"] = $reference_barcode;
 		$data["lot"] = $inventory->lot - $transfer->lot_transfer;
 		$data["last_action"] = "transfer";
+		$data["status"] = "1";
 		self::updateInventory($inventory->id, $data);
 
 		$history['category'] = "transfer";
 		$history['completion_description'] = $transfer->description;
 		$history['transfer_barcode_number'] = $transfer->barcode_number_transfer;
-		$history['transfer_document_number'] = "8190"; //
+		$history['transfer_document_number'] = "8190";
 		$history['transfer_material_id'] = $transfer->material_id;
 		$history['transfer_issue_location'] = $transfer->issue_location;
 		$history['transfer_issue_plant'] = $transfer->issue_plant;
@@ -417,6 +418,17 @@ class TransferController extends BaseController {
 			$history['user_id'] = $data['user_id'];
 		}
 		History::create($history);
+
+		if($transfer->issue_location == 'SX51' && $transfer->category == 'KEY' && $completion->limit_used != 1){
+			$tes = DB::connection('mysql2')
+			->table('barrel_queues')
+			->insert([
+				'material_number' => $transfer->material_number,
+				'tag' => $transfer->barcode_number_transfer,
+				'created_at' => date( 'Y-m-d H:i:s'),
+				'updated_at' => date( 'Y-m-d H:i:s')
+			]);
+		}
 
 		$response = array(
 			'status' => true, 
@@ -613,6 +625,7 @@ class TransferController extends BaseController {
 		$data["barcode_number"] = $reference_barcode;
 		$data["lot"] = $inventory->lot - $transfer->lot_transfer;
 		$data["last_action"] = "transfer_adjustment";
+		$data["status"] = "1";
 		self::updateInventory($inventory->id, $data);
 
 		$history['category'] = "transfer_adjustment";
@@ -634,6 +647,17 @@ class TransferController extends BaseController {
 			$history['user_id'] = $data['user_id'];
 		}
 		History::create($history);
+
+		if($transfer->issue_location == 'SX51' && $transfer->category == 'KEY' && $completion->limit_used != 1){
+			$tes = DB::connection('mysql2')
+			->table('barrel_queues')
+			->insert([
+				'material_number' => $transfer->material_number,
+				'tag' => $transfer->barcode_number_transfer,
+				'created_at' => date( 'Y-m-d H:i:s'),
+				'updated_at' => date( 'Y-m-d H:i:s')
+			]);
+		}
 
 		$response = array(
 			'status' => true, 
@@ -844,6 +868,7 @@ class TransferController extends BaseController {
 		$data["barcode_number"] = $reference_barcode;
 		$data["lot"] = $inventory->lot + $transfer->lot_transfer;
 		$data["last_action"] = "transfer_cancel";
+		$data["status"] = "0";
 		self::updateInventory($inventory->id, $data);
 
 		$history['category'] = "transfer_cancel";
@@ -882,12 +907,12 @@ class TransferController extends BaseController {
 		// 	}
 		// }
 		// else {
-			if (strtoupper($transfer->movement_type) == "9P1") {
-				$history['transfer_movement_type'] = "9P2";
-			}
-			else {
-				$history['transfer_movement_type'] = "9I4";
-			}
+		if (strtoupper($transfer->movement_type) == "9P1") {
+			$history['transfer_movement_type'] = "9P2";
+		}
+		else {
+			$history['transfer_movement_type'] = "9I4";
+		}
 		// }
 
 		$history['transfer_reason_code'] = $transfer->reason_code;
@@ -897,6 +922,13 @@ class TransferController extends BaseController {
 			$history['user_id'] = $data['user_id'];
 		}
 		History::create($history);
+
+		if($transfer->issue_location == 'SX51' && $transfer->category == 'KEY'){
+			$tes = DB::connection('mysql2')
+			->table('barrel_queues')
+			->where('tag', '=', $transfer->barcode_number_transfer)
+			->delete();
+		}
 
 		$response = array(
 			'status' => true, 
@@ -920,40 +952,40 @@ class TransferController extends BaseController {
 
 		$data = Input::all();
 		$historiesTable = DB::table('histories')
-					->join('materials', 'histories.transfer_material_id', '=', 'materials.id')
-					->leftJoin('users', 'histories.user_id', '=', 'users.id')
-					->select(
-						'histories.id',
-						DB::raw('(CASE histories.category
-							WHEN "transfer" THEN "Transfer"
-							WHEN "transfer_adjustment" THEN "Transfer Adjustment"
-							WHEN "transfer_adjustment_excel" THEN "Transfer Excel"
-							WHEN "transfer_adjustment_manual" THEN "Transfer Manual"
-							WHEN "transfer_cancel" THEN "Transfer Cancel"
-							WHEN "transfer_return" THEN "Transfer Return"
-							WHEN "transfer_repair" THEN "Transfer Repair"
-							WHEN "transfer_after_repair" THEN "Transfer After Repair"
-							WHEN "transfer_error" THEN "Transfer Error"
-							ELSE "Unidentified" END) AS category'),
-						'histories.transfer_barcode_number',
-						'histories.transfer_document_number',
-						'histories.transfer_material_id',
-						'histories.transfer_issue_location',
-						'histories.transfer_issue_plant',
-						'histories.transfer_receive_location',
-						'histories.transfer_receive_plant',
-						'histories.transfer_cost_center',
-						'histories.transfer_gl_account',
-						'histories.transfer_transaction_code',
-						'histories.transfer_movement_type',
-						'histories.transfer_reason_code',
-						'histories.lot',
-						'materials.material_number',
-						'materials.description',
-						'users.name',
-						'histories.created_at',
-						'histories.updated_at'
-					);
+		->join('materials', 'histories.transfer_material_id', '=', 'materials.id')
+		->leftJoin('users', 'histories.user_id', '=', 'users.id')
+		->select(
+			'histories.id',
+			DB::raw('(CASE histories.category
+				WHEN "transfer" THEN "Transfer"
+				WHEN "transfer_adjustment" THEN "Transfer Adjustment"
+				WHEN "transfer_adjustment_excel" THEN "Transfer Excel"
+				WHEN "transfer_adjustment_manual" THEN "Transfer Manual"
+				WHEN "transfer_cancel" THEN "Transfer Cancel"
+				WHEN "transfer_return" THEN "Transfer Return"
+				WHEN "transfer_repair" THEN "Transfer Repair"
+				WHEN "transfer_after_repair" THEN "Transfer After Repair"
+				WHEN "transfer_error" THEN "Transfer Error"
+				ELSE "Unidentified" END) AS category'),
+			'histories.transfer_barcode_number',
+			'histories.transfer_document_number',
+			'histories.transfer_material_id',
+			'histories.transfer_issue_location',
+			'histories.transfer_issue_plant',
+			'histories.transfer_receive_location',
+			'histories.transfer_receive_plant',
+			'histories.transfer_cost_center',
+			'histories.transfer_gl_account',
+			'histories.transfer_transaction_code',
+			'histories.transfer_movement_type',
+			'histories.transfer_reason_code',
+			'histories.lot',
+			'materials.material_number',
+			'materials.description',
+			'users.name',
+			'histories.created_at',
+			'histories.updated_at'
+		);
 
 		if (isset($data['start_date']) && strlen($data['start_date']) > 0) {
 			$date = $data['start_date'];
@@ -1002,7 +1034,7 @@ class TransferController extends BaseController {
 			$materialsIDsz = DB::table('materials')->select('id')->whereIn('material_number', $materials)->get();
 			$materialsIDs = Array();
 			foreach ($materialsIDsz as $object) {
-			    array_push($materialsIDs, $object->id);
+				array_push($materialsIDs, $object->id);
 			}
 			$historiesTable = $historiesTable->whereIn('histories.transfer_material_id', $materialsIDs);
 		}
@@ -1027,28 +1059,28 @@ class TransferController extends BaseController {
 			$historiesTable = $historiesTable->where('histories.category','=', $categories);
 		}
 		$histories = $historiesTable
-					->whereIn('histories.category', array(
-						'transfer', 
-						'transfer_adjustment',  
-						'transfer_adjustment_excel', 
-						'transfer_adjustment_manual', 
-						'transfer_cancel',
-						'transfer_error',
-						'transfer_return',
-						'transfer_repair',
-						'transfer_after_repair'
-					))
-					->orderBy('histories.created_at', 'asc')
-					->get();
+		->whereIn('histories.category', array(
+			'transfer', 
+			'transfer_adjustment',  
+			'transfer_adjustment_excel', 
+			'transfer_adjustment_manual', 
+			'transfer_cancel',
+			'transfer_error',
+			'transfer_return',
+			'transfer_repair',
+			'transfer_after_repair'
+		))
+		->orderBy('histories.created_at', 'asc')
+		->get();
 
 		if(isset($data['export'])) {
 			$data = array(
 				'histories' => $histories
 			);
 			Excel::create('History Transfers', function($excel) use ($data){
-			    $excel->sheet('History', function($sheet) use ($data) {
-			        return $sheet->loadView('transfers.history-excel', $data);
-			    });
+				$excel->sheet('History', function($sheet) use ($data) {
+					return $sheet->loadView('transfers.history-excel', $data);
+				});
 			})->export('xls');
 		}
 		else {
@@ -1080,33 +1112,33 @@ class TransferController extends BaseController {
 			// 				->orderBy('barcode_number_transfer', 'ASC')
 			// 				->get();
 			$transfers = DB::table('transfers')
-						->leftJoin('materials', 'transfers.material_id', '=', 'materials.id')
-						->leftJoin('completions', 'transfers.completion_id', '=', 'completions.id')
-						->select(
-							'transfers.barcode_number_transfer',
-							'materials.material_number',
-							'materials.description',
-							'transfers.issue_location',
-							'transfers.issue_plant',
-							'transfers.receive_location',
-							'transfers.receive_plant',
-							'transfers.transaction_code',
-							'transfers.movement_type',
-							'transfers.reason_code',
-							'transfers.lot_transfer',
-							'completions.barcode_number'
-						)
-						->orderBy('transfers.id', 'asc')->get();
+			->leftJoin('materials', 'transfers.material_id', '=', 'materials.id')
+			->leftJoin('completions', 'transfers.completion_id', '=', 'completions.id')
+			->select(
+				'transfers.barcode_number_transfer',
+				'materials.material_number',
+				'materials.description',
+				'transfers.issue_location',
+				'transfers.issue_plant',
+				'transfers.receive_location',
+				'transfers.receive_plant',
+				'transfers.transaction_code',
+				'transfers.movement_type',
+				'transfers.reason_code',
+				'transfers.lot_transfer',
+				'completions.barcode_number'
+			)
+			->orderBy('transfers.id', 'asc')->get();
 
 		}
 
 		$data = array(
 			'transfers' => $transfers
 		);
-        Excel::create('Master Transfer', function($excel) use ($data){
-		    $excel->sheet('Master', function($sheet) use ($data) {
-		        return $sheet->loadView('transfers.excel', $data);
-		    });
+		Excel::create('Master Transfer', function($excel) use ($data){
+			$excel->sheet('Master', function($sheet) use ($data) {
+				return $sheet->loadView('transfers.excel', $data);
+			});
 		})->export('xls');
 	}
 
@@ -1133,8 +1165,8 @@ class TransferController extends BaseController {
 		$data = Input::all();
 
 		if (Input::hasFile('excel')) {
-		    $file = $data['excel'];
-		    $file->move('excels', $file->getClientOriginalName());
+			$file = $data['excel'];
+			$file->move('excels', $file->getClientOriginalName());
 			$excel = "excels/" . $file->getClientOriginalName();
 			Excel::load($excel, function($reader) {
 				$reader->each(function($row) {
@@ -1170,55 +1202,55 @@ class TransferController extends BaseController {
 	function openTemporaryPage() {
 
 		$temporaries = DB::table('histories')
-					->join('materials', 'histories.transfer_material_id', '=', 'materials.id')
-					->where('histories.synced', '=', 0)
-					->whereIn('histories.category', array('transfer', 'transfer_adjustment', 'transfer_adjustment_excel', 'transfer_adjustment_manual', 'transfer_cancel', 'transfer_error', 'transfer_return', 'transfer_repair', 'transfer_after_repair'))
-					->select(
-						DB::raw('(CASE histories.category
-							WHEN "transfer" THEN "Transfer"
-							WHEN "transfer_adjustment" THEN "Transfer Adjustment"
-							WHEN "transfer_adjustment_excel" THEN "Transfer Excel"
-							WHEN "transfer_adjustment_manual" THEN "Transfer Manual"
-							WHEN "transfer_cancel" THEN "Transfer Cancel"
-							WHEN "transfer_return" THEN "Transfer Return"
-							WHEN "transfer_repair" THEN "Transfer Repair"
-							WHEN "transfer_after_repair" THEN "Transfer After Repair"
-							WHEN "transfer_error" THEN "Transfer Error"
-							ELSE "Unidentified" END) AS category'),
-						'histories.transfer_barcode_number', 
-						'histories.transfer_document_number', 
-						'histories.transfer_issue_location', 
-						'histories.transfer_issue_plant', 
-						'histories.transfer_receive_location', 
-						'histories.transfer_receive_plant', 
-						'histories.transfer_material_id',
-						'histories.transfer_cost_center', 
-						'histories.transfer_gl_account',
-						'histories.transfer_transaction_code',
-						'histories.transfer_movement_type',
-						'histories.transfer_reason_code',
-						'materials.material_number',
-						DB::raw('SUM(histories.lot) as lot'), 
-						'histories.synced', 
-						'histories.user_id', 
-						'histories.deleted_at', 
-						'histories.created_at', 
-						'histories.updated_at',
-						'histories.reference_file',
-						'histories.error_description'
-					)
-					->groupBy(
-						'histories.transfer_material_id',
-    					'histories.transfer_issue_location',
-    					'histories.transfer_issue_plant',
-    					'histories.transfer_receive_location',
-    					'histories.transfer_receive_plant',
-    					'histories.transfer_transaction_code',
-    					'histories.transfer_movement_type'
-    				)
-                    ->having(DB::raw('SUM(histories.lot)'), '<', 1)
-                    ->get();
-                    
+		->join('materials', 'histories.transfer_material_id', '=', 'materials.id')
+		->where('histories.synced', '=', 0)
+		->whereIn('histories.category', array('transfer', 'transfer_adjustment', 'transfer_adjustment_excel', 'transfer_adjustment_manual', 'transfer_cancel', 'transfer_error', 'transfer_return', 'transfer_repair', 'transfer_after_repair'))
+		->select(
+			DB::raw('(CASE histories.category
+				WHEN "transfer" THEN "Transfer"
+				WHEN "transfer_adjustment" THEN "Transfer Adjustment"
+				WHEN "transfer_adjustment_excel" THEN "Transfer Excel"
+				WHEN "transfer_adjustment_manual" THEN "Transfer Manual"
+				WHEN "transfer_cancel" THEN "Transfer Cancel"
+				WHEN "transfer_return" THEN "Transfer Return"
+				WHEN "transfer_repair" THEN "Transfer Repair"
+				WHEN "transfer_after_repair" THEN "Transfer After Repair"
+				WHEN "transfer_error" THEN "Transfer Error"
+				ELSE "Unidentified" END) AS category'),
+			'histories.transfer_barcode_number', 
+			'histories.transfer_document_number', 
+			'histories.transfer_issue_location', 
+			'histories.transfer_issue_plant', 
+			'histories.transfer_receive_location', 
+			'histories.transfer_receive_plant', 
+			'histories.transfer_material_id',
+			'histories.transfer_cost_center', 
+			'histories.transfer_gl_account',
+			'histories.transfer_transaction_code',
+			'histories.transfer_movement_type',
+			'histories.transfer_reason_code',
+			'materials.material_number',
+			DB::raw('SUM(histories.lot) as lot'), 
+			'histories.synced', 
+			'histories.user_id', 
+			'histories.deleted_at', 
+			'histories.created_at', 
+			'histories.updated_at',
+			'histories.reference_file',
+			'histories.error_description'
+		)
+		->groupBy(
+			'histories.transfer_material_id',
+			'histories.transfer_issue_location',
+			'histories.transfer_issue_plant',
+			'histories.transfer_receive_location',
+			'histories.transfer_receive_plant',
+			'histories.transfer_transaction_code',
+			'histories.transfer_movement_type'
+		)
+		->having(DB::raw('SUM(histories.lot)'), '<', 1)
+		->get();
+
 		return View::make('transfers.temporary', array(
 			'page' => 'transfer_temporaries',
 			'temporaries' => $temporaries
@@ -1264,20 +1296,20 @@ class TransferController extends BaseController {
 
 	function getCompletion($barcode) {
 		$completions = DB::table('completions')
-					->leftJoin('materials', 'completions.material_id', '=', 'materials.id')
-					->select(
-						'completions.id', 
-						'completions.barcode_number', 
-						'completions.issue_plant', 
-						'completions.lot_completion', 
-						'completions.material_id', 
-						'completions.lot_completion', 
-						'completions.limit_used', 
-						'completions.active', 
-						'materials.lead_time'
-					)
-					->where('completions.barcode_number', $barcode)
-					->first();
+		->leftJoin('materials', 'completions.material_id', '=', 'materials.id')
+		->select(
+			'completions.id', 
+			'completions.barcode_number', 
+			'completions.issue_plant', 
+			'completions.lot_completion', 
+			'completions.material_id', 
+			'completions.lot_completion', 
+			'completions.limit_used', 
+			'completions.active', 
+			'materials.lead_time'
+		)
+		->where('completions.barcode_number', $barcode)
+		->first();
 		return $completions;
 	}
 
@@ -1313,10 +1345,10 @@ class TransferController extends BaseController {
 
 	function getLastTransferHistory($barcode) {
 		$histories = DB::table('histories')
-					->where('transfer_barcode_number', $barcode)
-					->whereIn('category', array("transfer", "transfer_adjustment"))
-					->orderBy('created_at', 'DESC')
-					->first();
+		->where('transfer_barcode_number', $barcode)
+		->whereIn('category', array("transfer", "transfer_adjustment"))
+		->orderBy('created_at', 'DESC')
+		->first();
 		return $histories;
 	}
 
@@ -1331,26 +1363,27 @@ class TransferController extends BaseController {
 
 	function getTransfer($barcode) {
 		$transfers = DB::table('transfers')
-					->leftJoin('materials', 'transfers.material_id', '=', 'materials.id')
-					->leftJoin('completions', 'transfers.completion_id', '=', 'completions.id')
-					->select(
-						'transfers.id', 
-						'transfers.barcode_number_transfer', 
-						'transfers.material_id', 
-						'transfers.issue_location', 
-						'transfers.issue_plant', 
-						'transfers.receive_location', 
-						'transfers.receive_plant', 
-						'transfers.transaction_code', 
-						'transfers.movement_type', 
-						'transfers.reason_code', 
-						'transfers.lot_transfer',
-						'completions.barcode_number',
-						'materials.material_number',
-						'materials.lead_time',
-						'materials.description'
-					)
-					->where('barcode_number_transfer', $barcode)->first();
+		->leftJoin('materials', 'transfers.material_id', '=', 'materials.id')
+		->leftJoin('completions', 'transfers.completion_id', '=', 'completions.id')
+		->select(
+			'transfers.id', 
+			'transfers.barcode_number_transfer', 
+			'transfers.material_id', 
+			'transfers.issue_location', 
+			'transfers.issue_plant', 
+			'transfers.receive_location', 
+			'transfers.receive_plant', 
+			'transfers.transaction_code', 
+			'transfers.movement_type', 
+			'transfers.reason_code', 
+			'transfers.lot_transfer',
+			'completions.barcode_number',
+			'materials.material_number',
+			'materials.lead_time',
+			'materials.category',
+			'materials.description'
+		)
+		->where('barcode_number_transfer', $barcode)->first();
 		return $transfers;
 	}
 
@@ -1395,15 +1428,15 @@ class TransferController extends BaseController {
 	function updateInventory($id, $data) {
 		$date = date("Y-m-d H:i:s");
 		DB::table('inventories')
-			->where('id', $id)
-			->update(
-				array(
-					'material_number' => $data['material_number'],
-					'lot' => $data["lot"],
-					'last_action' => $data['last_action'],
-					'updated_at' => $date
-				)
-			);
+		->where('id', $id)
+		->update(
+			array(
+				'material_number' => $data['material_number'],
+				'lot' => $data["lot"],
+				'last_action' => $data['last_action'],
+				'updated_at' => $date
+			)
+		);
 	}
 
 }
