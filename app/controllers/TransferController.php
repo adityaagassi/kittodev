@@ -424,7 +424,8 @@ class TransferController extends BaseController {
 			->table('barrel_queues')
 			->insert([
 				'material_number' => $transfer->material_number,
-				'tag' => $transfer->barcode_number_transfer,
+				'tag' => $completion->barcode_number,
+				'quantity' => $completion->lot_completion,
 				'created_at' => date( 'Y-m-d H:i:s'),
 				'updated_at' => date( 'Y-m-d H:i:s')
 			]);
@@ -653,7 +654,8 @@ class TransferController extends BaseController {
 			->table('barrel_queues')
 			->insert([
 				'material_number' => $transfer->material_number,
-				'tag' => $transfer->barcode_number_transfer,
+				'tag' => $completion->barcode_number,
+				'quantity' => $completion->lot_completion,
 				'created_at' => date( 'Y-m-d H:i:s'),
 				'updated_at' => date( 'Y-m-d H:i:s')
 			]);
@@ -931,7 +933,7 @@ class TransferController extends BaseController {
 		}
 
 		$response = array(
-			'status' => true, 
+			'status' => true,
 			'message' => "Cancel Transfer berhasil dilakukan",
 			'data' => json_encode($history)
 		);
