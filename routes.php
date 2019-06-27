@@ -32,7 +32,7 @@ Route::post('/transfers', array('as' => 'scanTransfers', 'uses' => 'TransferCont
 
 
 
-Route::group(array('before' => 'auth'), function() {
+// Route::group(array('before' => 'auth'), function() {
 
 	// Dashboard
 	Route::get('/dashboard', array('as' => 'dashboard', 'uses' => 'DashboardController@openDashboardPage'));
@@ -177,21 +177,21 @@ Route::group(array('before' => 'auth'), function() {
 	Route::get('/settings', array('as' => 'settings', 'uses' => 'SettingController@openEditPage'));
 	Route::post('/settings/{id}', 'SettingController@updateSetting');
 
-});
+// });
 
 /*
  * AJAX Request
  */
 
-Route::group(array(
-	// 'before' => 'auth', 
-	'before' => 'auth',
-	'prefix' => 'api/v1',
-	'after' => 'allowOrigin'
-), function() {
+// Route::group(array(
+// 	// 'before' => 'auth', 
+// 	'before' => 'auth',
+// 	'prefix' => 'api/v1',
+// 	'after' => 'allowOrigin'
+// ), function() {
 
 	Route::get('/materials', 'AjaxController@materialJSON');
 	Route::get('/completions', 'AjaxController@completionJSON');
 	Route::get('/transfers', 'AjaxController@transferJSON');
 
-});
+// });
