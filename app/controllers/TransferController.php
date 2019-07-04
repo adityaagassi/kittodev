@@ -371,6 +371,23 @@ class TransferController extends BaseController {
 			return Response::json($response);
 		}
 
+		if($transfer->issue_location == 'SX51' && $transfer->category == 'KEY' && $completion->limit_used != 1){
+			try{
+				$tes = DB::connection('mysql2')
+				->table('barrel_queues')
+				->insert([
+					'material_number' => $transfer->material_number,
+					'tag' => $completion->barcode_number,
+					'quantity' => $completion->lot_completion,
+					'created_at' => date( 'Y-m-d H:i:s'),
+					'updated_at' => date( 'Y-m-d H:i:s')
+				]);
+			}
+			catch(\Exception $e){
+				
+			}
+		}
+
 		// Check barcode lead time
 
 		// if ($inventory->last_action == "transfer" || $inventory->last_action == "adjustment_transfer") {
@@ -419,17 +436,7 @@ class TransferController extends BaseController {
 		}
 		History::create($history);
 
-		if($transfer->issue_location == 'SX51' && $transfer->category == 'KEY' && $completion->limit_used != 1){
-			$tes = DB::connection('mysql2')
-			->table('barrel_queues')
-			->insert([
-				'material_number' => $transfer->material_number,
-				'tag' => $completion->barcode_number,
-				'quantity' => $completion->lot_completion,
-				'created_at' => date( 'Y-m-d H:i:s'),
-				'updated_at' => date( 'Y-m-d H:i:s')
-			]);
-		}
+		
 
 		$response = array(
 			'status' => true, 
@@ -650,15 +657,20 @@ class TransferController extends BaseController {
 		History::create($history);
 
 		if($transfer->issue_location == 'SX51' && $transfer->category == 'KEY' && $completion->limit_used != 1){
-			$tes = DB::connection('mysql2')
-			->table('barrel_queues')
-			->insert([
-				'material_number' => $transfer->material_number,
-				'tag' => $completion->barcode_number,
-				'quantity' => $completion->lot_completion,
-				'created_at' => date( 'Y-m-d H:i:s'),
-				'updated_at' => date( 'Y-m-d H:i:s')
-			]);
+			try{
+				$tes = DB::connection('mysql2')
+				->table('barrel_queues')
+				->insert([
+					'material_number' => $transfer->material_number,
+					'tag' => $completion->barcode_number,
+					'quantity' => $completion->lot_completion,
+					'created_at' => date( 'Y-m-d H:i:s'),
+					'updated_at' => date( 'Y-m-d H:i:s')
+				]);
+			}
+			catch(\Exception $e){
+
+			}
 		}
 
 		$response = array(
@@ -926,10 +938,15 @@ class TransferController extends BaseController {
 		History::create($history);
 
 		if($transfer->issue_location == 'SX51' && $transfer->category == 'KEY'){
-			$tes = DB::connection('mysql2')
-			->table('barrel_queues')
-			->where('tag', '=', $transfer->barcode_number_transfer)
-			->delete();
+			try{
+				$tes = DB::connection('mysql2')
+				->table('barrel_queues')
+				->where('tag', '=', $transfer->barcode_number_transfer)
+				->delete();
+			}
+			catch(\Exception $e){
+
+			}
 		}
 
 		$response = array(
