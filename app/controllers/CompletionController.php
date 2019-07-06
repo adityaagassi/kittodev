@@ -64,21 +64,21 @@ class CompletionController extends BaseController {
 			$completionsTable = $completionsTable->where('completions.active', '=', $data['active']);
 		}
 		$completions = $completionsTable
-						->select(
-							'completions.id',
-							'completions.barcode_number',
-							'completions.issue_plant',
-							'completions.lot_completion',
-							'materials.material_number',
-							'materials.location',
-							'materials.description',
-							'completions.limit_used',
-							'completions.active',
-							'completions.issue_plant',
-							'completions.created_at',
-							'completions.updated_at'
-						)
-						->orderBy('completions.id', 'asc')->get();
+		->select(
+			'completions.id',
+			'completions.barcode_number',
+			'completions.issue_plant',
+			'completions.lot_completion',
+			'materials.material_number',
+			'materials.location',
+			'materials.description',
+			'completions.limit_used',
+			'completions.active',
+			'completions.issue_plant',
+			'completions.created_at',
+			'completions.updated_at'
+		)
+		->orderBy('completions.id', 'asc')->get();
 
 		return $completions;
 	}
@@ -435,6 +435,18 @@ class CompletionController extends BaseController {
 		}
 		History::create($history);
 
+		if($completion->location == 'SX51' && $completion->category == 'KEY'){
+			try{
+				$tes = DB::connection('mysql2')
+				->table('middle_inventories')
+				->where('middle_inventories.tag', '=', $completion->barcode_number)
+				->delete();
+			}
+			catch(\Exception $e){
+				
+			}
+		}
+
 		$response = array(
 			'status' => true, 
 			'message' => "Completion berhasil dilakukan",
@@ -639,6 +651,8 @@ class CompletionController extends BaseController {
 			return Response::json($response);
 		}
 
+
+
 		// Check barcode on inventory
 
 		// $inventory = self::getInventoryLot($completion->material_number);
@@ -697,19 +711,19 @@ class CompletionController extends BaseController {
 		$lastHistory = Inventory::select('updated_at')->where('barcode_number', '=', $data['barcode_number'])->first();
 		if ($lastHistory != null) {
 			// if ($inventory->last_action == "transfer" || $inventory->last_action == "transfer_adjustment") {
-				$nowTimestamp = self::getTimestamp();
-				$completionTimestamp = $completion->lead_time;
-				$leadTime = $completionTimestamp * 60;
-				$lastScanTimestamp = strtotime($lastHistory->updated_at);
+			$nowTimestamp = self::getTimestamp();
+			$completionTimestamp = $completion->lead_time;
+			$leadTime = $completionTimestamp * 60;
+			$lastScanTimestamp = strtotime($lastHistory->updated_at);
 
-				if (($lastScanTimestamp + $leadTime) >= $nowTimestamp) {
-					$response = array(
-						'status' => false, 
-						'status_code' => 1002,
-						'message' => "Barcode tidak dapat di completion karena masih dalam waktu lead time."
-					);
-					return Response::json($response);
-				}	
+			if (($lastScanTimestamp + $leadTime) >= $nowTimestamp) {
+				$response = array(
+					'status' => false, 
+					'status_code' => 1002,
+					'message' => "Barcode tidak dapat di completion karena masih dalam waktu lead time."
+				);
+				return Response::json($response);
+			}	
 			// }
 		}
 
@@ -738,6 +752,18 @@ class CompletionController extends BaseController {
 			$history['user_id'] = $data['user_id'];
 		}
 		History::create($history);
+
+		if($completion->location == 'SX51' && $completion->category == 'KEY'){
+			try{
+				$tes = DB::connection('mysql2')
+				->table('middle_inventories')
+				->where('middle_inventories.tag', '=', $completion->barcode_number)
+				->delete();
+			}
+			catch(\Exception $e){
+				
+			}
+		}
 
 		$response = array(
 			'status' => true, 
@@ -847,6 +873,24 @@ class CompletionController extends BaseController {
 		}
 		History::create($history);
 
+		if($completion->location == 'SX51' && $completion->category == 'KEY'){
+			try{
+				$tes = DB::connection('mysql2')
+				->table('middle_inventories')
+				->insert([
+					'tag' => $completion->barcode_number,
+					'material_number' => $completion->material_number,
+					'location' => 'kensa-middle' ,
+					'quantity' => $completion->lot_completion,
+					'remark' => 'cancel-completion',
+					'created_at' => date( 'Y-m-d H:i:s'),
+					'updated_at' => date( 'Y-m-d H:i:s')
+				]);
+			}
+			catch(\Exception $e){
+			}
+		}
+
 		$response = array(
 			'status' => true, 
 			'message' => "Cancel Completion berhasil dilakukan",
@@ -883,34 +927,34 @@ class CompletionController extends BaseController {
 
 		$data = Input::all();
 		$historiesTable = DB::table('histories')
-					->join('materials', 'histories.completion_material_id', '=', 'materials.id')
-					->leftJoin('users', 'histories.user_id', '=', 'users.id')
-					->select(
-						'histories.id',
-						DB::raw('(CASE histories.category
-							WHEN "completion" THEN "Completion"
-							WHEN "completion_adjustment" THEN "Completion Adjustment"
-							WHEN "completion_adjustment_excel" THEN "Completion Excel"
-							WHEN "completion_adjustment_manual" THEN "Completion Manual"
-							WHEN "completion_cancel" THEN "Completion Cancel"
-							WHEN "completion_return" THEN "Completion Return"
-							WHEN "completion_repair" THEN "Completion Repair"
-							WHEN "completion_after_repair" THEN "Completion After Repair"
-							WHEN "completion_error" THEN "Completion Error"
-							WHEN "completion_temporary_delete" THEN "Completion Temporary"
-							ELSE "Unidentified" END) AS category'),
-						'histories.completion_barcode_number',
-						'histories.completion_description',
-						'histories.completion_location',
-						'histories.completion_issue_plant',
-						'histories.lot',
-						'materials.material_number',
-						'materials.location',
-						'materials.description',
-						'users.name',
-						'histories.created_at',
-						'histories.updated_at'
-					);
+		->join('materials', 'histories.completion_material_id', '=', 'materials.id')
+		->leftJoin('users', 'histories.user_id', '=', 'users.id')
+		->select(
+			'histories.id',
+			DB::raw('(CASE histories.category
+				WHEN "completion" THEN "Completion"
+				WHEN "completion_adjustment" THEN "Completion Adjustment"
+				WHEN "completion_adjustment_excel" THEN "Completion Excel"
+				WHEN "completion_adjustment_manual" THEN "Completion Manual"
+				WHEN "completion_cancel" THEN "Completion Cancel"
+				WHEN "completion_return" THEN "Completion Return"
+				WHEN "completion_repair" THEN "Completion Repair"
+				WHEN "completion_after_repair" THEN "Completion After Repair"
+				WHEN "completion_error" THEN "Completion Error"
+				WHEN "completion_temporary_delete" THEN "Completion Temporary"
+				ELSE "Unidentified" END) AS category'),
+			'histories.completion_barcode_number',
+			'histories.completion_description',
+			'histories.completion_location',
+			'histories.completion_issue_plant',
+			'histories.lot',
+			'materials.material_number',
+			'materials.location',
+			'materials.description',
+			'users.name',
+			'histories.created_at',
+			'histories.updated_at'
+		);
 
 		if (isset($data['start_date']) && strlen($data['start_date']) > 0) {
 			$date = $data['start_date'];
@@ -959,7 +1003,7 @@ class CompletionController extends BaseController {
 			$materialsIDsz = DB::table('materials')->select('id')->whereIn('material_number', $materials)->get();
 			$materialsIDs = Array();
 			foreach ($materialsIDsz as $object) {
-			    array_push($materialsIDs, $object->id);
+				array_push($materialsIDs, $object->id);
 			}
 			$historiesTable = $historiesTable->whereIn('histories.completion_material_id', $materialsIDs);
 		}
@@ -972,30 +1016,30 @@ class CompletionController extends BaseController {
 			$historiesTable = $historiesTable->where('histories.category','=', $categories);
 		}
 		$histories = $historiesTable
-					->whereIn('histories.category', array(
-							'completion', 
-							'completion_adjustment', 
-							'completion_adjustment_excel', 
-							'completion_adjustment_manual', 
-							'completion_cancel', 
-							'completion_error',
-							'completion_return',
-							'completion_repair',
-							'completion_after_repair',  
-							'completion_temporary_delete'
-						)
-					)
-					->orderBy('histories.created_at', 'asc')
-					->get();
+		->whereIn('histories.category', array(
+			'completion', 
+			'completion_adjustment', 
+			'completion_adjustment_excel', 
+			'completion_adjustment_manual', 
+			'completion_cancel', 
+			'completion_error',
+			'completion_return',
+			'completion_repair',
+			'completion_after_repair',  
+			'completion_temporary_delete'
+		)
+	)
+		->orderBy('histories.created_at', 'asc')
+		->get();
 
 		if(isset($data['export'])) {
 			$data = array(
 				'histories' => $histories
 			);
 			Excel::create('History Completions', function($excel) use ($data){
-			    $excel->sheet('History', function($sheet) use ($data) {
-			        return $sheet->loadView('completions.history-excel', $data);
-			    });
+				$excel->sheet('History', function($sheet) use ($data) {
+					return $sheet->loadView('completions.history-excel', $data);
+				});
 			})->export('xls');
 		}
 		else {
@@ -1023,26 +1067,26 @@ class CompletionController extends BaseController {
 		}
 		else {
 			$completions = DB::table('completions')
-							->join('materials', 'materials.id', '=', 'completions.material_id')
-							->select( 
-								'completions.barcode_number', 
-								'materials.material_number',
-								'materials.location', 
-								'completions.issue_plant', 
-								'completions.lot_completion', 
-								'completions.limit_used', 
-								'completions.active'
-							)
-							->orderBy('barcode_number', 'ASC')
-							->get();
+			->join('materials', 'materials.id', '=', 'completions.material_id')
+			->select( 
+				'completions.barcode_number', 
+				'materials.material_number',
+				'materials.location', 
+				'completions.issue_plant', 
+				'completions.lot_completion', 
+				'completions.limit_used', 
+				'completions.active'
+			)
+			->orderBy('barcode_number', 'ASC')
+			->get();
 		}
 		$data = array(
 			'completions' => $completions
 		);
-        Excel::create('Master Completion', function($excel) use ($data){
-		    $excel->sheet('Master', function($sheet) use ($data) {
-		        return $sheet->loadView('completions.excel', $data);
-		    });
+		Excel::create('Master Completion', function($excel) use ($data){
+			$excel->sheet('Master', function($sheet) use ($data) {
+				return $sheet->loadView('completions.excel', $data);
+			});
 		})->export('xls');
 	}
 
@@ -1069,8 +1113,8 @@ class CompletionController extends BaseController {
 		$data = Input::all();
 
 		if (Input::hasFile('excel')) {
-		    $file = $data['excel'];
-		    $file->move('excels', $file->getClientOriginalName());
+			$file = $data['excel'];
+			$file->move('excels', $file->getClientOriginalName());
 			$excel = "excels/" . $file->getClientOriginalName();
 			Excel::load($excel, function($reader) {
 				$reader->each(function($row) {
@@ -1108,13 +1152,13 @@ class CompletionController extends BaseController {
 	function openTemporaryPage() {
 
 		$temporaries = DB::table('histories')
-					->join('materials', 'histories.completion_material_id', '=', 'materials.id')
-					->where('histories.synced', '=', 0)
-					->whereNull('histories.deleted_at')
+		->join('materials', 'histories.completion_material_id', '=', 'materials.id')
+		->where('histories.synced', '=', 0)
+		->whereNull('histories.deleted_at')
 					// ->whereIn('histories.category', array('completion', 'completion_adjustment', 'completion_adjustment_excel', 'completion_adjustment_manual', 'completion_cancel', 'completion_return', 'completion_error'))
-					->whereIn('histories.category', array('completion', 'completion_adjustment', 'completion_adjustment_excel', 'completion_adjustment_manual', 'completion_cancel', 'completion_error', 'completion_temporary_delete', 'completion_return', 'completion_repair', 'completion_after_repair'))
+		->whereIn('histories.category', array('completion', 'completion_adjustment', 'completion_adjustment_excel', 'completion_adjustment_manual', 'completion_cancel', 'completion_error', 'completion_temporary_delete', 'completion_return', 'completion_repair', 'completion_after_repair'))
 					// ->whereIn('histories.category', array('completion_adjustment_manual', 'completion_cancel', 'completion_error', 'completion_temporary_delete'))
-					->select(
+		->select(
 						// DB::raw('(CASE histories.category
 						// 	WHEN "completion" THEN "Completion"
 						// 	WHEN "completion_adjustment" THEN "Completion Adjustment"
@@ -1127,30 +1171,30 @@ class CompletionController extends BaseController {
 						// 	WHEN "completion_error" THEN "Completion Error"
 						// 	WHEN "completion_temporary_delete" THEN "Completion Temporary"
 						// 	ELSE "Unidentified" END) AS category'),
-						'histories.category', 
+			'histories.category', 
 						// 'histories.completion_barcode_number', 
-						'materials.description as completion_description', 
-						'histories.completion_location', 
-						'histories.completion_issue_plant', 
-						'histories.completion_material_id',
+			'materials.description as completion_description', 
+			'histories.completion_location', 
+			'histories.completion_issue_plant', 
+			'histories.completion_material_id',
 						// 'histories.completion_reference_number',
-						'materials.material_number',
-						DB::raw('SUM(histories.lot) as lot'), 
+			'materials.material_number',
+			DB::raw('SUM(histories.lot) as lot'), 
 						// 'histories.lot', 
 						// 'histories.synced', 
 						// 'histories.user_id', 
 						// 'histories.deleted_at', 
-						'histories.created_at'
+			'histories.created_at'
 						// 'histories.updated_at',
 						// 'histories.reference_file',
 						// 'histories.error_description'
-					)
-					->groupBy(
-						'histories.completion_material_id'
-    				)
-                    ->having(DB::raw('SUM(histories.lot)'), '<', 0)
-                    ->get();
-                    
+		)
+		->groupBy(
+			'histories.completion_material_id'
+		)
+		->having(DB::raw('SUM(histories.lot)'), '<', 0)
+		->get();
+
         // echo json_encode($temporaries);
         // exit();
 		return View::make('completions.temporary', array(
@@ -1173,34 +1217,34 @@ class CompletionController extends BaseController {
 		// 	'completion_error'
 		// ))->first();
 		$temporary = DB::table('histories')
-					->join('materials', 'histories.completion_material_id', '=', 'materials.id')
-					->where('histories.completion_material_id', '=', $id)
-					->where('histories.synced', '=', 0)
-					->whereIn('histories.category', array('completion', 'completion_adjustment', 'completion_adjustment_excel', 'completion_adjustment_manual', 'completion_cancel', 'completion_error', 'completion_temporary_delete', 'completion_return', 'completion_after_repair', 'completion_repair'))
-					->select(
-						'histories.category',
-						'histories.completion_barcode_number', 
-						'histories.completion_description', 
-						'histories.completion_location', 
-						'histories.completion_issue_plant', 
-						'histories.completion_material_id',
-						'histories.completion_reference_number',
-						'materials.material_number',
-						DB::raw('SUM(histories.lot) as lot'), 
+		->join('materials', 'histories.completion_material_id', '=', 'materials.id')
+		->where('histories.completion_material_id', '=', $id)
+		->where('histories.synced', '=', 0)
+		->whereIn('histories.category', array('completion', 'completion_adjustment', 'completion_adjustment_excel', 'completion_adjustment_manual', 'completion_cancel', 'completion_error', 'completion_temporary_delete', 'completion_return', 'completion_after_repair', 'completion_repair'))
+		->select(
+			'histories.category',
+			'histories.completion_barcode_number', 
+			'histories.completion_description', 
+			'histories.completion_location', 
+			'histories.completion_issue_plant', 
+			'histories.completion_material_id',
+			'histories.completion_reference_number',
+			'materials.material_number',
+			DB::raw('SUM(histories.lot) as lot'), 
 						// 'histories.lot', 
-						'histories.synced', 
-						'histories.user_id', 
-						'histories.deleted_at', 
-						'histories.created_at', 
-						'histories.updated_at',
-						'histories.reference_file',
-						'histories.error_description'
-					)
-					->groupBy(
-						'histories.completion_material_id'
-    				)
-                    ->having(DB::raw('SUM(histories.lot)'), '<', 0)
-                    ->first();
+			'histories.synced', 
+			'histories.user_id', 
+			'histories.deleted_at', 
+			'histories.created_at', 
+			'histories.updated_at',
+			'histories.reference_file',
+			'histories.error_description'
+		)
+		->groupBy(
+			'histories.completion_material_id'
+		)
+		->having(DB::raw('SUM(histories.lot)'), '<', 0)
+		->first();
 
 		// echo json_encode($temporary);
 		// exit();
@@ -1233,23 +1277,24 @@ class CompletionController extends BaseController {
 
 	function getCompletion($barcode) {
 		$completions = DB::table('completions')
-					->leftJoin('materials', 'completions.material_id', '=', 'materials.id')
-					->select(
-						'completions.id', 
-						'completions.barcode_number',  
-						'completions.issue_plant', 
-						'completions.lot_completion', 
-						'completions.material_id', 
-						'completions.lot_completion', 
-						'completions.limit_used', 
-						'completions.active', 
-						'materials.material_number',
-						'materials.lead_time',
-						'materials.description',
-						'materials.location'
-					)
-					->where('completions.barcode_number', $barcode)
-					->first();
+		->leftJoin('materials', 'completions.material_id', '=', 'materials.id')
+		->select(
+			'completions.id', 
+			'completions.barcode_number',  
+			'completions.issue_plant', 
+			'completions.lot_completion', 
+			'completions.material_id', 
+			'completions.lot_completion', 
+			'completions.limit_used', 
+			'completions.active', 
+			'materials.material_number',
+			'materials.lead_time',
+			'materials.description',
+			'materials.location',
+			'materials.category'
+		)
+		->where('completions.barcode_number', $barcode)
+		->first();
 		return $completions;
 	}
 
@@ -1294,15 +1339,15 @@ class CompletionController extends BaseController {
 	function updateInventory($id, $data) {
 		$date = date("Y-m-d H:i:s");
 		DB::table('inventories')
-			->where('id', $id)
-			->update(
-				array(
-					'material_number' => $data['material_number'],
-					'lot' => $data["lot"],
-					'last_action' => $data['last_action'],
-					'updated_at' => $date
-				)
-			);
+		->where('id', $id)
+		->update(
+			array(
+				'material_number' => $data['material_number'],
+				'lot' => $data["lot"],
+				'last_action' => $data['last_action'],
+				'updated_at' => $date
+			)
+		);
 	}
 
 	/**
@@ -1331,8 +1376,8 @@ class CompletionController extends BaseController {
 		$startdate = mktime(0, 0, 0, $today['month'], $today['mday'], $today['year']);
 		$enddate = mktime(23, 59, 59, $today['month'], $today['mday'], $today['year']);
 		$turnOver = TurnOver::where('barcode_number', '=', $barcode_number)
-					->whereBetween('created_at', array($startdate, $enddate))
-					->first();
+		->whereBetween('created_at', array($startdate, $enddate))
+		->first();
 		if (isset($turnOver)) {
 			return $turnOver;
 		}
