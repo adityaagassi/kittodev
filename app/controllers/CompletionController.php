@@ -446,6 +446,11 @@ class CompletionController extends BaseController {
 				->table('barrel_queues')
 				->where('barrel_queues.tag', '=', $completion->barcode_number)
 				->delete();
+
+				$tes3 = DB::connection('mysql2')
+				->table('barrels')
+				->where('barrels.tag', '=', $completion->barcode_number)
+				->delete();
 			}
 			catch(\Exception $e){
 				
@@ -768,6 +773,11 @@ class CompletionController extends BaseController {
 				$tes2 = DB::connection('mysql2')
 				->table('barrel_queues')
 				->where('barrel_queues.tag', '=', $completion->barcode_number)
+				->delete();
+
+				$tes3 = DB::connection('mysql2')
+				->table('barrels')
+				->where('barrels.tag', '=', $completion->barcode_number)
 				->delete();
 			}
 			catch(\Exception $e){
