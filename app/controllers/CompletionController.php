@@ -450,6 +450,7 @@ class CompletionController extends BaseController {
 				$tes3 = DB::connection('mysql2')
 				->table('barrels')
 				->where('barrels.tag', '=', $completion->barcode_number)
+				->where('barrels.machine', '=', 'FLANEL')
 				->delete();
 			}
 			catch(\Exception $e){
@@ -778,6 +779,7 @@ class CompletionController extends BaseController {
 				$tes3 = DB::connection('mysql2')
 				->table('barrels')
 				->where('barrels.tag', '=', $completion->barcode_number)
+				->where('barrels.machine', '=', 'FLANEL')
 				->delete();
 			}
 			catch(\Exception $e){
