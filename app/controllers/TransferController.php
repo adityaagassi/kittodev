@@ -387,6 +387,22 @@ class TransferController extends BaseController {
 				
 			}
 		}
+		if($transfer->issue_location == 'SX51' && $transfer->category == 'KEY' && $completion->limit_used == 1){
+			try{
+				$tes = DB::connection('mysql2')
+				->table('barrel_queue_inactives')
+				->insert([
+					'material_number' => $transfer->material_number,
+					'tag' => $completion->barcode_number,
+					'quantity' => $completion->lot_completion,
+					'created_at' => date( 'Y-m-d H:i:s'),
+					'updated_at' => date( 'Y-m-d H:i:s')
+				]);
+			}
+			catch(\Exception $e){
+				
+			}
+		}
 
 		// Check barcode lead time
 
@@ -670,6 +686,23 @@ class TransferController extends BaseController {
 			}
 			catch(\Exception $e){
 
+			}
+		}
+		
+		if($transfer->issue_location == 'SX51' && $transfer->category == 'KEY' && $completion->limit_used == 1){
+			try{
+				$tes = DB::connection('mysql2')
+				->table('barrel_queue_inactives')
+				->insert([
+					'material_number' => $transfer->material_number,
+					'tag' => $completion->barcode_number,
+					'quantity' => $completion->lot_completion,
+					'created_at' => date( 'Y-m-d H:i:s'),
+					'updated_at' => date( 'Y-m-d H:i:s')
+				]);
+			}
+			catch(\Exception $e){
+				
 			}
 		}
 

@@ -441,20 +441,25 @@ class CompletionController extends BaseController {
 				->table('middle_inventories')
 				->where('middle_inventories.tag', '=', $completion->barcode_number)
 				->delete();
-
+			}
+			catch(\Exception $e){	
+			}
+			try{
 				$tes2 = DB::connection('mysql2')
 				->table('barrel_queues')
 				->where('barrel_queues.tag', '=', $completion->barcode_number)
 				->delete();
-
+			}
+			catch(\Exception $e){
+			}
+			try{
 				$tes3 = DB::connection('mysql2')
 				->table('barrels')
 				->where('barrels.tag', '=', $completion->barcode_number)
 				->where('barrels.machine', '=', 'FLANEL')
 				->delete();
 			}
-			catch(\Exception $e){
-				
+			catch(\Exception $e){	
 			}
 		}
 
@@ -771,16 +776,28 @@ class CompletionController extends BaseController {
 				->where('middle_inventories.tag', '=', $completion->barcode_number)
 				->delete();
 
+			}
+			catch(\Exception $e){
+				
+			}
+			try{
+
 				$tes2 = DB::connection('mysql2')
 				->table('barrel_queues')
 				->where('barrel_queues.tag', '=', $completion->barcode_number)
 				->delete();
 
+			}
+			catch(\Exception $e){
+				
+			}
+			try{
 				$tes3 = DB::connection('mysql2')
 				->table('barrels')
 				->where('barrels.tag', '=', $completion->barcode_number)
 				->where('barrels.machine', '=', 'FLANEL')
 				->delete();
+
 			}
 			catch(\Exception $e){
 				
