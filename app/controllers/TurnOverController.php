@@ -137,7 +137,7 @@ class TurnOverController extends BaseController {
 			        	ON
 			        		materials.id = histories.completion_material_id
 					WHERE
-						category = 'completion'"
+						histories.category = 'completion'"
 						. $location
 						. $material_numbers
 						. $startFrom
@@ -160,7 +160,7 @@ class TurnOverController extends BaseController {
 			        	ON
 			        		materials.id = histories.completion_material_id
 					WHERE
-						category = 'completion_cancel'"
+						histories.category = 'completion_cancel'"
 						. $location
 						. $material_numbers
 						. $startFrom
@@ -185,7 +185,7 @@ class TurnOverController extends BaseController {
 			        		ON
 			        			materials.id = histories.transfer_material_id
 						WHERE
-							category = 'transfer'"
+							histories.category = 'transfer'"
 						. $location
 						. $material_numbers
 						. $startFrom
@@ -206,7 +206,7 @@ class TurnOverController extends BaseController {
 			        		ON
 			        			materials.id = histories.transfer_material_id
 						WHERE
-							category = 'transfer_cancel'"
+							histories.category = 'transfer_cancel'"
 						. $location
 						. $material_numbers
 						. $startFrom
