@@ -919,7 +919,7 @@ class CompletionController extends BaseController {
 				->insert([
 					'tag' => $completion->barcode_number,
 					'material_number' => $completion->material_number,
-					'location' => 'kensa-middle' ,
+					'location' => $completion->surface.'-kensa',
 					'quantity' => $completion->lot_completion,
 					'remark' => 'cancel-completion',
 					'created_at' => date( 'Y-m-d H:i:s'),
@@ -1330,7 +1330,8 @@ class CompletionController extends BaseController {
 			'materials.lead_time',
 			'materials.description',
 			'materials.location',
-			'materials.category'
+			'materials.category',
+			'materials.surface'
 		)
 		->where('completions.barcode_number', $barcode)
 		->first();
