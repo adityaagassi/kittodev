@@ -452,7 +452,17 @@ class TransferController extends BaseController {
 		}
 		History::create($history);
 
-		
+		try{
+			$tes = DB::connection('mysql2')
+			->table('middle_material_requests')
+			->where('middle_material_requests.material_number', '=', $transfer->material_number)
+			->update([
+				'quantity' => DB::raw('quantity-'.$transfer->lot_transfer.''),
+				'updated_at' => date('Y-m-d H:i:s')
+			]);
+		}
+		catch(\Exception $e){
+		}
 
 		$response = array(
 			'status' => true, 
@@ -704,6 +714,18 @@ class TransferController extends BaseController {
 			catch(\Exception $e){
 				
 			}
+		}
+
+		try{
+			$tes = DB::connection('mysql2')
+			->table('middle_material_requests')
+			->where('middle_material_requests.material_number', '=', $transfer->material_number)
+			->update([
+				'quantity' => DB::raw('quantity-'.$transfer->lot_transfer.''),
+				'updated_at' => date('Y-m-d H:i:s')
+			]);
+		}
+		catch(\Exception $e){	
 		}
 
 		$response = array(
@@ -980,6 +1002,18 @@ class TransferController extends BaseController {
 			catch(\Exception $e){
 
 			}
+		}
+
+		try{
+			$tes = DB::connection('mysql2')
+			->table('middle_material_requests')
+			->where('middle_material_requests.material_number', '=', $transfer->material_number)
+			->update([
+				'quantity' => DB::raw('quantity+'.$transfer->lot_transfer.''),
+				'updated_at' => date('Y-m-d H:i:s')
+			]);
+		}
+		catch(\Exception $e){	
 		}
 
 		$response = array(
