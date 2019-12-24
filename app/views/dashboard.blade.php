@@ -60,6 +60,7 @@
                                   <li><a href="{{ url('/dashboard/Master_Completion.xls')}}">Excel for Import Master Completion</a></li>
                                   <li><a href="{{ url('/dashboard/Master_Transfer.xls')}}">Excel for Import Master Transfer</a></li>
                                   <li><a href="{{ url('/dashboard/Error_Report.pdf')}}">Error Report</a></li>
+                                  <li><a href="{{ url('/dashboard/Settings.pdf')}}">Settings</a></li>
                                   <li><a href="{{ url('/dashboard/Completion_Temporary.pdf')}}">Completion Temporary</a></li>
                                   <li><a href="{{ url('/dashboard/Manual_Import_Master.pdf')}}">How To Import Master</a></li>
                             </div>
