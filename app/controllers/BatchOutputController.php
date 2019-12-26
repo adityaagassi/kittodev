@@ -279,7 +279,8 @@ class BatchOutputController extends BaseController {
 					)
 					->groupBy(
 						'histories.completion_material_id',
-    					'histories.completion_issue_plant'
+    					'histories.completion_issue_plant',
+						'histories.completion_location'
     				)
                     ->having(DB::raw('SUM(histories.lot)'), '>', 0)
                     ->get();
