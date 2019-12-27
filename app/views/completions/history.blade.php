@@ -34,6 +34,7 @@
                                                     <th>Qty</th>
                                                     <th>Category</th>
                                                     <th>User</th>
+                                                    <th>File</th>
                                                     <th>Date</th>
                                                 </tr>
                                             </thead>
@@ -62,6 +63,7 @@
                                                             -
                                                         @endif
                                                     </td>
+                                                    <td>{{ $history->reference_file }}</td>
                                                     <td>{{ $history->created_at }}</td>
                                                 </tr>
                                             <?php $index += 1; ?>

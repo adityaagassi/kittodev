@@ -1,7 +1,7 @@
                 @extends('master')
 
                 @section('stylesheets')
-                    <link href="{{ url("css/jquery.datatables.css") }}" rel="stylesheet">
+                <link href="{{ url("css/jquery.datatables.css") }}" rel="stylesheet">
                 @stop
 
                 @section('content')
@@ -40,19 +40,20 @@
                                                     <th>Qty</th>
                                                     <th>Category</th>
                                                     <th>User</th>
+                                                    <th>File</th>
                                                     <th>Date</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                            <?php $index = 1; ?>
-                                            @foreach ($histories as $history)
+                                                <?php $index = 1; ?>
+                                                @foreach ($histories as $history)
                                                 <tr>
                                                     <td>{{ $index }}</td>
                                                     <td>
                                                         @if(isset($history->transfer_barcode_number) && strlen($history->transfer_barcode_number) > 0) 
-                                                            {{ $history->transfer_barcode_number }}
+                                                        {{ $history->transfer_barcode_number }}
                                                         @else
-                                                            -
+                                                        -
                                                         @endif
                                                     </td>
                                                    <!--  <td>
@@ -74,21 +75,22 @@
                                                     <td>{{ $history->category }}</td>
                                                     <td>
                                                         @if(isset($history->name))
-                                                            {{ $history->name }}
+                                                        {{ $history->name }}
                                                         @else
-                                                            -
+                                                        -
                                                         @endif
                                                     </td>
+                                                    <td>{{ $history->reference_file }}</td>
                                                     <td>{{ $history->created_at }}</td>
                                                 </tr>
-                                            <?php $index += 1; ?>
-                                            @endforeach
+                                                <?php $index += 1; ?>
+                                                @endforeach
                                             </tbody>
                                         </table>
                                     </div>
                                 </div><!-- table-responsive -->
                                 @else
-                                    <center>Transfer data is empty</center>
+                                <center>Transfer data is empty</center>
                                 @endif
                             </div><!-- panel-body -->
                         </div><!-- panel -->

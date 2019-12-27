@@ -992,6 +992,7 @@ class CompletionController extends BaseController {
 			'materials.description',
 			'users.name',
 			'histories.created_at',
+			'histories.reference_file',
 			'histories.updated_at'
 		);
 
