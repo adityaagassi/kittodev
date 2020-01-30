@@ -371,6 +371,21 @@ class TransferController extends BaseController {
 			return Response::json($response);
 		}
 
+		// if($transfer->issue_location == 'SX21' && $transfer->category == 'KEY' && $completion->limit_used != 1){
+		// 	try{
+		// 		$tes = DB::connection('soldering_db')
+		// 		->table('t_pesanan')
+		// 		->insert([
+		// 			'hsa_kitto_code' => $transfer->material_number,
+		// 			'pesanan_status' => "0",
+		// 			'created_at' => date( 'Y-m-d H:i:s')
+		// 		]);
+		// 	}
+		// 	catch(\Exception $e){
+
+		// 	}
+		// }
+		
 		if($transfer->issue_location == 'SX51' && $transfer->category == 'KEY' && $completion->limit_used != 1){
 			try{
 				$tes = DB::connection('mysql2')
@@ -681,6 +696,21 @@ class TransferController extends BaseController {
 			$history['user_id'] = $data['user_id'];
 		}
 		History::create($history);
+
+		// if($transfer->issue_location == 'SX21' && $transfer->category == 'KEY' && $completion->limit_used != 1){
+		// 	try{
+		// 		$tes = DB::connection('soldering_db')
+		// 		->table('t_pesanan')
+		// 		->insert([
+		// 			'hsa_kitto_code' => $transfer->material_number,
+		// 			'pesanan_status' => "0",
+		// 			'created_at' => date( 'Y-m-d H:i:s')
+		// 		]);
+		// 	}
+		// 	catch(\Exception $e){
+
+		// 	}
+		// }
 
 		if($transfer->issue_location == 'SX51' && $transfer->category == 'KEY' && $completion->limit_used != 1){
 			try{
