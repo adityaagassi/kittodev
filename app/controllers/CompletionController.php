@@ -437,7 +437,7 @@ class CompletionController extends BaseController {
 
 		//soldering_db
 
-		if($completion_location == 'SX21' && $completion->category == 'KEY'){
+		if($completion->location == 'SX21' && $completion->category == 'KEY'){
 			try{
 				$m_hsa_kartu = db::connection('welding')->where('hsa_kartu_barcode', '=', $barcode)->first();
 
@@ -790,7 +790,7 @@ class CompletionController extends BaseController {
 
 		//soldering_db
 
-		if($completion_location == 'SX21' && $completion->category == 'KEY'){
+		if($completion->location == 'SX21' && $completion->category == 'KEY'){
 			try{
 				$m_hsa_kartu = db::connection('welding')->where('hsa_kartu_barcode', '=', $barcode)->first();
 
@@ -803,7 +803,12 @@ class CompletionController extends BaseController {
 				]);
 			}
 			catch(\Exception $e){
-				
+				$response = array(
+					'status' => false, 
+					'status_code' => 1002,
+					'message' => $e->getMessage()
+				);
+				return Response::json($response);
 			}
 		}
 
