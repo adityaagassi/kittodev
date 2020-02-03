@@ -382,7 +382,6 @@ class TransferController extends BaseController {
 				]);
 			}
 			catch(\Exception $e){
-				return Response::json($e->getMessage());
 			}
 		}
 		
