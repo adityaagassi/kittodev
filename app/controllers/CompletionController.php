@@ -439,7 +439,7 @@ class CompletionController extends BaseController {
 
 		if($completion->location == 'SX21' && $completion->category == 'KEY'){
 			try{
-				$m_hsa_kartu = db::connection('welding')->where('hsa_kartu_barcode', '=', $barcode)->first();
+				$m_hsa_kartu = db::connection('welding')->table('m_hsa_kartu')->where('hsa_kartu_barcode', '=', $barcode)->first();
 
 				$tes = DB::connection('welding')
 				->table('t_order')
@@ -792,7 +792,7 @@ class CompletionController extends BaseController {
 
 		if($completion->location == 'SX21' && $completion->category == 'KEY'){
 			try{
-				$m_hsa_kartu = db::connection('welding')->where('hsa_kartu_barcode', '=', $barcode)->first();
+				$m_hsa_kartu = db::connection('welding')->table('m_hsa_kartu')->where('hsa_kartu_barcode', '=', $barcode)->first();
 
 				$tes = DB::connection('welding')
 				->table('t_order')
