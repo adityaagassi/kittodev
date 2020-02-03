@@ -382,6 +382,12 @@ class TransferController extends BaseController {
 				]);
 			}
 			catch(\Exception $e){
+				// $response = array(
+				// 	'status' => false, 
+				// 	'status_code' => 1003,
+				// 	'message' => $e->getMessage()
+				// );
+				// return Response::json($response);
 			}
 		}
 		
@@ -398,7 +404,6 @@ class TransferController extends BaseController {
 				]);
 			}
 			catch(\Exception $e){
-				
 			}
 		}
 		if($transfer->issue_location == 'SX51' && $transfer->category == 'KEY' && $completion->limit_used == 1){
@@ -707,7 +712,12 @@ class TransferController extends BaseController {
 				]);
 			}
 			catch(\Exception $e){
-
+				// $response = array(
+				// 	'status' => false, 
+				// 	'status_code' => 1003,
+				// 	'message' => $e->getMessage()
+				// );
+				// return Response::json($response);
 			}
 		}
 
