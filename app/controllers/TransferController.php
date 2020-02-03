@@ -377,6 +377,7 @@ class TransferController extends BaseController {
 				->table('t_pesanan')
 				->insert([
 					'hsa_kito_code' => $transfer->material_number,
+					'no_kanban' => substr($transfer->barcode_number, 11),
 					'pesanan_status' => "0",
 					'pesanan_create_date' => date( 'Y-m-d H:i:s')
 				]);
@@ -707,6 +708,7 @@ class TransferController extends BaseController {
 				->table('t_pesanan')
 				->insert([
 					'hsa_kito_code' => $transfer->material_number,
+					'no_kanban' => substr($transfer->barcode_number, 11),
 					'pesanan_status' => "0",
 					'pesanan_create_date' => date( 'Y-m-d H:i:s')
 				]);
