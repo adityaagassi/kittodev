@@ -315,6 +315,8 @@ class CompletionController extends BaseController {
 
 	function completionAdjustment($barcode, $user_id) {//, $posting_date) {
 
+
+
 		$data['user_id'] = $user_id;
 		$data['barcode_number'] = $barcode;
 		$completion = self::getCompletion($data["barcode_number"]);
@@ -400,6 +402,32 @@ class CompletionController extends BaseController {
 		$leadTime = $completionTimestamp * 60;
 		$lastScanTimestamp = strtotime($inventory->updated_at);
 
+
+		//soldering_db
+
+		if($completion->location == 'SX21' && $completion->category == 'KEY'){
+			try{
+				$m_hsa_kartu = db::connection('welding')->table('m_hsa_kartu')->where('hsa_kartu_barcode', '=', $completion->barcode_number)->first();
+
+				$tes = DB::connection('welding')
+				->table('t_order')
+				->where('part_type', '=', '2')
+				->where('part_id', '=', $m_hsa_kartu->hsa_id)
+				->update([
+					'order_status' => '3'
+				]);
+			}
+			catch(\Exception $e){
+				// $response = array(
+				// 	'status' => false, 
+				// 	'status_code' => 1003,
+				// 	'message' => $e->getMessage(),
+				// 	'barcode' => $barcode
+				// );
+				// return $response;
+			}
+		}
+
 		// if (($lastScanTimestamp + $leadTime) >= $nowTimestamp) {
 		// 	$response = array(
 		// 		'status' => false, 
@@ -435,24 +463,8 @@ class CompletionController extends BaseController {
 		}
 		History::create($history);
 
-		//soldering_db
 
-		if($completion->location == 'SX21' && $completion->category == 'KEY'){
-			try{
-				$m_hsa_kartu = db::connection('welding')->table('m_hsa_kartu')->where('hsa_kartu_barcode', '=', $completion->barcode_number)->first();
-
-				$tes = DB::connection('welding')
-				->table('t_order')
-				->where('part_type', '=', '2')
-				->where('part_id', '=', $m_hsa_kartu->hsa_id)
-				->update([
-					'order_status' => '3'
-				]);
-			}
-			catch(\Exception $e){
-				
-			}
-		}
+		
 
 		if($completion->location == 'SX51' && $completion->category == 'KEY'){
 			try{
@@ -762,6 +774,31 @@ class CompletionController extends BaseController {
 			// }
 		}
 
+		//soldering_db
+
+		if($completion->location == 'SX21' && $completion->category == 'KEY'){
+			try{
+				$m_hsa_kartu = db::connection('welding')->table('m_hsa_kartu')->where('hsa_kartu_barcode', '=', $completion->barcode_number)->first();
+
+				$tes = DB::connection('welding')
+				->table('t_order')
+				->where('part_type', '=', '2')
+				->where('part_id', '=', $m_hsa_kartu->hsa_id)
+				->update([
+					'order_status' => '3'
+				]);
+			}
+			catch(\Exception $e){
+				// $response = array(
+				// 	'status' => false, 
+				// 	'status_code' => 1003,
+				// 	'message' => $e->getMessage(),
+				// 	'barcode' => $barcode
+				// );
+				// return $response;
+			}
+		}
+
 		$data["material_number"] = $completion->material_number;
 		$data["lot"] = $inventory->lot + $completion->lot_completion;
 		$data["last_action"] = "completion";
@@ -788,29 +825,7 @@ class CompletionController extends BaseController {
 		}
 		History::create($history);
 
-		//soldering_db
-
-		if($completion->location == 'SX21' && $completion->category == 'KEY'){
-			try{
-				$m_hsa_kartu = db::connection('welding')->table('m_hsa_kartu')->where('hsa_kartu_barcode', '=', $completion->barcode_number)->first();
-
-				$tes = DB::connection('welding')
-				->table('t_order')
-				->where('part_type', '=', '2')
-				->where('part_id', '=', $m_hsa_kartu->hsa_id)
-				->update([
-					'order_status' => '3'
-				]);
-			}
-			catch(\Exception $e){
-				$response = array(
-					'status' => false, 
-					'status_code' => 1002,
-					'message' => $e->getMessage()
-				);
-				return Response::json($response);
-			}
-		}
+		
 
 		if($completion->location == 'SX51' && $completion->category == 'KEY'){
 			try{
