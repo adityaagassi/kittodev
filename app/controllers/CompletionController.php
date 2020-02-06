@@ -412,6 +412,7 @@ class CompletionController extends BaseController {
 				$tes = DB::connection('welding')
 				->table('t_order')
 				->where('part_type', '=', '2')
+				->where('order_status', '=', '5')
 				->where('part_id', '=', $m_hsa_kartu->hsa_id)
 				->update([
 					'order_status' => '3'
@@ -783,6 +784,7 @@ class CompletionController extends BaseController {
 				$tes = DB::connection('welding')
 				->table('t_order')
 				->where('part_type', '=', '2')
+				->where('order_status', '=', '5')
 				->where('part_id', '=', $m_hsa_kartu->hsa_id)
 				->update([
 					'order_status' => '3'
