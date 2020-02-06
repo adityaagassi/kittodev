@@ -414,6 +414,7 @@ class CompletionController extends BaseController {
 				->where('part_type', '=', '2')
 				->where('order_status', '=', '5')
 				->where('part_id', '=', $m_hsa_kartu->hsa_id)
+				->where('kanban_no', '=', $m_hsa_kartu->hsa_kartu_no)
 				->update([
 					'order_status' => '3'
 				]);
@@ -786,6 +787,7 @@ class CompletionController extends BaseController {
 				->where('part_type', '=', '2')
 				->where('order_status', '=', '5')
 				->where('part_id', '=', $m_hsa_kartu->hsa_id)
+				->where('kanban_no', '=', $m_hsa_kartu->hsa_kartu_no)
 				->update([
 					'order_status' => '3'
 				]);
