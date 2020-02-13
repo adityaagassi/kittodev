@@ -371,7 +371,7 @@ class TransferController extends BaseController {
 			return Response::json($response);
 		}
 
-		if($transfer->issue_location == 'SX21' && $transfer->category == 'KEY' && $completion->limit_used != 1){
+		if($transfer->issue_location == 'SX21' && $transfer->category == 'KEY' && $completion->limit_used != 1 && substr($transfer->barcode_number, 0, 4) != 'BLCR'){
 			try{
 				$tes = DB::connection('welding')
 				->table('t_pesanan')
@@ -702,7 +702,7 @@ class TransferController extends BaseController {
 		}
 		History::create($history);
 
-		if($transfer->issue_location == 'SX21' && $transfer->category == 'KEY' && $completion->limit_used != 1){
+		if($transfer->issue_location == 'SX21' && $transfer->category == 'KEY' && $completion->limit_used != 1 && strlen($transfer->barcode_number, 0, 4) != 'BLCR'){
 			try{
 				$tes = DB::connection('welding')
 				->table('t_pesanan')
