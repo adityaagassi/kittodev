@@ -418,6 +418,11 @@ class CompletionController extends BaseController {
 				->update([
 					'order_status' => '3'
 				]);
+
+				$del = DB::connection('mysql2')
+				->table('welding_inventories')
+				->where('welding_inventories.barcode_number', '=', $completion->barcode_number)
+				->delete();
 			}
 			catch(\Exception $e){
 				// $response = array(
@@ -791,6 +796,11 @@ class CompletionController extends BaseController {
 				->update([
 					'order_status' => '3'
 				]);
+
+				$del = DB::connection('mysql2')
+				->table('welding_inventories')
+				->where('welding_inventories.barcode_number', '=', $completion->barcode_number)
+				->delete();
 			}
 			catch(\Exception $e){
 				// $response = array(

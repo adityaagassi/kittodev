@@ -714,12 +714,7 @@ class TransferController extends BaseController {
 				]);
 			}
 			catch(\Exception $e){
-				// $response = array(
-				// 	'status' => false, 
-				// 	'status_code' => 1003,
-				// 	'message' => $e->getMessage()
-				// );
-				// return Response::json($response);
+				
 			}
 		}
 
