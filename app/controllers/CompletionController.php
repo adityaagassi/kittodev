@@ -423,6 +423,11 @@ class CompletionController extends BaseController {
 				->table('welding_inventories')
 				->where('welding_inventories.barcode_number', '=', $completion->barcode_number)
 				->delete();
+
+				$del2 = DB::connection('welding')
+				->table('t_cuci')
+				->where('kartu_code', '=', $m_hsa_kartu->hsa_kartu_code)
+				->delete();
 			}
 			catch(\Exception $e){
 				// $response = array(
@@ -800,6 +805,11 @@ class CompletionController extends BaseController {
 				$del = DB::connection('mysql2')
 				->table('welding_inventories')
 				->where('welding_inventories.barcode_number', '=', $completion->barcode_number)
+				->delete();
+
+				$del2 = DB::connection('welding')
+				->table('t_cuci')
+				->where('kartu_code', '=', $m_hsa_kartu->hsa_kartu_code)
 				->delete();
 			}
 			catch(\Exception $e){
