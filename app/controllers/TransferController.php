@@ -392,12 +392,12 @@ class TransferController extends BaseController {
 			}
 		}
 
-		if($transfer->category == 'SANDING' && $completion->limit_used != 1 && substr($transfer->barcode_number, 0, 4) != 'BLCR'){
+		if($transfer->category == 'PART PROCESS' && $completion->limit_used != 1 && substr($transfer->barcode_number, 0, 4) != 'BLCR'){
 			try{
-				$tes = DB::connection('welding')
-				->table('t_pesanan_sanding')
+				$tes = DB::connection('initial')
+				->table('t_pesanan')
 				->insert([
-					'hsa_kito_code' => $transfer->material_number,
+					'kitto_code' => $transfer->material_number,
 					'quantity' => $transfer->lot_transfer,
 					'no_kanban' => substr($transfer->barcode_number, 11),
 					'pesanan_status' => "0",
@@ -771,6 +771,28 @@ class TransferController extends BaseController {
 			}
 			catch(\Exception $e){
 				
+			}
+		}
+
+		if($transfer->category == 'PART PROCESS' && $completion->limit_used != 1 && substr($transfer->barcode_number, 0, 4) != 'BLCR'){
+			try{
+				$tes = DB::connection('initial')
+				->table('t_pesanan')
+				->insert([
+					'kitto_code' => $transfer->material_number,
+					'quantity' => $transfer->lot_transfer,
+					'no_kanban' => substr($transfer->barcode_number, 11),
+					'pesanan_status' => "0",
+					'pesanan_create_date' => date( 'Y-m-d H:i:s')
+				]);
+			}
+			catch(\Exception $e){
+				// $response = array(
+				// 	'status' => false, 
+				// 	'status_code' => 1003,
+				// 	'message' => $e->getMessage()
+				// );
+				// return Response::json($response);
 			}
 		}
 
