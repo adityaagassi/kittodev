@@ -391,6 +391,28 @@ class TransferController extends BaseController {
 				// return Response::json($response);
 			}
 		}
+
+		if($transfer->category == 'SANDING' && $completion->limit_used != 1 && substr($transfer->barcode_number, 0, 4) != 'BLCR'){
+			try{
+				$tes = DB::connection('welding')
+				->table('t_pesanan_sanding')
+				->insert([
+					'hsa_kito_code' => $transfer->material_number,
+					'quantity' => $transfer->lot_transfer,
+					'no_kanban' => substr($transfer->barcode_number, 11),
+					'pesanan_status' => "0",
+					'pesanan_create_date' => date( 'Y-m-d H:i:s')
+				]);
+			}
+			catch(\Exception $e){
+				// $response = array(
+				// 	'status' => false, 
+				// 	'status_code' => 1003,
+				// 	'message' => $e->getMessage()
+				// );
+				// return Response::json($response);
+			}
+		}
 		
 		if($transfer->issue_location == 'SX51' && $transfer->category == 'KEY' && $completion->limit_used != 1){
 			try{
