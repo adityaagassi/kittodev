@@ -394,15 +394,30 @@ class TransferController extends BaseController {
 
 		if($transfer->category == 'PART PROCESS' && $completion->limit_used != 1 && substr($transfer->barcode_number, 0, 4) != 'BLCR'){
 			try{
-				$tes = DB::connection('initial')
-				->table('t_pesanan')
-				->insert([
-					'kitto_code' => $transfer->material_number,
-					'quantity' => $transfer->lot_transfer,
-					'no_kanban' => substr($transfer->barcode_number, 11),
-					'pesanan_status' => "0",
-					'pesanan_create_date' => date( 'Y-m-d H:i:s')
-				]);
+				if($inventory->lot == $transfer->lot_transfer){
+					$tes = DB::connection('initial')
+					->table('t_pesanan')
+					->insert([
+						'kitto_code' => $transfer->material_number,
+						'quantity' => $transfer->lot_transfer,
+						'no_kanban' => substr($transfer->barcode_number, 11),
+						'pesanan_status' => "0",
+						'pesanan_create_date' => date( 'Y-m-d H:i:s'),
+						'is_finish' => 1
+					]);	
+				}
+				else{
+					$tes = DB::connection('initial')
+					->table('t_pesanan')
+					->insert([
+						'kitto_code' => $transfer->material_number,
+						'quantity' => $transfer->lot_transfer,
+						'no_kanban' => substr($transfer->barcode_number, 11),
+						'pesanan_status' => "0",
+						'pesanan_create_date' => date( 'Y-m-d H:i:s'),
+						'is_finish' => 0
+					]);
+				}
 			}
 			catch(\Exception $e){
 				// $response = array(
@@ -776,15 +791,30 @@ class TransferController extends BaseController {
 
 		if($transfer->category == 'PART PROCESS' && $completion->limit_used != 1 && substr($transfer->barcode_number, 0, 4) != 'BLCR'){
 			try{
-				$tes = DB::connection('initial')
-				->table('t_pesanan')
-				->insert([
-					'kitto_code' => $transfer->material_number,
-					'quantity' => $transfer->lot_transfer,
-					'no_kanban' => substr($transfer->barcode_number, 11),
-					'pesanan_status' => "0",
-					'pesanan_create_date' => date( 'Y-m-d H:i:s')
-				]);
+				if($inventory->lot == $transfer->lot_transfer){
+					$tes = DB::connection('initial')
+					->table('t_pesanan')
+					->insert([
+						'kitto_code' => $transfer->material_number,
+						'quantity' => $transfer->lot_transfer,
+						'no_kanban' => substr($transfer->barcode_number, 11),
+						'pesanan_status' => "0",
+						'pesanan_create_date' => date( 'Y-m-d H:i:s'),
+						'is_finish' => 1
+					]);	
+				}
+				else{
+					$tes = DB::connection('initial')
+					->table('t_pesanan')
+					->insert([
+						'kitto_code' => $transfer->material_number,
+						'quantity' => $transfer->lot_transfer,
+						'no_kanban' => substr($transfer->barcode_number, 11),
+						'pesanan_status' => "0",
+						'pesanan_create_date' => date( 'Y-m-d H:i:s'),
+						'is_finish' => 0
+					]);
+				}
 			}
 			catch(\Exception $e){
 				// $response = array(
