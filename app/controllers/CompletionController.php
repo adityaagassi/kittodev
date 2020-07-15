@@ -440,6 +440,29 @@ class CompletionController extends BaseController {
 			}
 		}
 
+		if($transfer->category == 'PART PROCESS' && $completion->limit_used != 1 && substr($transfer->barcode_number, 0, 4) != 'BLCR'){
+			try{
+				$tes = DB::connection('initial')
+				->table('t_cs')
+				->insert([
+					'kitto_code' => $completion->material_number,
+					'quantity' => $completion->lot_completion,
+					'no_kanban' => substr($completion->barcode_number, 11),
+					'pesanan_status' => "0",
+					'pesanan_create_date' => date( 'Y-m-d H:i:s'),
+					'is_finish' => 1
+				]);
+			}
+			catch(\Exception $e){
+				// $response = array(
+				// 	'status' => false, 
+				// 	'status_code' => 1003,
+				// 	'message' => $e->getMessage()
+				// );
+				// return Response::json($response);
+			}
+		}
+
 		// if (($lastScanTimestamp + $leadTime) >= $nowTimestamp) {
 		// 	$response = array(
 		// 		'status' => false, 
@@ -820,6 +843,29 @@ class CompletionController extends BaseController {
 				// 	'barcode' => $barcode
 				// );
 				// return $response;
+			}
+		}
+
+		if($transfer->category == 'PART PROCESS' && $completion->limit_used != 1 && substr($transfer->barcode_number, 0, 4) != 'BLCR'){
+			try{
+				$tes = DB::connection('initial')
+				->table('t_cs')
+				->insert([
+					'kitto_code' => $completion->material_number,
+					'quantity' => $completion->lot_completion,
+					'no_kanban' => substr($completion->barcode_number, 11),
+					'pesanan_status' => "0",
+					'pesanan_create_date' => date( 'Y-m-d H:i:s'),
+					'is_finish' => 1
+				]);
+			}
+			catch(\Exception $e){
+				// $response = array(
+				// 	'status' => false, 
+				// 	'status_code' => 1003,
+				// 	'message' => $e->getMessage()
+				// );
+				// return Response::json($response);
 			}
 		}
 
