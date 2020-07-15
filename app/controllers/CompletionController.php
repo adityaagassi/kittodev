@@ -440,7 +440,7 @@ class CompletionController extends BaseController {
 			}
 		}
 
-		if($transfer->category == 'PART PROCESS' && $completion->limit_used != 1 && substr($transfer->barcode_number, 0, 4) != 'BLCR'){
+		if($completion->category == 'PART PROCESS' && $completion->limit_used != 1 && substr($completion->barcode_number, 0, 4) != 'BLCR'){
 			try{
 				$tes = DB::connection('initial')
 				->table('t_cs')
@@ -846,7 +846,7 @@ class CompletionController extends BaseController {
 			}
 		}
 
-		if($transfer->category == 'PART PROCESS' && $completion->limit_used != 1 && substr($transfer->barcode_number, 0, 4) != 'BLCR'){
+		if($completion->category == 'PART PROCESS' && $completion->limit_used != 1 && substr($completion->barcode_number, 0, 4) != 'BLCR'){
 			try{
 				$tes = DB::connection('initial')
 				->table('t_cs')
