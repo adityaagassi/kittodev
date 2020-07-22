@@ -1310,6 +1310,29 @@ class CompletionController extends BaseController {
 								$completion = Completion::create($data);
 							}
 						}
+
+						try{
+							if($material->category == 'KD-TPRO'){
+								$tes = DB::connection('initial')
+								->table('t_kd')
+								->insert([
+									'kitto_code' => $row->material_number,
+									'quantity' => $row->lot,
+									'no_kanban' => substr($row->barcode_number, 11),
+									'pesanan_status' => "0",
+									'pesanan_create_date' => date( 'Y-m-d H:i:s'),
+									'is_finish' => 1
+								]);							
+							}
+						}
+						catch(\Exception $e){
+							// $response = array(
+							// 	'status' => false, 
+							// 	'status_code' => 1003,
+							// 	'message' => $e->getMessage()
+							// );
+							// return Response::json($response);
+						}						
 					}
 				});
 			});
