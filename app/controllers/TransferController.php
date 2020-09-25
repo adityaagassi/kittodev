@@ -392,6 +392,41 @@ class TransferController extends BaseController {
 			}
 		}
 
+		if($transfer->receive_location == 'SX91'){
+			try{
+				$inventories = db::connection('mysql2')
+				->table('inventories')
+				->where('inventories.material_number', '=', $transfer->material_number)
+				->where('inventories.storage_location', '=', $transfer->receive_location)
+				->first();
+
+				if($inventories == null){
+					$insert = db::connection('mysql2')
+					->table('inventories')
+					->insert([
+						'plant' => '8190',
+						'material_number' => $transfer->material_number,
+						'storage_location' => $transfer->receive_location,
+						'quantity' => $transfer->lot_transfer,
+						'created_at' => date( 'Y-m-d H:i:s'),
+						'updated_at' => date( 'Y-m-d H:i:s')
+					]);
+				}
+				else{
+					$update = db::connection('mysql2')
+					->table('inventories')
+					->where('inventories.material_number', '=', $transfer->material_number)
+					->where('inventories.storage_location', '=', $transfer->receive_location)
+					->update([
+						'quantity' => $inventories->quantity+$transfer->lot_transfer
+					]);
+				}
+			}
+			catch(\Exception $e){
+				
+			}	
+		}
+
 		if($transfer->category == 'PART PROCESS' && $completion->limit_used != 1 && substr($transfer->barcode_number, 0, 4) != 'BLCR'){
 			try{
 				if($inventory->lot == $transfer->lot_transfer){
@@ -789,6 +824,41 @@ class TransferController extends BaseController {
 			}
 		}
 
+		if($transfer->receive_location == 'SX91'){
+			try{
+				$inventories = db::connection('mysql2')
+				->table('inventories')
+				->where('inventories.material_number', '=', $transfer->material_number)
+				->where('inventories.storage_location', '=', $transfer->receive_location)
+				->first();
+
+				if($inventories == null){
+					$insert = db::connection('mysql2')
+					->table('inventories')
+					->insert([
+						'plant' => '8190',
+						'material_number' => $transfer->material_number,
+						'storage_location' => $transfer->receive_location,
+						'quantity' => $transfer->lot_transfer,
+						'created_at' => date( 'Y-m-d H:i:s'),
+						'updated_at' => date( 'Y-m-d H:i:s')
+					]);
+				}
+				else{
+					$update = db::connection('mysql2')
+					->table('inventories')
+					->where('inventories.material_number', '=', $transfer->material_number)
+					->where('inventories.storage_location', '=', $transfer->receive_location)
+					->update([
+						'quantity' => $inventories->quantity+$transfer->lot_transfer
+					]);
+				}
+			}
+			catch(\Exception $e){
+				
+			}	
+		}
+
 		if($transfer->category == 'PART PROCESS' && $completion->limit_used != 1 && substr($transfer->barcode_number, 0, 4) != 'BLCR'){
 			try{
 				if($inventory->lot == $transfer->lot_transfer){
@@ -1112,6 +1182,41 @@ class TransferController extends BaseController {
 			catch(\Exception $e){
 
 			}
+		}
+
+		if($transfer->receive_location == 'SX91'){
+			try{
+				$inventories = db::connection('mysql2')
+				->table('inventories')
+				->where('inventories.material_number', '=', $transfer->material_number)
+				->where('inventories.storage_location', '=', $transfer->receive_location)
+				->first();
+
+				if($inventories == null){
+					$insert = db::connection('mysql2')
+					->table('inventories')
+					->insert([
+						'plant' => '8190',
+						'material_number' => $transfer->material_number,
+						'storage_location' => $transfer->receive_location,
+						'quantity' => 0,
+						'created_at' => date( 'Y-m-d H:i:s'),
+						'updated_at' => date( 'Y-m-d H:i:s')
+					]);
+				}
+				else{
+					$update = db::connection('mysql2')
+					->table('inventories')
+					->where('inventories.material_number', '=', $transfer->material_number)
+					->where('inventories.storage_location', '=', $transfer->receive_location)
+					->update([
+						'quantity' => $inventories->quantity-$transfer->lot_transfer
+					]);
+				}
+			}
+			catch(\Exception $e){
+				
+			}	
 		}
 
 		try{
