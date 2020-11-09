@@ -17,7 +17,7 @@
                             </div>
                             <div class="panel-body">
                               <h4>Technical Support : 1189 Agassi</h4>
-                              <h4>Transaction Support : 1156 Farizca</h4>
+                              <h4>Transaction Support : 1157 Istiqomah</h4>
                             </div>
                           </div><!-- panel -->
                         </div><!-- col-sm-6 -->
