@@ -13,21 +13,21 @@ class ErrorReportController extends BaseController {
 	public function openListPage() {
 
 		$histories = DB::table('histories')
-					->where('histories.synced', '=', 0)
-					->whereNotNull('histories.reference_file')
-					->whereNotNull('histories.error_description')
-					->whereNull('histories.deleted_at')
-					->select(
-						'histories.category',
-						'histories.reference_file',
-						'histories.synced',
-						'histories.created_at'
-					)
-					->orderBy('histories.created_at', 'desc')
-					->groupBy(
-						'histories.reference_file'
-    				)
-                    ->get();
+		->where('histories.synced', '=', 0)
+		->whereNotNull('histories.reference_file')
+		->whereNotNull('histories.error_description')
+		->whereNull('histories.deleted_at')
+		->select(
+			'histories.category',
+			'histories.reference_file',
+			'histories.synced',
+			'histories.created_at'
+		)
+		->orderBy('histories.created_at', 'desc')
+		->groupBy(
+			'histories.reference_file'
+		)
+		->get();
 		return View::make('error-report.list', array(
 			'page' => 'error_report',
 			'histories' => $histories
@@ -39,35 +39,35 @@ class ErrorReportController extends BaseController {
 		if (strpos($filename, 'gm') !== false) {
 		    // transfer
 			$histories = DB::table('histories')
-						->where('histories.reference_file', '=', $filename)
-						->where('histories.lot', '>', 0)
-						->where('histories.synced', '=', 0)
-						->whereNull('histories.deleted_at')
-						->leftJoin('materials', 'histories.transfer_material_id', '=', 'materials.id')
-						->select(
-							'histories.id',
-							'histories.category',
-							'histories.transfer_barcode_number',
-							'histories.transfer_document_number',
-							'materials.material_number',
-							'histories.transfer_document_number',
-							'histories.transfer_issue_location',
-							'histories.transfer_issue_plant',
-							'histories.transfer_receive_location',
-							'histories.transfer_receive_plant',
-							'histories.transfer_cost_center',
-							'histories.transfer_gl_account',
-							'histories.transfer_transaction_code',
-							'histories.transfer_movement_type',
-							'histories.transfer_reason_code',
-							'histories.reference_file',
-							'histories.lot',
-							'histories.synced',
-							'histories.error_description',
-							'histories.created_at'
-						)
-						->orderBy('histories.updated_at', 'desc')
-	                    ->get();
+			->where('histories.reference_file', '=', $filename)
+			->where('histories.lot', '>', 0)
+			->where('histories.synced', '=', 0)
+			->whereNull('histories.deleted_at')
+			->leftJoin('materials', 'histories.transfer_material_id', '=', 'materials.id')
+			->select(
+				'histories.id',
+				'histories.category',
+				'histories.transfer_barcode_number',
+				'histories.transfer_document_number',
+				'materials.material_number',
+				'histories.transfer_document_number',
+				'histories.transfer_issue_location',
+				'histories.transfer_issue_plant',
+				'histories.transfer_receive_location',
+				'histories.transfer_receive_plant',
+				'histories.transfer_cost_center',
+				'histories.transfer_gl_account',
+				'histories.transfer_transaction_code',
+				'histories.transfer_movement_type',
+				'histories.transfer_reason_code',
+				'histories.reference_file',
+				'histories.lot',
+				'histories.synced',
+				'histories.error_description',
+				'histories.created_at'
+			)
+			->orderBy('histories.updated_at', 'desc')
+			->get();
 			return View::make('error-report.detail', array(
 				'page' => 'error_report',
 				'filename' => $filename,
@@ -78,26 +78,26 @@ class ErrorReportController extends BaseController {
 		else {
 			// completion
 			$histories = DB::table('histories')
-						->where('histories.reference_file', '=', $filename)
-						->whereNull('histories.deleted_at')
-						->leftJoin('materials', 'histories.completion_material_id', '=', 'materials.id')
-						->select(
-							'histories.id',
-							'histories.category',
-							'histories.completion_barcode_number',
-							'histories.completion_description',
-							'histories.completion_location',
-							'histories.completion_issue_plant',
-							'materials.material_number',
-							'histories.completion_reference_number',
-							'histories.reference_file',
-							'histories.lot',
-							'histories.synced',
-							'histories.error_description',
-							'histories.created_at'
-						)
-						->orderBy('histories.updated_at', 'desc')
-	                    ->get();
+			->where('histories.reference_file', '=', $filename)
+			->whereNull('histories.deleted_at')
+			->leftJoin('materials', 'histories.completion_material_id', '=', 'materials.id')
+			->select(
+				'histories.id',
+				'histories.category',
+				'histories.completion_barcode_number',
+				'histories.completion_description',
+				'histories.completion_location',
+				'histories.completion_issue_plant',
+				'materials.material_number',
+				'histories.completion_reference_number',
+				'histories.reference_file',
+				'histories.lot',
+				'histories.synced',
+				'histories.error_description',
+				'histories.created_at'
+			)
+			->orderBy('histories.updated_at', 'desc')
+			->get();
 			return View::make('error-report.detail', array(
 				'page' => 'error_report',
 				'filename' => $filename,
@@ -189,7 +189,7 @@ class ErrorReportController extends BaseController {
 					foreach ($listing as $key => $value) {
 						if (substr_count($value, 'ympi_error_' . $year . $month . $date) > 0) {
 							array_push($dirs, $value);
-						 }
+						}
 					}
 					foreach ($dirs as $dir) {
 						$names = explode("/", $dir);
@@ -213,7 +213,7 @@ class ErrorReportController extends BaseController {
 					foreach ($listing2 as $key => $value) {
 						if (substr_count($value, 'ympigm_error_' . $year . $month . $date) > 0) { 
 							array_push($dirs2, $value);
-						 }
+						}
 					}
 					foreach ($dirs2 as $dir2) {
 						$names2 = explode("/", $dir2);
@@ -274,34 +274,45 @@ class ErrorReportController extends BaseController {
 										$completion_reference_number = str_replace(" ", "", substr($row, 48, 16));
 										$completion_error_description = substr($row, 64, strlen($row) - 63);
 
-										$material = self::getMaterial($completion_material_number);
-										$valueCompletion["completion_issue_plant"] = $completion_issue_plant;
-										$valueCompletion["completion_location"] = $completion_location;
-										$valueCompletion["completion_material_id"] = $material->id;
+										if(strlen($completion_material_number) <= 7){
+											$material = self::getMaterial($completion_material_number);
+											$valueCompletion["completion_issue_plant"] = $completion_issue_plant;
+											$valueCompletion["completion_location"] = $completion_location;
+											$valueCompletion["completion_material_id"] = $material->id;
 										//$value["completion_material_number"] = $completion_material_number;
-										$valueCompletion["lot"] = $completion_lot;
-										$valueCompletion["completion_reference_number"] = $completion_reference_number;
-										$valueCompletion["error_description"] = $completion_error_description;
-										array_push($values, $valueCompletion);
+											$valueCompletion["lot"] = $completion_lot;
+											$valueCompletion["completion_reference_number"] = $completion_reference_number;
+											$valueCompletion["error_description"] = $completion_error_description;
+											array_push($values, $valueCompletion);
 
-										$historyCompletion['category'] = $filename["category"];
-										$historyCompletion['completion_barcode_number'] = "";
-										$historyCompletion['completion_description'] = "";
-										$historyCompletion['completion_location'] = $valueCompletion["completion_location"];
-										$historyCompletion['completion_issue_plant'] = $valueCompletion["completion_issue_plant"];
-										$historyCompletion['completion_material_id'] = $material->id;
-										$historyCompletion['completion_reference_number'] = $valueCompletion["completion_reference_number"];
-										$historyCompletion['error_description'] = $valueCompletion["error_description"];
-										$historyCompletion['lot'] = $valueCompletion["lot"];
-										$historyCompletion['reference_file'] = $name;
-										$historyCompletion['synced'] = 0;
-										$historyCompletion['created_at'] = $mysql_date; // $filename["mysql_date"];
-										$historyCompletion['updated_at'] = $mysql_date; // $filename["mysql_date"];
-										$historyCompletion['user_id'] = 0;
-										History::create($historyCompletion);
+											$historyCompletion['category'] = $filename["category"];
+											$historyCompletion['completion_barcode_number'] = "";
+											$historyCompletion['completion_description'] = "";
+											$historyCompletion['completion_location'] = $valueCompletion["completion_location"];
+											$historyCompletion['completion_issue_plant'] = $valueCompletion["completion_issue_plant"];
+											$historyCompletion['completion_material_id'] = $material->id;
+											$historyCompletion['completion_reference_number'] = $valueCompletion["completion_reference_number"];
+											$historyCompletion['error_description'] = $valueCompletion["error_description"];
+											$historyCompletion['lot'] = $valueCompletion["lot"];
+											$historyCompletion['reference_file'] = $name;
+											$historyCompletion['synced'] = 0;
+											$historyCompletion['created_at'] = $mysql_date;
+											$historyCompletion['updated_at'] = $mysql_date;
+											$historyCompletion['user_id'] = 0;
+											History::create($historyCompletion);
+										}
+										else{
+											DB::table('error_records')->insert([
+												'material' => $completion_material_number,
+												'remark' => $name,
+												'created_at' => date('Y-m-d H:i:s')
+											]);
+										}
+
 
 									}
 									else {
+
 										$transfer_document_number = str_replace(" ", "", substr($row, 0, 15));
 										$transfer_issue_plant = substr($row, 15, 4);
 										$transfer_material_number = str_replace(" ", "", substr($row, 19, 18));
@@ -322,39 +333,50 @@ class ErrorReportController extends BaseController {
 										$transfer_error_description = substr($row, 117, strlen($row) - 117);
 										$material = self::getMaterial($transfer_material_number);
 
-										$valueTransfer["transfer_document_number"] = $transfer_document_number;
-										$valueTransfer["transfer_issue_plant"] = $transfer_issue_plant;
-										$valueTransfer["transfer_material_id"] = $material->id;
-										$valueTransfer["transfer_issue_location"] = $transfer_issue_location;
-										$valueTransfer["transfer_receive_plant"] = $transfer_receive_plant;
-										$valueTransfer["transfer_receive_location"] = $transfer_receive_location;
-										$valueTransfer["transfer_cost_center"] = (strlen($transfer_cost_center) > 0 ? $transfer_cost_center : null);
-										$valueTransfer["transfer_gl_account"] = (strlen($transfer_gl_account) > 0 ? $transfer_gl_account : null);
-										$valueTransfer["transfer_transaction_code"] = (strlen($transfer_transaction_code) > 0 ? $transfer_transaction_code : null);
-										$valueTransfer["transfer_movement_type"] = $transfer_movement_type;
-										$valueTransfer["transfer_reason_code"] = (strlen($transfer_reason_code) > 0 ? $transfer_reason_code : null);
-										$valueTransfer["lot"] = $transfer_lot;
-										$valueTransfer["error_description"] = $transfer_error_description;
-										array_push($values, $valueTransfer);
+										if(strlen($transfer_material_number) <= 7){
+											$valueTransfer["transfer_document_number"] = $transfer_document_number;
+											$valueTransfer["transfer_issue_plant"] = $transfer_issue_plant;
+											$valueTransfer["transfer_material_id"] = $material->id;
+											$valueTransfer["transfer_issue_location"] = $transfer_issue_location;
+											$valueTransfer["transfer_receive_plant"] = $transfer_receive_plant;
+											$valueTransfer["transfer_receive_location"] = $transfer_receive_location;
+											$valueTransfer["transfer_cost_center"] = (strlen($transfer_cost_center) > 0 ? $transfer_cost_center : null);
+											$valueTransfer["transfer_gl_account"] = (strlen($transfer_gl_account) > 0 ? $transfer_gl_account : null);
+											$valueTransfer["transfer_transaction_code"] = (strlen($transfer_transaction_code) > 0 ? $transfer_transaction_code : null);
+											$valueTransfer["transfer_movement_type"] = $transfer_movement_type;
+											$valueTransfer["transfer_reason_code"] = (strlen($transfer_reason_code) > 0 ? $transfer_reason_code : null);
+											$valueTransfer["lot"] = $transfer_lot;
+											$valueTransfer["error_description"] = $transfer_error_description;
+											array_push($values, $valueTransfer);
 
-										$historyTransfer['category'] = $filename["category"];
-										$historyTransfer['transfer_barcode_number'] = "";
-										$historyTransfer['transfer_material_id'] = $material->id;
-										$historyTransfer['transfer_issue_location'] = $valueTransfer["transfer_issue_location"];
-										$historyTransfer['transfer_issue_plant'] = $valueTransfer["transfer_issue_plant"];
-										$historyTransfer['transfer_receive_location'] = $valueTransfer["transfer_receive_location"];
-										$historyTransfer['transfer_receive_plant'] = $valueTransfer["transfer_receive_plant"];
-										$historyTransfer['transfer_transaction_code'] = $valueTransfer["transfer_transaction_code"];
-										$historyTransfer['transfer_movement_type'] = $valueTransfer["transfer_movement_type"];
-										$historyTransfer['transfer_reason_code'] = $valueTransfer["transfer_reason_code"];
-										$historyTransfer['error_description'] = $valueTransfer["error_description"];
-										$historyTransfer['lot'] = $valueTransfer["lot"];
-										$historyTransfer['reference_file'] = $name;
-										$historyTransfer['synced'] = 0;
-										$historyTransfer['created_at'] = $mysql_date; // $filename["mysql_date"];
-										$historyTransfer['updated_at'] = $mysql_date; // $filename["mysql_date"];
-										$historyTransfer['user_id'] = 0;
-										History::create($historyTransfer);
+											$historyTransfer['category'] = $filename["category"];
+											$historyTransfer['transfer_barcode_number'] = "";
+											$historyTransfer['transfer_material_id'] = $material->id;
+											$historyTransfer['transfer_issue_location'] = $valueTransfer["transfer_issue_location"];
+											$historyTransfer['transfer_issue_plant'] = $valueTransfer["transfer_issue_plant"];
+											$historyTransfer['transfer_receive_location'] = $valueTransfer["transfer_receive_location"];
+											$historyTransfer['transfer_receive_plant'] = $valueTransfer["transfer_receive_plant"];
+											$historyTransfer['transfer_transaction_code'] = $valueTransfer["transfer_transaction_code"];
+											$historyTransfer['transfer_movement_type'] = $valueTransfer["transfer_movement_type"];
+											$historyTransfer['transfer_reason_code'] = $valueTransfer["transfer_reason_code"];
+											$historyTransfer['error_description'] = $valueTransfer["error_description"];
+											$historyTransfer['lot'] = $valueTransfer["lot"];
+											$historyTransfer['reference_file'] = $name;
+											$historyTransfer['synced'] = 0;
+											$historyTransfer['created_at'] = $mysql_date;
+											$historyTransfer['updated_at'] = $mysql_date;
+											$historyTransfer['user_id'] = 0;
+											History::create($historyTransfer);
+										}
+										else{
+											DB::table('error_records')->insert([
+												'material' => $completion_material_number,
+												'remark' => $name,
+												'created_at' => date('Y-m-d H:i:s')
+											]);
+										}
+
+
 									}
 								}
 							}
