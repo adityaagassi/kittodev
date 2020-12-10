@@ -410,7 +410,7 @@ class BatchOutputController extends BaseController {
 					// 	'histories.transfer_movement_type'
 					// )
 					// ->having(DB::raw('SUM(histories.lot)'), '>', 0)
-					->orderBy('histories.transfer_movement_type', 'desc')
+					// ->orderBy('histories.transfer_movement_type', 'desc')
                     ->get();
         
         $text = "";
