@@ -8,6 +8,7 @@
 				<table class="table mb30" width="100%" class="bordered">
 					<thead>
 						<tr>
+							<th>ID</th>
 							<th>Category</th>
 							<th>Barcode Number</th>
 							<th>Document Number</th>
@@ -23,6 +24,7 @@
 							<th>Reason Code</th>
 							<th>Qty</th>
 							<th>User</th>
+							<th>File</th>
 							<th>Date</th>
 							<th>Description</th>
 						</tr>
@@ -30,6 +32,7 @@
 					<tbody>
 						@foreach ($histories as $history)
 							<tr>
+								<td>{{ $history->id }}</td>
 								<td>{{ $history->category }}</td>
                                 <td>
                                     @if(isset($history->transfer_barcode_number) && strlen($history->transfer_barcode_number) > 0) 
@@ -63,6 +66,7 @@
                                         -
                                     @endif
 								</td>
+								<td>{{ $history->reference_file }}</td>
 								<td>{{ $history->created_at }}</td>
 								<td>{{ $history->description }}</td>
 							</tr>

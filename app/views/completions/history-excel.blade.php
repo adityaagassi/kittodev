@@ -9,6 +9,7 @@
 					<thead>
 						<tr>
                             <th>#</th>
+                            <th>ID</th>
                             <th>Barcode Number</th>
                             <th>Location</th>
                             <th>Material</th>
@@ -17,6 +18,7 @@
                             <th>Qty</th>
                             <th>Category</th>
                             <th>User</th>
+                            <th>File</th>
                             <th>Date</th>
 						</tr>
 					</thead>
@@ -25,6 +27,7 @@
 						@foreach ($histories as $history)
 							<tr>
                                 <td>{{ $index++; }}</td>
+                                <td>{{ $history->id }}</td>
                                 <td>{{ $history->completion_barcode_number }}</td>
                                 <td>{{ $history->completion_location }}</td>
                                 <td>{{ $history->material_number }}</td>
@@ -45,6 +48,7 @@
                                         -
                                     @endif
                                 </td>
+                                                    <td>{{ $history->reference_file }}</td>
                                 <td>{{ $history->created_at }}</td>
 							</tr>
 						@endforeach

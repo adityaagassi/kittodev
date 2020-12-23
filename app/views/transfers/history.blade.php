@@ -27,6 +27,7 @@
                                             <thead>
                                                 <tr>
                                                     <th>#</th>
+                                                    <th>ID</th>
                                                     <th>Barcode</th>
                                                     <!-- <th>No Document</th> -->
                                                     <th>Material</th>
@@ -49,6 +50,7 @@
                                                 @foreach ($histories as $history)
                                                 <tr>
                                                     <td>{{ $index }}</td>
+                                                    <td>{{ $history->id }}</td>
                                                     <td>
                                                         @if(isset($history->transfer_barcode_number) && strlen($history->transfer_barcode_number) > 0) 
                                                         {{ $history->transfer_barcode_number }}

@@ -26,6 +26,7 @@
                                             <thead>
                                                 <tr>
                                                     <th>#</th>
+                                                    <th>ID</th>
                                                     <th>Barcode Number</th>
                                                     <th>Location</th>
                                                     <th>Material</th>
@@ -43,6 +44,7 @@
                                             @foreach ($histories as $history)
                                                 <tr>
                                                     <td>{{ $index }}</td>
+                                                    <td>{{ $history->id }}</td>
                                                     <td>{{ $history->completion_barcode_number }}</td>
                                                     <td>{{ $history->location }}</td>
                                                     <td>{{ $history->material_number }}</td>
