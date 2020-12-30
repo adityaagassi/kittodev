@@ -491,7 +491,12 @@ class BatchOutputController extends BaseController {
 		try {
 			$setting = Setting::findOrFail(1);
 			if($setting->upload_resume == 1) {
-				$date =  date('Y-m-d H:i:s');
+				// $date =  date('Y-m-d H:i:s');
+
+				$date =  date('Y-m-d 09:20:00');
+
+				// dd($date);
+
 				$resumeCompletion = self::resumeCompletion($date);
 				$resumeTransfer = self::resumeTransfer($date);
 				return ($resumeCompletion && $resumeTransfer)? 'true' : 'false';		
