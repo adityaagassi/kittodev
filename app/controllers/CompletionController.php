@@ -898,16 +898,16 @@ class CompletionController extends BaseController {
 		
 
 		if($completion->location == 'SX51' && $completion->category == 'KEY'){
-			try{
-				$tes = DB::connection('mysql2')
-				->table('middle_inventories')
-				->where('middle_inventories.tag', '=', $completion->barcode_number)
-				->delete();
+			// try{
+			// 	$tes = DB::connection('mysql2')
+			// 	->table('middle_inventories')
+			// 	->where('middle_inventories.tag', '=', $completion->barcode_number)
+			// 	->delete();
 
-			}
-			catch(\Exception $e){
+			// }
+			// catch(\Exception $e){
 				
-			}
+			// }
 			try{
 
 				$tes2 = DB::connection('mysql2')
