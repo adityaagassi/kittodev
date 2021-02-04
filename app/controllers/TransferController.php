@@ -478,6 +478,15 @@ class TransferController extends BaseController {
 			}
 			catch(\Exception $e){
 			}
+
+			try{
+				$tes = DB::connection('mysql2')
+				->table('middle_inventories')
+				->where('middle_inventories.tag', '=', $completion->barcode_number)
+				->delete();
+			}
+			catch(\Exception $e){
+			}
 		}
 		if($transfer->issue_location == 'SX51' && $transfer->category == 'KEY' && $completion->limit_used == 1){
 			try{
@@ -492,7 +501,15 @@ class TransferController extends BaseController {
 				]);
 			}
 			catch(\Exception $e){
-				
+			}
+
+			try{
+				$tes = DB::connection('mysql2')
+				->table('middle_inventories')
+				->where('middle_inventories.tag', '=', $completion->barcode_number)
+				->delete();
+			}
+			catch(\Exception $e){
 			}
 		}
 
