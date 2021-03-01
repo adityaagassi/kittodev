@@ -898,6 +898,7 @@ class CompletionController extends BaseController {
 		
 
 		if($completion->location == 'SX51' && $completion->category == 'KEY'){
+			
 			$final = DB::connection('mysql2')
 			->table('assembly_key_inventories')
 			->where('assembly_key_inventories.tag', '=', $completion->barcode_number)
@@ -915,7 +916,7 @@ class CompletionController extends BaseController {
 					->where('assembly_key_inventories.tag', '=', $completion->barcode_number)
 					->update([
 						'material_number' => $middle->material_number,
-						'location' => 'stockroom',
+						'location' => $middle->location,
 						'quantity' => $middle->quantity,
 						'remark' => $middle->remark,
 						'last_check' => $middle->last_check,
@@ -928,7 +929,7 @@ class CompletionController extends BaseController {
 					->insert([
 						'tag' => $middle->tag,
 						'material_number' => $middle->material_number,
-						'location' => 'stockroom',
+						'location' => $middle->location,
 						'quantity' => $middle->quantity,
 						'remark' => $middle->remark,
 						'last_check' => $middle->last_check,
