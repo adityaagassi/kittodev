@@ -481,8 +481,8 @@ class TransferController extends BaseController {
 
 			try{
 				$tes = DB::connection('mysql2')
-				->table('middle_inventories')
-				->where('middle_inventories.tag', '=', $completion->barcode_number)
+				->table('assembly_key_inventories')
+				->where('assembly_key_inventories.tag', '=', $completion->barcode_number)
 				->delete();
 			}
 			catch(\Exception $e){
@@ -505,8 +505,8 @@ class TransferController extends BaseController {
 
 			try{
 				$tes = DB::connection('mysql2')
-				->table('middle_inventories')
-				->where('middle_inventories.tag', '=', $completion->barcode_number)
+				->table('assembly_key_inventories')
+				->where('assembly_key_inventories.tag', '=', $completion->barcode_number)
 				->delete();
 			}
 			catch(\Exception $e){

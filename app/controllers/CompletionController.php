@@ -898,18 +898,66 @@ class CompletionController extends BaseController {
 		
 
 		if($completion->location == 'SX51' && $completion->category == 'KEY'){
-			try{
-				$tes = DB::connection('mysql2')
-				->table('middle_inventories')
-				->where('middle_inventories.tag', '=', $completion->barcode_number)
-				->update([
-					'location' => 'stockroom'
-				]);
+			$final = DB::connection('mysql2')
+			->table('assembly_key_inventories')
+			->where('assembly_key_inventories.tag', '=', $completion->barcode_number)
+			->first();
 
+			$middle = DB::connection('mysql2')
+			->table('middle_inventories')
+			->where('middle_inventories.tag', '=', $completion->barcode_number)
+			->first();
+
+			try{
+				if($final){
+					$update = DB::connection('mysql2')
+					->table('assembly_key_inventories')
+					->where('assembly_key_inventories.tag', '=', $completion->barcode_number)
+					->update([
+						'material_number' => $middle->material_number,
+						'location' => 'stockroom',
+						'quantity' => $middle->quantity,
+						'remark' => $middle->remark,
+						'last_check' => $middle->last_check,
+						'updated_at' => date( 'Y-m-d H:i:s')
+					]);
+
+				}else{
+					$insert = DB::connection('mysql2')
+					->table('assembly_key_inventories')
+					->insert([
+						'tag' => $middle->tag,
+						'material_number' => $middle->material_number,
+						'location' => 'stockroom',
+						'quantity' => $middle->quantity,
+						'remark' => $middle->remark,
+						'last_check' => $middle->last_check,
+						'created_at' => date( 'Y-m-d H:i:s'),
+						'updated_at' => date( 'Y-m-d H:i:s')
+					]);
+				}				
 			}
 			catch(\Exception $e){
 				
 			}
+
+
+			try{
+				$delete = DB::connection('mysql2')
+				->table('middle_inventories')
+				->where('middle_inventories.tag', '=', $completion->barcode_number)
+				->delete();
+			}
+			catch(\Exception $e){
+				
+			}
+
+
+
+
+
+
+
 			try{
 
 				$tes2 = DB::connection('mysql2')
