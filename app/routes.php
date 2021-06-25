@@ -88,6 +88,7 @@ Route::group(array('before' => 'auth'), function() {
 	Route::post('/completions/adjustment/excel', 'CompletionController@completionAdjustmentFromExcel');
 	Route::get('/completions/adjustment/manual', 'CompletionController@openAdjustmentManualPage');
 	Route::post('/completions/adjustment/manual', 'CompletionController@completionAdjustmentManual');
+	Route::post('/completions/adjustment/import', 'CompletionController@completionAdjustmentFromImport');
 	Route::get('/completions/cancel', array('as' => 'cancelCompletions', 'uses' => 'CompletionController@openCancelPage'));
 	Route::post('/completions/cancel', 'CompletionController@cancelCompletionItem');
 	Route::get('/completions/filter', 'CompletionController@openHistoryPage');

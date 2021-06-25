@@ -688,6 +688,115 @@ class CompletionController extends BaseController {
 
 	}
 
+
+	/**
+	 * Adjustment Completion and display success and failed page
+	 * Adjustment Import
+	 *
+	 * @return View
+	 *
+	 */
+
+	public function completionAdjustmentFromImport() {
+		
+		$date = date('m\/d\/Y');
+		$time = date('i:s');
+		$hour = date('i');
+		$minute = date('s');
+		$created_at = date('Y-m-d H:i:s');
+
+		$error_count = array();
+		$ok_count = array();
+
+		$parameter = Input::all();
+		$import_text = $parameter['import_text'];
+		$rows = preg_split("/\r?\n/", $import_text);
+
+		foreach($rows as $row){
+			$column = preg_split("/\t/", $row);
+
+			if(count($column) != 4){
+				array_push($error_count, 'Error : Wrong Format');
+				continue;
+			}
+
+			$issue_plant = $column[0];
+			$location_completion = $column[1];
+			$material_number = $column[2];
+			$quantity = $column[3];
+
+			$material = self::getMaterialByMaterialNumber($material_number);
+			if(!isset($material)){
+				array_push($error_count, 'Error : GMC Not Found ('.$material_number.')');
+				continue;
+			}
+
+			if($material->location != $location_completion){
+				array_push($error_count, 'Error : Location Completion ('.$location_completion.') Not Match with Master Materials (GMC='.$material_number.' - SLOC='.$material->location.')');
+				continue;
+			}
+
+			$data = array();
+			$data['issue_plant'] = $issue_plant;
+			$data['user_id'] = $parameter['import_user_id'];
+			$data['location_completion'] = $location_completion;
+			$data['material_id'] = $material->id;
+			$data['lot_completion'] = $quantity;
+			$data['reference_number'] = '';
+			$data['date'] = $date;
+			$data['time'] = $time;
+			$data['hour'] = $hour;
+			$data['minute'] = $minute;
+			$data['created_at'] = $created_at;
+
+			$validator = Validator::make($data, CompletionAdjustment::$rules);
+			if ($validator->fails()) {
+				return Redirect::back()->withErrors($validator)->withInput();
+				array_push($error_count, 'Error : Validator '.$validator);
+				continue;
+			}
+
+			$data["user_id"] = Session::get('id');
+			$data["active"] = 1;
+			unset($data['date']);
+			unset($data['time']);
+			unset($data['hour']);
+			unset($data['minute']);
+
+			$completion = CompletionAdjustment::create($data);
+			$material = self::getMaterialById($completion->material_id);
+			if ($completion && isset($material)) {
+				$history['category'] = "completion_adjustment";
+				$history['completion_location'] = $material->location;
+				$history['completion_issue_plant'] = $completion->issue_plant;
+				$history['completion_material_id'] = $completion->material_id;
+				$history['completion_reference_number'] = $completion->reference_number;
+				$history['lot'] = $completion->lot_completion;
+				$history['synced'] = 0;
+				$history['created_at'] = $created_at;
+				if (isset($data['user_id'])) {
+					$history['user_id'] = $data['user_id'];
+				}
+
+				try{
+					History::create($history);
+
+					array_push($ok_count, 'OK : '.$material_number.' '.$material->location.' '.$completion->lot_completion);
+				}catch (Exception $e) {
+					array_push($error_count, $e->getMessage());
+				}    
+			}else{
+				array_push($error_count, 'Error : Completion & GMC Not Found');
+			}
+		}
+
+		return View::make('completions-adjustment.report-import', array(
+			'ok_count' => $ok_count,
+			'error_count' => $error_count
+		));
+
+	}
+
 	/**
 	 * Open Scan Completion page
 	 *
@@ -1605,6 +1714,18 @@ class CompletionController extends BaseController {
 	function getMaterialById($id) {
 		try {
 			$material = Material::findOrFail($id);
+			return $material;
+		}
+		catch(ModelNotFoundException $e) {
+			return null;
+		}
+		// $completions = Completion::find;
+		// return $completions;
+	}
+
+	function getMaterialByMaterialNumber($material_number) {
+		try {
+			$material = Material::where('material_number', $material_number)->firstOrFail();
 			return $material;
 		}
 		catch(ModelNotFoundException $e) {
