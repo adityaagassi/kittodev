@@ -715,15 +715,15 @@ class CompletionController extends BaseController {
 		foreach($rows as $row){
 			$column = preg_split("/\t/", $row);
 
-			if(count($column) != 4){
+			if(count($column) != 3){
 				array_push($error_count, 'Error : Wrong Format');
 				continue;
 			}
 
-			$issue_plant = $column[0];
-			$location_completion = $column[1];
-			$material_number = $column[2];
-			$quantity = $column[3];
+			$issue_plant = 8190;
+			$location_completion = $column[0];
+			$material_number = $column[1];
+			$quantity = $column[2];
 
 			$material = self::getMaterialByMaterialNumber($material_number);
 			if(!isset($material)){
@@ -733,6 +733,11 @@ class CompletionController extends BaseController {
 
 			if($material->location != $location_completion){
 				array_push($error_count, 'Error : Location Completion ('.$location_completion.') Not Match with Master Materials (GMC='.$material_number.' - SLOC='.$material->location.')');
+				continue;
+			}
+
+			if($quantity <= 0){
+				array_push($error_count, 'Error : '.$material_number.' Quantity Completion Less Than or Equal 0');
 				continue;
 			}
 

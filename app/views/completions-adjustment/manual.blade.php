@@ -109,10 +109,9 @@
                 </div>
 
                 <div class="modal fade" id="importModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                	<div class="modal-dialog modal-lg">
+                	<div class="modal-dialog modal-md">
                 		<div class="modal-content">
                 			<form id="importForm" method="POST" action="{{ url('/completions/adjustment/import') }}">
-
                 				<div class="modal-header">
                 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 					<h4 class="modal-title" id="myModalLabel">Import Adjustment Completions</h4>
@@ -120,10 +119,10 @@
                 				<div class="modal-body">
                 					<div  class="form-horizontal form-bordered">
                 						<div class="form-group">
-                							<label class="col-sm-10 col-sm-offset-1">Format Import: [PLANT][SLOC][GMC][QUANTITY]</label>
+                							<label class="col-sm-10 col-sm-offset-1">Format Import: [SLOC][GMC][QUANTITY]</label>
                 							<div class="col-sm-10 col-sm-offset-1">
                 								<input type="hidden" name="import_user_id" value="{{ $user_id }}" />
-                								<textarea class="form-control" name="import_text" style="height: 100px; width: 100%;" required></textarea>
+                								<textarea class="form-control" name="import_text" style="height: 200px; width: 100%;" required></textarea>
                 							</div>
                 						</div>
                 					</div>
